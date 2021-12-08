@@ -1,0 +1,19 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = false
+max_line_length = 120
+tab_width = 4
+
+[{*.ad,*.adoc,*.asciidoc,.asciidoctorconfig}]
+max_line_length = 5000 # https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
+
+[{*.har,*.jsb2,*.jsb3,*.json,.babelrc,.eslintrc,.stylelintrc,bowerrc,jest.config}]
+indent_size = 2
+
+[{*.markdown,*.md}]
+max_line_length = 5000 #https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line

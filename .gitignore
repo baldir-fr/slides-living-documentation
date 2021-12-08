@@ -1,0 +1,12 @@
+*.iml
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+**/.idea
+**/target
+**/node_modules
+**/apidocs/legal

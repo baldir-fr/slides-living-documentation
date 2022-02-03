@@ -34,6 +34,7 @@ Idée : frein à l'outillage : mais parfois aller au plus simple (ex. tableau bl
 
 **Ressources**
 
+- [https://youtu.be/peciRoQG_kg](Replay Meetup - Les bonnes pratiques autour de la documentation interne - TechRocks)
 - https://github.com/zenika/adoc-presentation-model
 - [https://www.youtube.com/watch?v=LG4SADs2nf8]([SC] Living Documentation - Sébastien Fauvel)
   - https://github.com/sfauvel/livingdocumentation

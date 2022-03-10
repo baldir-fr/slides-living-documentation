@@ -38,3 +38,7 @@ include::sections/ex_code_tour.adoc[]
 include::sections/ex_doctest.adoc[]
 
 include::sections/automation_has_a_cost.adoc[]
+
+MDN Collaborative documentation.
+
+image:assets/mdn_collaborative_docs_with_git.png[MDN collaborative documentation]

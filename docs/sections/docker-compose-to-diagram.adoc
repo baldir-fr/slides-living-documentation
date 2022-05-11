@@ -1,10 +1,5 @@
 == Docker Compose to diagram
 
-[.refs]
---
-* https://github.com/pmsipilot/docker-compose-viz[docker-compose-viz]
---
-
 [.tiny]
 === Input
 
@@ -35,4 +30,9 @@ image::../../examples/diagram-from-docker-compose/output/docker-compose.png[]
 * Audience
 ** Developers
 ** Operations
+--
+
+[.refs]
+--
+* https://github.com/pmsipilot/docker-compose-viz[docker-compose-viz]
 --

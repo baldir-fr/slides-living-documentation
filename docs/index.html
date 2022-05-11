@@ -417,7 +417,7 @@ ul.byline li + li {
 <aside class="notes"><div class="ulist"><ul><li><p>Ouvrir les exemples</p></li><li><p>Vérifier leur fonctionnement</p></li><li><p>RevealJs shortcuts</p><div class="ulist"><ul><li><p>Alt+clic : Zoom in/ Zoom out</p></li><li><p>O/Esc : Slide overview</p></li><li><p>M : Menu</p></li><li><p>? : show keyboard shortcuts</p></li><li><p>C : chalkboard overlay</p></li><li><p>B : chalkboard modal</p></li><li><p>D : Download chalkboard</p></li><li><p>S : presenter mode</p></li><li><p>V : Fade to black</p></li><li><p>F: fullscreen &#8594; Esc : exit fullscreen</p></li></ul></div></li></ul></div></aside></div><p class="byline">
   <span class="author">Marc Bouvier</span>
   </p></section>
-<section><section id="_doctest"><h2>Doctest</h2><div class="slide-content"><div class="dlist"><dl><dt class="hdlist1">Python</dt><dd><div class="ulist"><ul><li><p><a href="https://docs.python.org/3/library/doctest.html">doctest</a></p></li></ul></div></dd><dt class="hdlist1">Elixir</dt><dd><div class="ulist"><ul><li><p><a href="https://hexdocs.pm/ex_unit/ExUnit.DocTest.html">ExUnit DocTest</a>, <a href="https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html#doctests">DocTest Guide</a></p></li></ul></div></dd><dt class="hdlist1">Rust</dt><dd><div class="ulist"><ul><li><p><a href="https://doc.rust-lang.org/rustdoc/documentation-tests.html">Documentation Tests</a></p></li></ul></div></dd><dt class="hdlist1">Go</dt><dd><div class="ulist"><ul><li><p><a href="https://pkg.go.dev/testing#hdr-Examples">Test Examples</a></p></li></ul></div></dd></dl></div><aside class="notes"><div class="ulist"><ul><li><p>Sometimes your language proposes living documentation features out of the box</p></li><li><p>Write code snippets as a REPL command</p></li><li><p>Execute it as automated tests</p></li></ul></div></aside></div></section><section id="_input_python"><h2>Input (Python)</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-python hljs" data-noescape="true" data-lang="python">def sum(a, b):
+<section><section id="_doctest"><h2>Doctest</h2><div class="slide-content"><div class="dlist"><dl><dt class="hdlist1">Python</dt><dd><div class="ulist"><ul><li><p><a href="https://docs.python.org/3/library/doctest.html" target="_blank">doctest</a></p></li></ul></div></dd><dt class="hdlist1">Elixir</dt><dd><div class="ulist"><ul><li><p><a href="https://hexdocs.pm/ex_unit/ExUnit.DocTest.html" target="_blank">ExUnit DocTest</a>, <a href="https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html#doctests" target="_blank">DocTest Guide</a></p></li></ul></div></dd><dt class="hdlist1">Rust</dt><dd><div class="ulist"><ul><li><p><a href="https://doc.rust-lang.org/rustdoc/documentation-tests.html" target="_blank">Documentation Tests</a></p></li></ul></div></dd><dt class="hdlist1">Go</dt><dd><div class="ulist"><ul><li><p><a href="https://pkg.go.dev/testing#hdr-Examples" target="_blank">Test Examples</a></p></li></ul></div></dd></dl></div><aside class="notes"><div class="ulist"><ul><li><p>Sometimes your language proposes living documentation features out of the box</p></li><li><p>Write code snippets as a REPL command</p></li><li><p>Execute it as automated tests</p></li></ul></div></aside></div></section><section id="_input_python"><h2>Input (Python)</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-python hljs" data-noescape="true" data-lang="python">def sum(a, b):
     """
     Adds two numbers.
 
@@ -470,7 +470,26 @@ Compiling 1 file (.ex)
        lib/num.ex:11: Num (module)
 
 Finished in 0.02 seconds (0.00s async, 0.02s sync)
-1 doctest, 1 failure</code></pre></div></div></div></section><section id="_attributes" class="columns medium"><h2>Attributes</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>😀 Reliable</p></li><li><p>😀 Low-Effort</p></li><li><p>😐 Collaborative</p></li><li><p>😀 Insightful</p></li></ul></div></div></div>
+1 doctest, 1 failure</code></pre></div></div></div></section><section id="_input_go"><h2>Input (Go)</h2><div class="slide-content"><div class="listingblock"><div class="title">num.go</div><div class="content"><pre class="highlightjs highlight"><code class="language-go hljs" data-noescape="true" data-lang="go">package num
+
+func Sum(a int, b int) int {
+	return a + b
+}</code></pre></div></div>
+<div class="listingblock"><div class="title">num_test.go</div><div class="content"><pre class="highlightjs highlight"><code class="language-go hljs" data-noescape="true" data-lang="go">package num
+
+import "fmt"
+
+func ExampleSum() {
+	fmt.Println(Sum(2, 2))
+	// Output: 5
+}</code></pre></div></div></div></section><section id="_output_go_test"><h2>Output (go test)</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-text hljs" data-noescape="true" data-lang="text">--- FAIL: ExampleSum (0.00s)
+got:
+4
+want:
+5
+FAIL
+exit status 1
+FAIL    doctest_golang  0.303s</code></pre></div></div></div></section><section id="_attributes" class="columns medium"><h2>Attributes</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>😀 Reliable</p></li><li><p>😀 Low-Effort</p></li><li><p>😐 Collaborative</p></li><li><p>😀 Insightful</p></li></ul></div></div></div>
 <div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>Internal</p></li><li><p>Single sourced</p></li><li><p>Audience</p><div class="ulist"><ul><li><p>Developers</p></li></ul></div></li></ul></div></div></div>
 <aside class="notes"><div class="ulist"><ul><li><p>Insightful: if writing doctests is hard it may highlight side effects or complex functions</p></li></ul></div></aside></div></section></section></div></div><script src="reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;

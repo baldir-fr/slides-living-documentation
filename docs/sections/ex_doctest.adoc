@@ -45,6 +45,28 @@ include::../../examples/doctest_elixir/lib/num.ex[]
 include::../../examples/doctest_elixir/num_doctest_output.txt[]
 ----
 
+
+=== Input (Go)
+
+.num.go
+[source,go]
+----
+include::../../examples/exampletest_golang/num.go[]
+----
+
+.num_test.go
+[source,go]
+----
+include::../../examples/exampletest_golang/num_test.go[]
+----
+
+=== Output (go test)
+
+[source,text]
+----
+include::../../examples/exampletest_golang/example_test-output.txt[]
+----
+
 [.columns.medium]
 === Attributes
 

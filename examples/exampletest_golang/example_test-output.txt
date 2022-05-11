@@ -1,0 +1,8 @@
+--- FAIL: ExampleSum (0.00s)
+got:
+4
+want:
+5
+FAIL
+exit status 1
+FAIL    doctest_golang  0.303s

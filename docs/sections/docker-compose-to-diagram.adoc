@@ -1,0 +1,17 @@
+== Docker Compose to diagram
+
+[.columns]
+=== Result
+
+[.column]
+--
+[source,yml]
+----
+include::../../examples/diagram-from-docker-compose/docker-compose.yml[]
+----
+--
+
+[.column]
+--
+image::../../examples/diagram-from-docker-compose/output/docker-compose.png[]
+--

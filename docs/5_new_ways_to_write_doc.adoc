@@ -7,6 +7,8 @@ include::sections/ex_presentation_as_code.adoc[]
 
 include::sections/as_code.adoc[]
 
+include::sections/docker-compose-to-diagram.adoc[]
+
 include::sections/ex_javadoc_code_snippets.adoc[]
 
 include::sections/ex_living_glossary.adoc[]

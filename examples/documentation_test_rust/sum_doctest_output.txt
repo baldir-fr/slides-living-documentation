@@ -1,0 +1,24 @@
+   Doc-tests documentation_test_rust
+
+running 1 test
+test src/lib.rs - add (line 2) ... FAILED
+
+failures:
+
+---- src/lib.rs - add (line 2) stdout ----
+Test executable failed (exit code 101).
+
+stderr:
+thread 'main' panicked at 'assertion failed: `(left == right)`
+  left: `4`,
+ right: `5`', src/lib.rs:6:1
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+
+failures:
+    src/lib.rs - add (line 2)
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.18s
+
+error: test failed, to rerun pass '--doc'

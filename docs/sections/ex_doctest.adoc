@@ -46,6 +46,21 @@ include::../../examples/doctest_elixir/num_doctest_output.txt[]
 ----
 
 
+
+=== Input (Rust)
+
+[source,go]
+----
+include::../../examples/documentation_test_rust/src/lib.rs[]
+----
+
+=== Output (go test)
+
+[source,text]
+----
+include::../../examples/documentation_test_rust/sum_doctest_output.txt[]
+----
+
 === Input (Go)
 
 .num.go

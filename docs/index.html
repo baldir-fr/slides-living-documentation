@@ -470,7 +470,38 @@ Compiling 1 file (.ex)
        lib/num.ex:11: Num (module)
 
 Finished in 0.02 seconds (0.00s async, 0.02s sync)
-1 doctest, 1 failure</code></pre></div></div></div></section><section id="_input_go"><h2>Input (Go)</h2><div class="slide-content"><div class="listingblock"><div class="title">num.go</div><div class="content"><pre class="highlightjs highlight"><code class="language-go hljs" data-noescape="true" data-lang="go">package num
+1 doctest, 1 failure</code></pre></div></div></div></section><section id="_input_rust"><h2>Input (Rust)</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-go hljs" data-noescape="true" data-lang="go">/// Adds two numbers together:
+/// ```
+/// # use documentation_test_rust::add;
+/// let c = add(2, 2);
+/// # assert_eq!(c, 5);
+/// ```
+pub fn add(a: i32, b: i32) -&gt; i32 {
+  return a + b;
+}</code></pre></div></div></div></section><section id="_output_go_test"><h2>Output (go test)</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-text hljs" data-noescape="true" data-lang="text">   Doc-tests documentation_test_rust
+
+running 1 test
+test src/lib.rs - add (line 2) ... FAILED
+
+failures:
+
+---- src/lib.rs - add (line 2) stdout ----
+Test executable failed (exit code 101).
+
+stderr:
+thread 'main' panicked at 'assertion failed: `(left == right)`
+  left: `4`,
+ right: `5`', src/lib.rs:6:1
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+
+failures:
+    src/lib.rs - add (line 2)
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.18s
+
+error: test failed, to rerun pass '--doc'</code></pre></div></div></div></section><section id="_input_go"><h2>Input (Go)</h2><div class="slide-content"><div class="listingblock"><div class="title">num.go</div><div class="content"><pre class="highlightjs highlight"><code class="language-go hljs" data-noescape="true" data-lang="go">package num
 
 func Sum(a int, b int) int {
 	return a + b
@@ -482,7 +513,7 @@ import "fmt"
 func ExampleSum() {
 	fmt.Println(Sum(2, 2))
 	// Output: 5
-}</code></pre></div></div></div></section><section id="_output_go_test"><h2>Output (go test)</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-text hljs" data-noescape="true" data-lang="text">--- FAIL: ExampleSum (0.00s)
+}</code></pre></div></div></div></section><section id="_output_go_test_2"><h2>Output (go test)</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-text hljs" data-noescape="true" data-lang="text">--- FAIL: ExampleSum (0.00s)
 got:
 4
 want:

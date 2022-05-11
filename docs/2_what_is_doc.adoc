@@ -1,41 +1,58 @@
 include::sections/deconstruct_documentation.adoc[]
 
-When?
+=== What is Documentation?
+
+* Sharing knowledge
+
+=== When?
 
 * Knowledge needed for a long period of time -> Documented
 * Knowledge needed by a large number of people -> Documented
 * Knowledge valuable or critical -> Documented
 * Default -> Don't
 
+[.columns]
+=== Generic Knowledge
 
-Generic Knowledge
-
-
+[.column]
+--
 * Programming languages
 * Developer tools
 * Software practices
 *** DDD
 *** patterns
 *** CI
-*** Git tuto
-*** ...
+--
+
+[.column]
+--
 * Mature sector of the business industries
 ** Pricing in finance
 ** Supply Chain Optimization in e-commerce
 ** -> Industry standard books
+--
 
-Good news! The Generic Knowledge is already documented in the industry literature.
+[.columns]
+=== Good news everyone!
 
+[.column]
+--
+The Generic Knowledge is already documented in the industry literature.
+
+-> Learn Generic Knowledge
+--
+
+[.column]
+--
 * Training
 * Conferences
 * Books
 * Blog posts
 * Standard Vocabulary
 * ...
+--
 
--> Learn Generic Knowledge
-
-Focus on specific knowledge
+=== Focus on specific knowledge
 
 * Knowledge your organization has and is not (yet) shared with other peers in the same industry.
 * more expensive to learn

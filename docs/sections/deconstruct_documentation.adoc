@@ -1,5 +1,5 @@
 [background-color="#05463c"]
-== Déconstruisons la documentation
+== Let's deconstruct documentation
 
 [.notes]
 --

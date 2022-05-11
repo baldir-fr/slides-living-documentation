@@ -12,18 +12,59 @@ Go::
 [.notes]
 --
 * Sometimes your language proposes living documentation features out of the box
+* Write code snippets as a REPL command
+* Execute it as automated tests
 --
 
-=== Python doctest
+=== Input (Python)
 
 [source,python]
 ----
 include::../../examples/doctest-python/sum.py[]
 ----
 
-=== Python doctest output
+=== Output (Doctest)
 
 [source,text]
 ----
 include::../../examples/doctest-python/sum_doctest_output.txt[]
 ----
+
+
+=== Input (Elixir)
+
+[source,elixir]
+----
+include::../../examples/doctest_elixir/lib/num.ex[]
+----
+
+=== Output (mix test)
+
+[source,text]
+----
+include::../../examples/doctest_elixir/num_doctest_output.txt[]
+----
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 😀 Reliable
+- 😀 Low-Effort
+- 😐 Collaborative
+- 😀 Insightful
+--
+
+[.column]
+--
+* Internal
+* Single sourced
+* Audience
+** Developers
+--
+
+[.notes]
+--
+* Insightful: if writing doctests is hard it may highlight side effects or complex functions
+--

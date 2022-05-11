@@ -1,0 +1,17 @@
+mix test
+Compiling 1 file (.ex)
+
+  1) doctest Num.sum/2 (1) (NumTest)
+     test/num_test.exs:3
+     Doctest failed
+     doctest:
+       iex> Num.sum(2, 2)
+       5
+     code:  Num.sum(2, 2) === 5
+     left:  4
+     right: 5
+     stacktrace:
+       lib/num.ex:11: Num (module)
+
+Finished in 0.02 seconds (0.00s async, 0.02s sync)
+1 doctest, 1 failure

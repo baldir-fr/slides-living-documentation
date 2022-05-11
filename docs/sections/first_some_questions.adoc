@@ -14,7 +14,7 @@
 === Est-ce que tu penses que le temps passé à écrire de la documentation pourrait être mieux utilisé?
 
 [background-color="#05463c"]
-=== La documentation, c'est quoi pour vous?
+=== La documentation, dans votre contexte actuel...
 
 +++
 <div style="display: flex;">

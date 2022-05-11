@@ -40,6 +40,7 @@ include::sections/deconstruct_documentation.adoc[]
 The Generic Knowledge is already documented in the industry literature.
 
 -> Learn Generic Knowledge
+-> Link to sources of Authority
 --
 
 [.column]

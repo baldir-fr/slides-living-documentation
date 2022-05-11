@@ -417,7 +417,6 @@ ul.byline li + li {
 <aside class="notes"><div class="ulist"><ul><li><p>Ouvrir les exemples</p></li><li><p>Vérifier leur fonctionnement</p></li><li><p>RevealJs shortcuts</p><div class="ulist"><ul><li><p>Alt+clic : Zoom in/ Zoom out</p></li><li><p>O/Esc : Slide overview</p></li><li><p>M : Menu</p></li><li><p>? : show keyboard shortcuts</p></li><li><p>C : chalkboard overlay</p></li><li><p>B : chalkboard modal</p></li><li><p>D : Download chalkboard</p></li><li><p>S : presenter mode</p></li><li><p>V : Fade to black</p></li><li><p>F: fullscreen &#8594; Esc : exit fullscreen</p></li></ul></div></li></ul></div></aside></div><p class="byline">
   <span class="author">Marc Bouvier</span>
   </p></section>
-<section id="_todays_goals"><h2>Today&#8217;s goals</h2><div class="slide-content"><div class="ulist checklist"><ul class="checklist"><li><p><input type="checkbox" data-item-complete="0" disabled>cleanup duplicated content</p></li><li><p><input type="checkbox" data-item-complete="0" disabled>reorganize titles h2</p></li><li><p><input type="checkbox" data-item-complete="0" disabled>rehearse</p></li><li><p><input type="checkbox" data-item-complete="0" disabled>translate to english</p></li></ul></div></div></section>
 <section id="about_me" class="columns" data-background-color="#1d0546"><h2>Qui suis-je?</h2><div class="slide-content"><div class="openblock column is-one-third"><div class="content"><div class="imageblock"><img src="assets/marc-bouvier-rnd-25.png" alt="marc bouvier rnd 25"></div>
 <div class="paragraph"><p><strong>Marc Bouvier</strong>
 <a href="https://baldir.fr">baldir.fr</a></p></div></div></div>
@@ -552,7 +551,7 @@ public class DeliveryAddress{
 <span onclick="easterEgg()">...</span>
 </p></div>
 <div class="paragraph"><p>
-<img id="easter-egg" src="https://gitlab.com/marc-bouvier-sandbox/easter-eggs/-/raw/main/pres-as-code.jpg"/>
+<img id="easter-egg" src="https://gitlab.com/marc-bouvier-sandbox/easter-eggs/-/raw/main/pres-as-code.jpg" style="width:550px" />
 </p></div></div></section><section id="_how"><h2>How?</h2><div class="slide-content"><div class="ulist"><ul><li><p>Included code snippets are real sources</p></li><li><p>AsciiDoctor</p></li><li><p>RevealJs</p></li></ul></div>
 <div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-noescape="true" data-lang="asciidoc">include::examples/python_doctest/sum.py</code></pre></div></div>
 <div class="paragraph bottom"><p>Downloadable sample: <a href="examples/python_doctest/sum.py">examples/python_doctest/sum.py</a></p></div></div></section></section>
@@ -1453,7 +1452,6 @@ hljs.highlightAll();
     }
 
     function easterEgg(){
-        document.querySelector('#easter-egg').src=""
         document.querySelector('#easter-egg').src="https://gitlab.com/marc-bouvier-sandbox/easter-eggs/-/raw/main/pres-as-code.jpg?" + new Date().getTime();
     }
 </script></body></html>

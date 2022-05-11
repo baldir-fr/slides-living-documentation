@@ -29,7 +29,7 @@ image:assets/commit_strip_code_vs_powerpoint.png[alt=,width=500]
 +++
 
 +++
-<img id="easter-egg" src="https://gitlab.com/marc-bouvier-sandbox/easter-eggs/-/raw/main/pres-as-code.jpg"/>
+<img id="easter-egg" src="https://gitlab.com/marc-bouvier-sandbox/easter-eggs/-/raw/main/pres-as-code.jpg" style="width:550px" />
 +++
 
 === How?

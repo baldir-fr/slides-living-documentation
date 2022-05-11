@@ -1,0 +1,36 @@
+digraph {
+  graph [bgcolor="#ffffff" pad=0.5 ratio="fill"]
+  "named: back-notused" [shape="folder"]
+  "named: db-data" [shape="folder"]
+  "net: public" [shape="pentagon"]
+  "net: private" [shape="pentagon"]
+  "backend" [shape="component"]
+  "db" [shape="component"]
+  "./backend/src" [shape="folder"]
+  "./backend/package.json" [shape="folder"]
+  "./backend/package-lock.json" [shape="folder"]
+  80 [shape="circle"]
+  9229 [shape="circle"]
+  9230 [shape="circle"]
+  "frontend" [shape="component"]
+  "./frontend/src" [shape="folder"]
+  "/code/node_modules" [shape="folder"]
+  3000 [shape="circle"]
+  "backend" -> "db" [style="dotted"]
+  "./backend/src" -> "backend" [style="dashed" label="/code/src"]
+  "./backend/package.json" -> "backend" [style="dashed" label="/code/package.json" dir="both"]
+  "./backend/package-lock.json" -> "backend" [style="dashed" label="/code/package-lock.json" dir="both"]
+  "named: back-notused" -> "backend" [style="dashed" label="/opt/app/node_modules" dir="both"]
+  80 -> "backend" [style="solid"]
+  9229 -> "backend" [style="solid"]
+  9230 -> "backend" [style="solid"]
+  "backend" -> "net: public"
+  "backend" -> "net: private"
+  "named: db-data" -> "db" [style="dashed" label="/var/lib/mysql" dir="both"]
+  "db" -> "net: private"
+  "frontend" -> "backend" [style="dotted"]
+  "./frontend/src" -> "frontend" [style="dashed" label="/code/src" dir="both"]
+  "/code/node_modules" -> "frontend" [style="dashed" dir="both"]
+  3000 -> "frontend" [style="solid"]
+  "frontend" -> "net: public"
+}

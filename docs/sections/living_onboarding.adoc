@@ -87,7 +87,7 @@ https://www.youtube.com/watch?v=lvs7VEsQzKY&t=1620s[Patterns of Effective Teams 
 * Generic & largely documented extrenally
 --
 
-=== Code metadata
+=== Code metadata (embedded knowledge)
 
 * Annotation
 *

@@ -1,17 +1,38 @@
 == Docker Compose to diagram
 
-[.columns]
-=== Result
-
-[.column]
+[.refs]
 --
+* https://github.com/pmsipilot/docker-compose-viz[docker-compose-viz]
+--
+
+[.tiny]
+=== Input
+
 [source,yml]
 ----
 include::../../examples/diagram-from-docker-compose/docker-compose.yml[]
 ----
+
+=== Output
+
+image::../../examples/diagram-from-docker-compose/output/docker-compose.png[]
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+* 😀 Reliable
+* 🙂 Low-Effort
+* 🙂 Collaborative
+* 😀 Insightful
 --
 
 [.column]
 --
-image::../../examples/diagram-from-docker-compose/output/docker-compose.png[]
+* Internal
+* Single sourced
+* Audience
+** Developers
+** Operations
 --

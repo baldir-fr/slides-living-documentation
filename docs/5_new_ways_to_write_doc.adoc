@@ -1,6 +1,8 @@
 
 include::sections/new_documentation_approaches.adoc[]
 
+include::sections/ex_accessibility_audit_as_code.adoc[]
+
 include::sections/ex_presentation_as_code.adoc[]
 
 include::sections/as_code.adoc[]
@@ -8,6 +10,9 @@ include::sections/as_code.adoc[]
 include::sections/ex_javadoc_code_snippets.adoc[]
 
 include::sections/ex_living_glossary.adoc[]
+
+
+include::sections/conversations.adoc[]
 
 include::sections/interlude_cat_01.adoc[]
 

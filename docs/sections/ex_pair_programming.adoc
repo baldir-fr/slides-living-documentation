@@ -1,0 +1,3 @@
+=== Pair Programming
+
+image:assets/pair-programming.png[alt=Pair programming,width=500]

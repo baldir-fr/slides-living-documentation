@@ -75,4 +75,9 @@
     function generate_what_is_doc_1_cloud() {
         wordCloud("#what_is_doc_1_cloud", "cloud", words_what_is_doc_1());
     }
+
+    function easterEgg(){
+        document.querySelector('#easter-egg').src=""
+        document.querySelector('#easter-egg').src="https://gitlab.com/marc-bouvier-sandbox/easter-eggs/-/raw/main/pres-as-code.jpg?" + new Date().getTime();
+    }
 </script>

@@ -26,7 +26,7 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 ** O/Esc : Slide overview
 ** M : Menu
 ** ? : show keyboard shortcuts
-** C : charkboard overlay
+** C : chalkboard overlay
 ** B : chalkboard modal
 ** D : Download chalkboard
 ** S : presenter mode

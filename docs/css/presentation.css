@@ -72,10 +72,16 @@ DIV.refs LI:hover P A {
 .listingblock.small {
     font-size: 1.75rem;
 }
+
 /* for some code listings, sligthly smaller font size to fit the listing in the screen */
 .listingblock.medium {
     font-size: 2.5rem;
 }
+
 .openblock.small.column {
     font-size: 1rem;
+}
+
+.huge {
+    font-size: 10rem
 }

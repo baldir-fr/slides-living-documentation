@@ -1,5 +1,5 @@
 [background-color="#1d0546"]
-== Presentation as code
+== Interlude
 
 image:assets/commit_strip_code_vs_powerpoint.png[alt=,width=500]
 
@@ -10,7 +10,29 @@ image:assets/commit_strip_code_vs_powerpoint.png[alt=,width=500]
 --
 
 [background-color="#1d0546"]
-== Presentation as code
+=== Presentation as code...
+
+[.huge]
+--
+`this`
+
++++
+<span onclick="easterEgg()">...</span>
++++
+
+--
+
+=== ... can be very interactive
+
++++
+<span onclick="easterEgg()">...</span>
++++
+
++++
+<img id="easter-egg" src="https://gitlab.com/marc-bouvier-sandbox/easter-eggs/-/raw/main/pres-as-code.jpg"/>
++++
+
+=== How?
 
 * Included code snippets are real sources
 * AsciiDoctor

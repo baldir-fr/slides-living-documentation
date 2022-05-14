@@ -1,0 +1,99 @@
+
+
+
+
+
+
+<h1 id="declaration">Déclaration d’accessibilité RGAA</h1>
+  <section>
+    
+    
+      <p>Baldir s’engage à rendre ses sites internet, intranet, extranet et ses
+      progiciels accessibles (et ses applications mobiles et mobilier urbain numérique) conformément à l’article 47 de la
+      loi n°2005-102 du 11 février 2005.</p><p>Cette déclaration d’accessibilité s’applique à baldir.fr.</p>
+    
+    
+    <h2>État de conformité</h2>
+    <p>Baldir, baldir.fr est non conforme avec le référentiel général d’amélioration de l’accessibilité (RGAA), version 4 en raison des non-conformités et des dérogations énumérées ci-dessous.</p>
+    <h3>Résultats des tests</h3>
+    <p>L’audit de conformité, du 14 mai 2022,  révèle que :</p>
+      <ul>
+            <li>78% des 101 critères testés  sont respectés (le taux moyen est de 78%).</li>
+        </li>
+      </ul>
+    
+    <h2>Critères non conformes</h2>
+      <p><strong>Critère 1.2</strong><br/><em>Certaines images de décoration ne sont pas correctement ignorées par les technologies d’assistance.</em>
+  </br><p><strong>Critère 4.5</strong><br/><em>Certains médias temporels pré-enregistrés n’ont pas, d’audiodescription synchronisée.</em>
+  </br><p><strong>Critère 7.2</strong><br/><em>Pour certains scripts ayant une alternative, l’alternative est non pertinente.</em>
+  </br>
+
+
+      <h2>Établissement de cette déclaration d’accessibilité</h2>
+      
+      
+        <p>Cette déclaration a été établie le <time datetime="2022-05-14T00:00:00Z">14 mai 2022</time>.</p>
+        
+        
+          <h3>Technologies utilisées</h3>
+          <ul><li>HTML</li><li>CSS</li><li>JS</li></ul>
+          
+        
+        
+        
+        
+          
+          
+            <h3>Environnement de test</h3>
+            <p>Les vérifications de restitution de contenus ont été réalisées sur la base de la combinaison fournie
+              par la base de référence du RGAA, avec les versions suivantes :</p>
+            <ul><li>MacOS</li><li>Firefox</li><li>Chrome</li><li>ChromeVox</li></ul>
+          
+          
+          
+          
+            <h3>Outils pour évaluer l’accessibilité</h3>
+            <ul>
+              
+              <li>Wave</li>
+              <li>AXE</li>
+              <li>Web Developper</li>
+              <li>Usability Hike</li>
+              <li>Heading Maps</li></ul>
+          
+          
+        
+        
+        
+        
+        
+    
+    
+
+    
+    
+      <h2>Retour d’information et contact</h2>
+      <address>
+        <p>Si vous n’arrivez pas à accéder à un contenu ou à un service, vous pouvez contacter le responsable de <strong>Baldir</strong>, baldir.fr pour être orienté vers une alternative accessible ou obtenir le contenu
+        sous une autre forme.</p>
+
+        <ul>
+            <li>Envoyer un message à : <strong>m.bouvier.dev@gmail.com</strong></li>
+            <li>Contacter : <strong>Baldir, 22 B rue d&#39;Adelshoffen, 67300, Schiltigheim</strong></li>
+          </ul>
+      </address>
+
+    <h2>Voies de recours</h2>
+    <p>Cette procédure est à utiliser dans le cas suivant.</p>
+    <p>Vous avez signalé au responsable du site internet un défaut d’accessibilité qui vous empêche d’accéder à un contenu
+      ou à un des services du portail et vous n’avez pas obtenu de réponse satisfaisante.</p>
+    <ul>
+      <li><a href="https://formulaire.defenseurdesdroits.fr">Écrire un message au Défenseur des droits</a></li>
+      <li><a href="https://www.defenseurdesdroits.fr/saisir/delegues">Contacter le délégué du Défenseur des droits dans
+          votre région</a></li>
+      <li>Envoyer un courrier par la poste (gratuit, ne pas mettre de timbre)<br>
+        Défenseur des droits<br>
+        Libre réponse 71120<br>
+        75342 Paris CEDEX 07<br></li>
+    </ul>
+  </section>

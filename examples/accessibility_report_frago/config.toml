@@ -1,4 +1,4 @@
-baseURL = "https://audits.baldir.fr"
+baseURL = "https://audits.baldir.fr/"
 title = "Baldir" # Ce qui s'affiche sur le site.
 
 [module]

@@ -1,0 +1,13 @@
+baseURL = "https://audits.baldir.fr"
+title = "Baldir" # Ce qui s'affiche sur le site.
+
+[module]
+[[module.imports]]
+  path = "github.com/disic/frago"
+
+# Utilisés dans les documents légaux
+[params]
+  organisation = "Baldir"
+  [params.contacts]
+    email = "m.bouvier.dev@gmail.com"
+    address = "22 B RUE D'ADELSHOFFEN, 67300, SCHILTIGHEIM, FRANCE"

@@ -7,7 +7,7 @@ indent_size = 4
 indent_style = space
 insert_final_newline = false
 max_line_length = 120
-tab_width = 4
+tab_width = 2
 
 [{*.ad,*.adoc,*.asciidoc,.asciidoctorconfig}]
 max_line_length = 5000 # https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line

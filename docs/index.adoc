@@ -37,3 +37,5 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 //include::sections/docker-compose-to-diagram.adoc[]
 
 include::sections/ex_doctest.adoc[]
+
+include::sections/ex_accessibility_audit_as_code.adoc[]

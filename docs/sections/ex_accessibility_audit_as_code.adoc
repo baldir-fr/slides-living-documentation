@@ -1,6 +1,25 @@
 == Accessibility audit as code
 
-https://disic.github.io/frago/docs/
+image:https://github.com/DISIC/frago/raw/master/images/frago.png[Frago logo: a strawberry dropped in milk]
+
+[.refs]
+--
+* link:https://disic.github.io/frago/docs/[FRAGO : French Reports for Accessibility compliance with goHugo]
+--
+
+=== The problems of traditional auditing
+
+* Excel files exchanges from emails
+** Versioning hell
+** Hard to show progress from Excel in meetings
+
+=== Frago helps with
+
+* Standardization of content (CSV)
+* Versionning with Source control
+* Publication as website
+** During audit: Incremental feedback
+** After audit:
 
 === Inputs
 
@@ -15,3 +34,33 @@ image:assets/accessibility_audit_home.png[Accessibility audit report generated w
 === Output site (details)
 
 image:assets/accessibility_audit_detail.png[Accessibility audit report generated with Frago.details showing recommendations, Performance report and Ecoindex,width=500px]
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 🙂 Reliable
+- 🙂 Low-Effort
+- 🙂 Collaborative
+- 😐 Insightful
+--
+
+[.notes]
+--
+--
+
+[.column]
+--
+* Internal
+* Single sourced
+* Audience
+** Stakeholders
+** Regulators
+** Developers
+--
+
+[.notes]
+--
+* some data could be sourced from pa11y, lighthouse feed via CI/CD
+--

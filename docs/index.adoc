@@ -11,9 +11,13 @@
 :docinfo: private
 :assetsdir: {docdir}/assets
 :sectionsdir: {docdir}/sections
-:title-slide-background-image: assets/hoken-landing_dark.png
+:title-slide-background-image: assets/hoken-landing.png
 :title-slide-transition: zoom
 :title-slide-transition-speed: fast
+//:revealjs_theme: white
+//:highlightjs-theme: reveal.js/plugin/highlight/a11y-light.css
+:revealjs_theme: black
+:highlightjs-theme: reveal.js/plugin/highlight/a11y-dark.css
 
 Tu ne le sais pas encore, mais tu l'as deja documenté!
 

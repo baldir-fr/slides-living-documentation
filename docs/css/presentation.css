@@ -85,3 +85,12 @@ DIV.refs LI:hover P A {
 .huge {
     font-size: 10rem
 }
+
+section.title {
+    backdrop-filter: brightness(0.5);
+    color: #e8e8e8;
+}
+
+section.title h1{
+    color: #e8e8e8;
+}

@@ -38,7 +38,10 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 ** F: fullscreen -> Esc : exit fullscreen
 --
 
+include::sections/api_contracts_and_tests.adoc[]
+
 include::sections/already_there.adoc[]
+
 
 //include::sections/docker-compose-to-diagram.adoc[]
 

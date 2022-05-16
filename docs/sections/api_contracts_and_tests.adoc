@@ -1,0 +1,59 @@
+== API Contract + Automated Tests
+
+Spring Rest Docs
+
+[.refs]
+--
+* link:https://spring.io/projects/spring-restdocs[Spring rest Docs homepage]
+--
+
+=== Spring Rest Docs Demo
+
+[.refs]
+--
+* link:https://gitlab.com/crafts-records/talkadvisor/talkadvisor-back/-/blob/master/talkadvisor-infra/talkadvisor-infra-application/src/test/kotlin/org/craftsrecords/talkadvisor/infra/controller/RecommendationControllerTest.kt[Test code sample]
+* link:https://youtu.be/v$$-$$$$-$$zkIEciq4?t=1377[BDX I/O 2019 - Architecture Hexagonale Level 2: Comment bien écrire ses tests - Julien Topçu et Jordan Nourry]
+--
+
+=== Input
+
+* Production Code
+* Automated Tests
+* Asciidoctor files
+
+[.refs]
+--
+https://spring.io/projects/spring-restdocs
+--
+=== Output
+
+* Asciidoc
+* Generated snippets
+* HTML
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 😀 Reliable
+- 😀 Low-Effort
+- 🙂 Collaborative
+- 😀 Insightful
+--
+
+[.column]
+--
+* Internal
+* Single sourced w/ Reconciliation mechanism
+* Audience
+** Developers
+** API consumers
+--
+
+[.notes]
+--
+* Fast feedback
+* Tests helps to make sure contract is up to date
+* Documentation is generated only if tests passes
+--

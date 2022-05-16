@@ -38,8 +38,11 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 ** F: fullscreen -> Esc : exit fullscreen
 --
 
+include::sections/already_there.adoc[]
+
 //include::sections/docker-compose-to-diagram.adoc[]
 
-include::sections/ex_doctest.adoc[]
+//include::sections/ex_doctest.adoc[]
 
-include::sections/ex_accessibility_audit_as_code.adoc[]
+//include::sections/ex_accessibility_audit_as_code.adoc[]
+

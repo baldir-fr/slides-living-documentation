@@ -1,11 +1,94 @@
 == It's already there!
 
+[.notes]
+--
+* Some knowledge is already there
+** can be usable "as is"
+** can be augmented and published
+--
+
 === Readme.md
 
 Github/Gitlab -> web page
 
-=== Javadoc
+=== Code documentation : Java
 
-* Javadoc comments -> website
-* Javadoc comments -> contextual doc in IDE
-** Please download documentation from your dependencies
+* Javadoc
+** Comments -> website
+** Comments -> contextual doc in IDE
+
+[.notes]
+--
+* Please download documentation from your dependencies
+--
+
+=== Code documentation : Dotnet
+
+* Xml documentation
+** Comments -> website
+** Comments -> contextual doc in IDE
+** Generators: DocFX, Sandcastle, Doxygen
+
+[.notes]
+--
+* link:https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/[Language reference : Xml Doc]
+--
+
+=== Code documentation : JS / TS
+
+* Jsdoc
+** Comments -> website
+** Comments -> contextual doc in IDE
+
+[.refs]
+--
+* link:https://jsdoc.app/[JsDoc website]
+--
+=== Dependencies Manifests
+
+* Java : Maven / Gradle
+* Js/TS : package.json
+* Dotnet : .csproj .fsproj or .vbproj
+
+=== Infrastructure Configuration
+
+* docker-compose.yml
+* Helm charts
+* Terraform
+* Ansible
+
+=== Pipeline configuration
+
+* .gitlab-ci.yml
+* Github Actions
+
+=== Source Code
+
+* File names
+* Classes, functions, variables names
+* Folder arborescence
+
+=== Test Code
+
+* Automated tests
+** File names
+** Tests names
+** Tests methods names
+** Tests datasets
+
+=== The product itself
+
+* UX
+* Help section
+* Tooltips
+
+=== Monitoring and traces
+
+* Exceptions & errors traces
+* Database logs
+* Ticket / Bugs backlog
+
+=== Tooling outputs
+
+* git history
+* Task management tools activity

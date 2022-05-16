@@ -42,6 +42,7 @@ include::sections/api_contracts_and_tests.adoc[]
 
 include::sections/already_there.adoc[]
 
+include::sections/ex_living_diagram.adoc[]
 
 //include::sections/docker-compose-to-diagram.adoc[]
 

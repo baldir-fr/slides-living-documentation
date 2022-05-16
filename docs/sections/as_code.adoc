@@ -5,7 +5,6 @@
 * Executable documentation
 --
 
-=== Plain text
 
 image:assets/commit_strip_versionning_is_important.png[alt=,width=500]
 

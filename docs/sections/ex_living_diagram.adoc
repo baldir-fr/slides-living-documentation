@@ -1,34 +1,81 @@
 == Living Diagram
 
-=== Mermaid
+* PlantUml
+* MermaidJs
+* Ditaa
+* Graphviz
+* ...
 
-[mermaid, target=diagrams/mermaid, format=svg]
-....
-graph TD;
-    A-->B;
-    D-->B;
-    A-->C;
-    C-->D;
-....
+[.columns]
+=== MermaidJs
 
+[.column]
+--
+[source,mermaidjs]
+....
+include::../assets/mermaid-example.mermaid[]
+....
+--
+
+[.column]
+--
+image:assets/mermaid-example.mermaid.png[Mermaid graph output]
+--
+
+[.columns]
 === PlantUml
 
-[plantuml,target=diagrams/plantuml, format=svg]
+[.column]
+--
+[source,puml]
 ....
-@startuml
-
-[*] --> State1
-State1 --> [*]
-State1 : this is a string
-State1 : this is another string
-
-State1 -> State2
-State2 --> [*]
-
-@enduml
+include::../assets/plantuml-example.puml[]
 ....
+--
+
+[.column]
+--
+image:assets/plantuml-example.png[]
+--
 
 [.notes]
 --
 * https://docs.asciidoctor.org/diagram-extension/latest/#creating-a-diagram
+* https://bcouetil.gitlab.io/academy/BP-asciidoc.html[]
 --
+
+=== Ditaa Input
+
+[source,ditaa]
+....
+                   +-------------+
+                   | Asciidoctor |-------+
+                   |   diagram   |       |
+                   +-------------+       | PNG out
+                       ^                 |
+                       | ditaa in        |
+                       |                 v
+ +--------+   +--------+----+    /---------------\
+ |        | --+ Asciidoctor +--> |               |
+ |  Text  |   +-------------+    |   Beautiful   |
+ |Document|   |   !magic!   |    |    Output     |
+ |     {d}|   |             |    |               |
+ +---+----+   +-------------+    \---------------/
+     :                                   ^
+     |          Lots of work             |
+     +-----------------------------------+
+....
+
+=== Ditaa Output
+
+image:assets/ditaa-sampl-output.png[]
+
+=== Why it is useful?
+
+* May be supported in some tools
+** Previews in IDE
+** Gitlab/Github/Azure DevOps supports mermaidjs
+* Most of the time focus on content and not layout
+* It's plain text
+** Easy to version
+** Can be generated from code

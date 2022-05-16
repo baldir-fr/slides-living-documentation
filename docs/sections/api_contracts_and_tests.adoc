@@ -9,6 +9,8 @@ Spring Rest Docs
 
 === Spring Rest Docs Demo
 
+image::
+
 [.refs]
 --
 * link:https://gitlab.com/crafts-records/talkadvisor/talkadvisor-back/-/blob/master/talkadvisor-infra/talkadvisor-infra-application/src/test/kotlin/org/craftsrecords/talkadvisor/infra/controller/RecommendationControllerTest.kt[Test code sample]

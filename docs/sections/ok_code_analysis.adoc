@@ -1,0 +1,92 @@
+== Code Analysis
+
+* Static code Analysis
+** Sonarlint / Sonarqube / Sonarcloud
+** Linters
+* IDEs
+* CI/CD Tools
+
+=== Input
+
+* Code
+* Tooling configuration
+
+=== Output
+
+* Aggregated Data
+* Visualizations
+* Hints, Warning
+* Learning material
+
+=== Sonarlint in IDE
+
+image:assets/ide-static-analysis-sonarlint.png[Screen capture of Sonarlint plugin in IDE IntelliJ Idea showing code issues both in sonarlint report panel and embedded in code]
+
+=== Dependency security analysis in IDE
+
+image::assets/Ide-security-vulnerability-detection.png[alt="Screen capture of IntelliJ Dependencies security Analysis tooltip on maven dependencies"]
+
+=== Gitlab Security Analyzers Input
+
+* Source Code
+* `.gitlab-ci.yml` configuration
+
+[source,yml]
+----
+include:
+  - template: "Security/SAST.gitlab-ci.yml"
+  - template: "Security/Dependency-Scanning.gitlab-ci.yml"
+  - template: "Security/Secret-Detection.gitlab-ci.yml"
+----
+
+[.refs]
+--
+* https://docs.gitlab.com/ee/user/application_security/sast/analyzers/#sast-analyzers/[SAST analyzers]
+* https://docs.gitlab.com/ee/user/application_security/secret_detection/[Secret detection]
+* https://docs.gitlab.com/ee/user/application_security/dependency_scanning/[Dependency Scanning]
+--
+
+=== Gitlab Security Analyzers Output
+
+* Pipeline report artifacts
+** Json files, Generated Html
+* Security Dashboard
+
+=== Gitlab Vulnerability Report
+
+image::assets/gitlab-vulnerability-report.png[Screenshot of Gitlab vulnerability report. 6 critical$$,$$ 6 high$$,$$ 3 medium vulnerabilies are counted]
+
+=== Gitlab Dependencies List
+
+image::assets/gitlab-dependencies-list.png[Screenshot of Gitlab dependencies list. Among the list some go mudules and a lot of javascript dependencies]
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 😀 Reliable
+- 😀 Low-Effort
+- 🙂 Collaborative
+- 😀 Insightful
+--
+
+[.column]
+--
+* Internal
+* Single sourced w/ publication mechanism
+* Audience
+** Developers
+** Security / SRE
+--
+
+[.notes]
+--
+* Usually not much configuration is needed
+* Runs on the existing code
+* Great learning value
+--
+
+[.refs]
+--
+--

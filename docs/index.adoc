@@ -44,4 +44,6 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 //include::sections/ok_docker-compose-to-diagram.adoc[]
 //include::sections/ok_doctest.adoc[]
 //include::sections/ok_accessibility_audit_as_code.adoc[]
-include::sections/ok_code_analysis.adoc[]
+//include::sections/ok_code_analysis.adoc[]
+//include::sections/ok_technology_radar.adoc[]
+

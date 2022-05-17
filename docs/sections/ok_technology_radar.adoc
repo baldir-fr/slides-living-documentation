@@ -1,0 +1,52 @@
+== Technology radar
+
+image::assets/thoughtworks-technology-radar-insights-22-05-17.png[alt="Thoughtwork Technology radar overview - A big circle diagram with 4 quadrants : Techniques • Tools • Platforms • Languages and Frameworks - Each quadrant is divided in 4 concenrtric slices respectively labelled from the outside to the inside : Hold • Assess • Trial • Adopt",width=460]
+
+[.refs]
+--
+* https://www.thoughtworks.com/insights/blog/build-your-own-technology-radar[Thoughtworks - build your own technology radar]
+--
+
+=== Input
+
+* CSV file
+** Could be sourced from ADRs
+* Google sheet
+
+=== Technology radar Output Artifacts
+
+* Generated static site
+* PDF
+
+=== Technology Radar Output Website
+
+image::assets/thougthworks-technology-radar-2022-05-17.png[alt="Screenshot of the details of the Languages and Frameworks quadrant - Assess section - Java 17 description", width=550]
+
+[.refs]
+--
+* https://www.thoughtworks.com/radar/languages-and-frameworks?blipid=202203055
+--
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 🙂 Reliable
+- 😐 Low-Effort
+- 😀 Collaborative
+- 😀 Insightful
+--
+
+[.column]
+--
+* Internal (CSV) or External (Google Sheet)
+* Single sourced w/ publication mechanism
+* Audience
+** CTOs
+** Architects
+--
+
+[.refs]
+--
+--

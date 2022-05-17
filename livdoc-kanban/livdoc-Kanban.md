@@ -13,19 +13,21 @@ kanban-plugin: basic
 - [ ] [Automated tests](tasks/Automated%20tests.md)
 - [ ] REST Api documentation as code (annotations)
 - [ ] [API docs + tests](tasks/API%20docs%20+%20tests.md)
-- [ ] Technology radar
 - [ ] openapi
 - [ ] [Living diagram](tasks/Living%20diagram.md)
 - [ ] [Tools against code](tasks/Tools%20against%20code.md)
+- [ ] Word cloud
+- [ ] Your code as a crime scene
 
 
 ## Doing
 
-- [ ] [Code is documentation](tasks/Code%20is%20documentation.md)
 
 
 ## Done
 
+- [ ] [Code Analysis](tasks/Code%20is%20documentation.md)
+- [ ] [Technology radar](tasks/Technology%20radar.md)
 - [ ] [Frago](tasks/Frago.md)
 - [ ] [Promo Agile tour](tasks/Promo%20Agile%20tour.md)
 - [ ] Already there

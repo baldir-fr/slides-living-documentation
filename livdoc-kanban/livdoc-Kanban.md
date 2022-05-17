@@ -29,10 +29,12 @@ kanban-plugin: basic
 - [ ] [Code Analysis](tasks/Code%20is%20documentation.md)
 - [ ] [Technology radar](tasks/Technology%20radar.md)
 - [ ] [Frago](tasks/Frago.md)
+- [ ] Gitlab analytics
 - [ ] [Promo Agile tour](tasks/Promo%20Agile%20tour.md)
 - [ ] Already there
 - [ ] Docker-compose diagram generation <br>https://github.com/pmsipilot/docker-compose-viz<br>https://blog.baslijten.com/sitecore-10-on-docker-help-to-understand-the-composition-of-the-configuration/
 - [ ] [Doctest](tasks/Doctest.md)
+- [ ] Robot framework
 
 
 ## Exemples
@@ -42,7 +44,6 @@ kanban-plugin: basic
 - [ ] Docker-compose
 - [ ] Conventional commit
 - [ ] Java 18 doc snippet
-- [ ] Gitlab analytics
 - [ ] GitHub/gitlab pages : readme to web page
 - [ ] Javadoc
 - [ ] Maven reports
@@ -55,7 +56,7 @@ kanban-plugin: basic
 - [ ] Bdd naming style tests
 - [ ] Documentation annotations<br>Onboarding with embedded knowledge.<br>Ex pattterniyt
 - [ ] Asciidoc, snippets from real code.
-- [ ] [Docs as code](tasks/Docs%20as%20code.md)
+- [ ] [Docs as code](tasks/Docs%20as%20code.md)<br>Write the Doc conference
 - [ ] Some API docs are executable when logged in. Or generate curl samples with api token.<br>(Mapbox, ...)
 - [ ] Pair/mob programming
 - [ ] Code reviews

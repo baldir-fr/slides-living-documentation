@@ -417,10 +417,48 @@ ul.byline li + li {
 <aside class="notes"><div class="ulist"><ul><li><p>Ouvrir les exemples</p></li><li><p>Vérifier leur fonctionnement</p></li><li><p>RevealJs shortcuts</p><div class="ulist"><ul><li><p>Alt+clic : Zoom in/ Zoom out</p></li><li><p>O/Esc : Slide overview</p></li><li><p>M : Menu</p></li><li><p>? : show keyboard shortcuts</p></li><li><p>C : chalkboard overlay</p></li><li><p>B : chalkboard modal</p></li><li><p>D : Download chalkboard</p></li><li><p>S : presenter mode</p></li><li><p>V : Fade to black</p></li><li><p>F: fullscreen &#8594; Esc : exit fullscreen</p></li></ul></div></li></ul></div></aside></div><p class="byline">
   <span class="author">Marc Bouvier</span>
   </p></section>
-<section><section id="_technology_radar"><h2>Technology radar</h2><div class="slide-content"><div class="imageblock"><img src="assets/thoughtworks-technology-radar-insights-22-05-17.png" alt="Thoughtwork Technology radar overview - A big circle diagram with 4 quadrants : Techniques • Tools • Platforms • Languages and Frameworks - Each quadrant is divided in 4 concenrtric slices respectively labelled from the outside to the inside : Hold • Assess • Trial • Adopt" width="460"></div><div class="openblock refs"><div class="content"><div class="ulist"><ul><li><p><a href="https://www.thoughtworks.com/insights/blog/build-your-own-technology-radar">Thoughtworks - build your own technology radar</a></p></li></ul></div></div></div></div></section><section id="_input"><h2>Input</h2><div class="slide-content"><div class="ulist"><ul><li><p>CSV file</p><div class="ulist"><ul><li><p>Could be sourced from ADRs</p></li></ul></div></li><li><p>Google sheet</p></li></ul></div></div></section><section id="_technology_radar_output_artifacts"><h2>Technology radar Output Artifacts</h2><div class="slide-content"><div class="ulist"><ul><li><p>Generated static site</p></li><li><p>PDF</p></li></ul></div></div></section><section id="_technology_radar_output_website"><h2>Technology Radar Output Website</h2><div class="slide-content"><div class="imageblock"><img src="assets/thougthworks-technology-radar-2022-05-17.png" alt="Screenshot of the details of the Languages and Frameworks quadrant - Assess section - Java 17 description" width="550"></div>
-<div class="openblock refs"><div class="content"><div class="ulist"><ul><li><p><a href="https://www.thoughtworks.com/radar/languages-and-frameworks?blipid=202203055" class="bare">https://www.thoughtworks.com/radar/languages-and-frameworks?blipid=202203055</a></p></li></ul></div></div></div></div></section><section id="_attributes" class="columns medium"><h2>Attributes</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>🙂 Reliable</p></li><li><p>😐 Low-Effort</p></li><li><p>😀 Collaborative</p></li><li><p>😀 Insightful</p></li></ul></div></div></div>
-<div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>Internal (CSV) or External (Google Sheet)</p></li><li><p>Single sourced w/ publication mechanism</p></li><li><p>Audience</p><div class="ulist"><ul><li><p>CTOs</p></li><li><p>Architects</p></li></ul></div></li></ul></div></div></div>
-<div class="openblock refs"><div class="content"></div></div></div></section></section></div></div><script src="reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
+<section><section id="_adr"><h2>ADR</h2><div class="slide-content"><div class="paragraph"><p>Architecture Decisions Records</p></div><aside class="notes"><div class="ulist"><ul><li><p>Plain text</p></li><li><p>Versioned in source control</p></li><li><p>captures context and rationale behind Architecture decisions</p></li></ul></div></aside><div class="openblock refs"><div class="content"><div class="ulist"><ul><li><p><a href="https://adr.github.io/" class="bare">https://adr.github.io/</a></p></li></ul></div></div></div></div></section><section id="_input"><h2>Input</h2><div class="slide-content"><div class="ulist"><ul><li><p>Markdown / Asciidoc / PLain text</p></li><li><p>Templates</p></li><li><p>helpers tools</p></li></ul></div></div></section><section id="_input_markdown_example"><h2>Input markdown example</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-md hljs" data-noescape="true" data-lang="md"># Use Markdown Architectural Decision Records
+
+- Status: accepted
+- Date: 2020-09-24
+
+## Context and Problem Statement
+
+We want to record architectural decisions made in this project.
+Which format and structure should these records follow?
+
+## Considered Options
+
+- [MADR](https://adr.github.io/madr/) 2.1.2 with Log4brains patch
+- [MADR](https://adr.github.io/madr/) 2.1.2 – The original Markdown Architectural Decision Records
+- [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) – The first incarnation of the term "ADR"
+- [Sustainable Architectural Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions) – The Y-Statements
+- Other templates listed at &lt;https://github.com/joelparkerhenderson/architecture_decision_record&gt;
+- Formless – No conventions for file format and structure
+
+## Decision Outcome
+
+Chosen option: "MADR 2.1.2 with Log4brains patch", because
+
+- Implicit assumptions should be made explicit.
+  Design documentation is important to enable people understanding the decisions later on.
+  See also [A rational design process: How and why to fake it](https://doi.org/10.1109/TSE.1986.6312940).
+- The MADR format is lean and fits our development style.
+- The MADR structure is comprehensible and facilitates usage &amp; maintenance.
+- The MADR project is vivid.
+- Version 2.1.2 is the latest one available when starting to document ADRs.
+- The Log4brains patch adds more features, like tags.
+
+The "Log4brains patch" performs the following modifications to the original template:
+
+- Change the ADR filenames format (`NNN-adr-name` becomes `YYYYMMDD-adr-name`), to avoid conflicts during Git merges.
+- Add a `draft` status, to enable collaborative writing.
+- Add a `Tags` field.</code></pre></div></div>
+<div class="openblock refs"><div class="content"><div class="ulist"><ul><li><p><a href="https://github.com/thomvaill/log4brains/blob/master/docs/adr/20200924-use-markdown-architectural-decision-records.md">Example of an ADR from Log4Brains</a></p></li><li><p><a href="https://github.com/thomvaill/log4brains" class="bare">https://github.com/thomvaill/log4brains</a></p></li></ul></div></div></div></div></section><section id="_output" class="columns"><h2>Output</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>Gitlab/Github Markdown renderer</p></li><li><p>Published Site</p></li><li><p>Human readable plain text files</p></li></ul></div></div></div>
+<div class="openblock column"><div class="content"><div class="imageblock"><img src="assets/log4brains-adr-output.png" alt="Example of ADR Website output with Log4Brains tool"></div></div></div>
+<div class="openblock refs"><div class="content"><div class="ulist"><ul><li><p><a href="https://thomvaill.github.io/log4brains/adr/">Example of ADR output with Log4Brains</a></p></li></ul></div></div></div></div></section><section id="_attributes" class="columns medium"><h2>Attributes</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>😀 Reliable</p></li><li><p>😐 Low-Effort</p></li><li><p>😀 Collaborative</p></li><li><p>😀 Insightful</p></li></ul></div></div></div>
+<div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>Internal</p></li><li><p>Single sourced w/ publication mechanism</p></li><li><p>Audience</p><div class="ulist"><ul><li><p>CTOs</p></li><li><p>Developers</p></li><li><p>New Developers in team</p></li></ul></div></li></ul></div></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>Context of decisions is now accessible through snapshots and versioning time travel</p></li><li><p>Could be made parseable. E.G to generate Tech Radar</p></li><li><p>More of less automation depending on whosen tools</p></li><li><p>But Can be made without any fancy tools but a text editor</p></li></ul></div></aside></div></section></section></div></div><script src="reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;
   // user needs to explicitly say he wants CSS color to override otherwise we might break custom css or theme (#226)
   if (!(slide.classList.contains('canvas') || slide.classList.contains('background'))) return;

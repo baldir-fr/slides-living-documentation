@@ -46,4 +46,4 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 //include::sections/ok_accessibility_audit_as_code.adoc[]
 //include::sections/ok_code_analysis.adoc[]
 //include::sections/ok_technology_radar.adoc[]
-
+//include::sections/ok_architecture_decisions_records.adoc[]

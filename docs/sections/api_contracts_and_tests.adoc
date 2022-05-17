@@ -9,7 +9,7 @@ Spring Rest Docs
 
 === Spring Rest Docs Demo
 
-image::
+image::assets/spring-boot-docs-conf-screen.png[]
 
 [.refs]
 --
@@ -47,7 +47,7 @@ https://spring.io/projects/spring-restdocs
 [.column]
 --
 * Internal
-* Single sourced w/ Reconciliation mechanism
+* Redundant sources w/ Reconciliation mechanism
 * Audience
 ** Developers
 ** API consumers

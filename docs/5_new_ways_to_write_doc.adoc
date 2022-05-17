@@ -1,13 +1,13 @@
 
 include::sections/new_documentation_approaches.adoc[]
 
-include::sections/ex_accessibility_audit_as_code.adoc[]
+include::sections/ok_accessibility_audit_as_code.adoc[]
 
 include::sections/ex_presentation_as_code.adoc[]
 
 include::sections/as_code.adoc[]
 
-include::sections/docker-compose-to-diagram.adoc[]
+include::sections/ok_docker-compose-to-diagram.adoc[]
 
 include::sections/ex_javadoc_code_snippets.adoc[]
 
@@ -20,7 +20,7 @@ include::sections/interlude_cat_01.adoc[]
 
 include::sections/ex_vcs_based_documentation.adoc[]
 
-include::sections/ex_living_diagram.adoc[]
+include::sections/ok_diagram_as_code.adoc[]
 
 include::sections/ex_tools_history.adoc[]
 
@@ -42,7 +42,7 @@ include::sections/ex_hard_to_generate_diagram_is_a_signal.adoc[]
 
 include::sections/ex_code_tour.adoc[]
 
-include::sections/ex_doctest.adoc[]
+include::sections/ok_doctest.adoc[]
 
 include::sections/automation_has_a_cost.adoc[]
 

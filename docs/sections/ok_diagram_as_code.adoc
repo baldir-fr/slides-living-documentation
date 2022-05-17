@@ -1,4 +1,4 @@
-== Living Diagram
+== Diagram as code
 
 * PlantUml
 * MermaidJs
@@ -22,6 +22,11 @@ include::../assets/mermaid-example.mermaid[]
 image:assets/mermaid-example.mermaid.png[Mermaid graph output]
 --
 
+[.refs]
+--
+* https://mermaid-js.github.io/
+--
+
 [.columns]
 === PlantUml
 
@@ -36,6 +41,11 @@ include::../assets/plantuml-example.puml[]
 [.column]
 --
 image:assets/plantuml-example.png[]
+--
+
+[.refs]
+--
+* https://plantuml.com/
 --
 
 [.notes]
@@ -70,6 +80,11 @@ image:assets/plantuml-example.png[]
 
 image:assets/ditaa-sampl-output.png[]
 
+[.refs]
+--
+* http://ditaa.sourceforge.net/
+--
+
 === Why it is useful?
 
 * May be supported in some tools
@@ -79,3 +94,31 @@ image:assets/ditaa-sampl-output.png[]
 * It's plain text
 ** Easy to version
 ** Can be generated from code
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 😐 Reliable
+- 😐 Low-Effort
+- 🙂 Collaborative
+- 🙂 Insightful
+--
+
+[.column]
+--
+* Internal
+* Single sourced w/ publication mechanism
+* Audience
+** Non Technical
+** Technical
+--
+
+[.notes]
+--
+* Insightful
+** try to automate diagram creation: weird results can highlight issues in the system
+* Collaborative: helps conversations
+--
+

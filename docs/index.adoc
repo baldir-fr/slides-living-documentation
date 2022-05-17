@@ -38,15 +38,10 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 ** F: fullscreen -> Esc : exit fullscreen
 --
 
-include::sections/api_contracts_and_tests.adoc[]
-
-include::sections/already_there.adoc[]
-
-include::sections/ex_living_diagram.adoc[]
-
-//include::sections/docker-compose-to-diagram.adoc[]
-
-//include::sections/ex_doctest.adoc[]
-
-//include::sections/ex_accessibility_audit_as_code.adoc[]
+//include::sections/ok_api_contracts_and_tests.adoc[]
+//include::sections/ok_already_there.adoc[]
+//include::sections/ok_diagram_as_code.adoc[]
+//include::sections/ok_docker-compose-to-diagram.adoc[]
+//include::sections/ok_doctest.adoc[]
+//include::sections/ok_accessibility_audit_as_code.adoc[]
 

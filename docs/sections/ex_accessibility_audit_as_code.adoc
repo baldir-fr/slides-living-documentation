@@ -18,8 +18,8 @@ image:https://github.com/DISIC/frago/raw/master/images/frago.png[Frago logo: a s
 * Standardization of content (CSV)
 * Versionning with Source control
 * Publication as website
-** During audit: Incremental feedback
-** After audit:
+** During audit: Incremental feedback, support conversations
+** After audit: Ready to be published
 
 === Inputs
 

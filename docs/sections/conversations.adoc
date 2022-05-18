@@ -1,7 +1,0 @@
-== Conversations
-
-include::ex_code_review.adoc[]
-
-include::ex_pair_programming.adoc[]
-
-include::ex_mob_programming.adoc[]

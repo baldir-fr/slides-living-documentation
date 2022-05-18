@@ -72,8 +72,19 @@
         // convert an array of words
     }
 
+    function words_bad_onboarding_cloud() {
+        let rawWords = localStorage.getItem('bad_onboarding_cloud');
+        if (rawWords)
+            return parseAndSort(rawWords)
+        return [];
+    }
+
     function generate_what_is_doc_1_cloud() {
         wordCloud("#what_is_doc_1_cloud", "cloud", words_what_is_doc_1());
+    }
+
+    function generate_bad_onboarding_cloud() {
+        wordCloud("#bad_onboarding_cloud", "cloud", words_bad_onboarding_cloud());
     }
 
     function easterEgg(){

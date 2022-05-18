@@ -100,15 +100,6 @@ https://www.youtube.com/watch?v=lvs7VEsQzKY&t=1620s[Patterns of Effective Teams 
 ** Conversation starter (better than preaching)
 --
 
-=== Code Driven Guided tour
-
-
-* Annotation
-* CodeTour
-    * Augmented CodeTour
-* With Asciidoc include preprocessor directive
-* With REST client + hypermedia
-    * see https://www.youtube.com/watch?v=7qqzqse1hgc[REST next level : Ecrire des APIs web orientées métier (Julien Topçu)]
 
 === GUI Driven
 

@@ -1,7 +1,173 @@
-=== Demo CodeTour
+== Guided Code Tour
 
-* Versionné
-* Peut être validé quand le code change
-* Json
-* Peut servir de base pour d'autres automatisations
-* Exemple
+=== VsCode Code Tour Extension
+
+* CodeTour VsCode extension
+* Source Code
+
+[.refs]
+--
+* https://code.visualstudio.com/learn/educators/codetour
+--
+
+=== VsCode Code Tour Output
+
+* Json File
+
+[source,json]
+----
+{
+    "$schema": "https://aka.ms/codetour-schema",
+    "title": "Frontend basic tour",
+    "steps": [
+      {
+        "file": "js/public/index.html",
+        "description": "## Html entry point : `public/index.html`\n\nThis `public/index.html` is the first file that is loaded by the browser. \nIt loads the bundled VueJs application as a script.\nThe rendering of the application is then delegated to javascript.\n\nThe VueJs app is \"injected\" inside the `<div is=\"app\"></div>` element.\n\nThe bundled javascript script will be inserted in the `index.html` file in place of the comment : `<!-- built files will be auto injected -->`",
+        "line": 19,
+        "selection": {
+          "start": {
+            "line": 20,
+            "character": 5
+          },
+          "end": {
+            "line": 20,
+            "character": 47
+          }
+        },
+        "contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\" />\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\" />\n    <meta name=\"server-injected-data\" />\n  </head>\n\n  <body>\n    <noscript>\n      <strong\n        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work\n        properly without JavaScript enabled. Please enable it to\n        continue.</strong\n      >\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+      }
+    ],
+    "isPrimary": true,
+    "description": "A quick overview of how browsing to the default URI translate to VueJs components and behaviours",
+    "ref": "09cc5d1bd1ecd24e1e879b0392cf5830b2581c74"
+  }
+----
+
+[.refs]
+--
+* https://github.com/marc-bouvier/sandbox/blob/master/generators_and_CLIs/codeTour-2-markdown_mvp_ok/posts/tours/mobilizon-frontend.tour.11tydata.json[Example of Json output from Code Tour Extension]
+--
+
+=== VsCode Code Tour Output
+
+* Interactive Tour in Vs Code
+
+image::assets/vs-code-tour-demo.gif[alt="Animated demo of a guided tour using Vs Code Code Tour extension",width=600]
+
+=== Custom Generated Output
+
+Site Code Tour Output File
+
+image::assets/Custom-VsCode-Output.png[alt="A WebSite Generated From the Json file output of the VsCode Code Tour extension"]
+
+[.refs]
+--
+* https://marc-bouvier.github.io/sandbox/generators_and_CLIs/codeTour-2-markdown_mvp_ok/dist/posts/tours/mobilizon-frontend.tour/
+* https://github.com/marc-bouvier/sandbox/blob/master/generators_and_CLIs/codeTour-2-markdown_mvp_ok/posts/tours/mobilizon-frontend.tour.11tydata.json[Example of Json output from Code Tour Extension]
+--
+
+[.columns]
+=== Attributes
+
+[.column]
+--
+- 🙂 Reliable
+- 😐 Low-Effort
+- 😀 Collaborative
+- 😀 Insightful
+--
+
+[.column]
+--
+* Internal (can be external too)
+* Redundant sources / reconciliation mechanism
+* Audience
+** Onboarding Developers
+--
+
+=== Intuitive workflow in REST API
+
+image::assets/julien-topcu-devvoxx-fr-API-REST-metier.png[alt="Julien Topçu - REST next level : Ecrire des APIs web orientées métier • Slide showing a series of REST endpoints workflow oriented"]
+
+[.refs]
+--
+* https://youtu.be/7qqzqse1hgc?t=1734[REST next level : Ecrire des APIs web orientées métier (Julien Topçu) • 28:54]
+--
+
+[.notes]
+--
+* HATEOAS
+--
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 😀 Reliable
+- 😐 Low-Effort
+- 😀 Collaborative
+- 😀 Insightful
+--
+
+[.column]
+--
+* Internal
+* Single sourced
+* Audience
+** Backend Developers
+** Frontend Developers
+** QA Automation
+--
+
+
+=== Annotations Based Guide Tour
+
+* Custom Annotations (Meta-data)
+** `@GuidedTour(1)`
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 😀 Reliable
+- 😀 Low-Effort
+- 😀 Collaborative
+- 😀 Insightful
+--
+
+[.column]
+--
+* Internal / External
+* High bandwidth
+* Audience
+** Everyone
+* Best collocated
+--
+
+
+=== Asciidoc include Code Tour
+
+* Comments + Asciidoc
+
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 😐 Reliable
+- 😐 Low-Effort
+- 😀 Collaborative
+- 😀 Insightful
+--
+
+[.column]
+--
+* Internal
+* Multiple sources w/ reconciliation mechanism
+* Audience
+** Everyone
+* Best collocated
+--

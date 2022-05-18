@@ -1,157 +1,105 @@
-== Living Documentation!
+== Living Documentation
 
-Authoritative source of knowledge
+image::assets/book_living_documentation_cover.png[alt="Living Documentation Book Cover", width=360]
 
-=== Core Principles of Living Documentation
+[.refs]
+--
+* https://www.informit.com/store/living-documentation-continuous-knowledge-sharing-by-9780134689326[Living Documentation: Continuous Knowledge Sharing by Design
+By Cyrille Martraire
+Published Jun 4, 2019 by Addison-Wesley Professional.]
+--
+
+== Helps...
+
+* Onboarding
+* Understanding systems and improving them
+* Communicating (less misunderstandings)
+* To focus on the right things
+* Your team's morale
+
+== Core Principles of Living Documentation
+
+* *Reliable*
+* *Low-Effort*
+* *Collaborative*
+* *Insightful*
+
+[.notes]
+--
+* Fiable
+* Nécessite peu d'effort
+* Collaborative
+* Révélatrice
+--
 
 === Reliable
 
+* Exploit available knowledge
+** In code, artifacts, tools
+* Accuracy mechanism
+** To make sure knowledge is up to date
+
+[.notes]
+--
+
+Accurate and stays in sync with the system
+
+* Fiable
+* Nécessite peu d'effort
+* Collaborative
+* Révélatrice
+--
+
 === Low-Effort
+
+* Simplicity
+* Standard over custom
+* Evergreen content
+* Refactoring proof Knowledge
+* Internal Documentation
+
+[.notes]
+--
+==== Easy to read and maintain
+
+* Simplicity : best if nothing to declare, it's just obvious
+* Standard over custom: Idiomatic, prefer link to external resource
+* Evergreen content: Some knowledge never of rarely change
+* Refactoring proof Knowledge: Refactoring tools propagate such changes
+* Internal Documentation: Onto or close to the source material
+--
 
 === Collaborative
 
-=== Wiki (as code)
+* Favors conversations over formal documentation
+* Collective Ownership
 
-Wiki as code
+[.notes]
+--
 
-image:assets/vuejs_fix_documentation_as_PR.png[VueJs propose de mettre à jour sa documentation par PR] <p style="font-size: 1rem">Source : <a href="https://vuejs.org/v2/guide">https://vuejs.org/v2/guide</a></p>
+Invites to conversations and sharing knowledge with everyone involved
 
-=== Stigmery
+* Conversations : bande passante élevée
+* c'est ok si on ne note pas tout
+* répéter, répéter, à plusieurs personnes
 
-Knowledge is transfered through the work itself
+* Ideas Sedimentation: over time decide what is worth the effort of recording in a persitent form
+** Ideas sedimentation
+--
 
 [.colums]
 === Insightful
 
-== Qualities of living documentation
+* Deliberate decision making
+* Embedded learning
+* Reality check
 
 [.notes]
 --
-* Ces qualités
---
 
-=== Single sourced
+Helps understanding the work being done and reflect on it
 
-
-[.notes]
---
-* Single sourced = DRY de la doc
-** On veut garantir qu'il y a une source unique pour une connaissance. Les représentations de cette connaissance devraient découler de cette source.
---
-
-
-=== Reliable
-
-[.notes]
---
-* Reliable = fiable
-** Crainte de l'obsolescence
-** Source du problème est souvent que la documentation est externalisée par rapport à la source de connaissances
-*** Ex. un fichier word % au code source
-* \___ as code
-* proche du code
-* versionné dans le repo du code
-* privilégier interne à externe (avec mécanisme de réconciliation)
---
-
-[.columns]
-=== Refactor Friendly
-
-[.column]
---
-* Put together things that change together (including documentation)
-* Use code or language features to enable refactoring tooling
---
-
-[.column]
---
-++++
-<iframe src='https://gfycat.com/ifr/PlushFeistyCondor' frameborder='0' scrolling='no' allowfullscreen width='250' height='450'></iframe>
-++++
---
-
-[.refs]
---
-https://gfycat.com/ifr/PlushFeistyCondor
---
-
-//=== Refactor-friendly
-//
-//* Correspondance nom entité -> Nom table
-//* Solution pour réduire la friction entre le modèle de base de données et l'entité dans le code : annotation de correspondance
-//
-//[.notes]
-//--
-//* Refactor-friendly
-//*** Ex. ORM : Changement de nom d'entité => changement de nom de table?
-//**** Migration de nom de table
-//**** Mécanisme de réconciliation : un correspondance entre le nom de la table et l'entité (annotation @Table Jpa)
-//*** Ex. un commentaire dans le code % un nom de méthode
-//--
-
-=== Before refactoring
-
-[source, java]
-----
-@Entity // Table name -> ADDRESS
-public class Address{
-    public Long id;
-    public String line1;
-    //...
-}
-----
-
-[.notes]
---
-* Par défaut dans hibernate, le nom de la classe d'une entité est converti en nom de table dans la base de données.
---
-
-=== After refactoring
-
-[source, java]
-----
-@Entity // Table name -> DELIVERY_ADDRESS
-public class DeliveryAddress{
-    public Long id;
-    public String line1;
-    //...
-}
-----
-
-[.notes]
---
-* L'ORM et ses conventions nous freinent
---
-
-=== Explicit mapping before refacto
-
-[source,java]
-----
-@Entity
-@Table(name="ADDRESS") // Table name -> ADDRESS
-public class Address{
-    public Long id;
-    public String line1;
-    //...
-}
-----
-
-=== Explicit mapping after refacto
-
-[source,java]
-----
-@Entity
-@Table(name="ADDRESS") // Table name -> ADDRESS
-public class DeliveryAddress{
-    public Long id;
-    public String line1;
-    //...
-}
-----
-
-[.notes]
---
-* L'annotation @Table fait office de mécanisme de réconciliation (entre notre code et la base de données)
-* Le mécanisme de réconciliation a permis de découpler le nom de l'entité dans le code à son nom dans le modèle de données
-* On s'autorise à penser qu'il n'y a pas forcément un miroir structurel entre le modèle de base de donnée, des classes de domaine, et les API exposées
+* Deliberate decision making: You don't know clearly what you do? Maybe you may clarify your decisions, it may be more clear for you and others.
+* Embedded learning: worker learn from the system itself
+* Reality check: shows you the sad reality of your system
 --

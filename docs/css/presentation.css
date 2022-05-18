@@ -8,6 +8,7 @@
 
 /* ------------------------------------------------------ The refs section */
 /* stolen from https://github.com/bentolor/java9to13/blob/11e0acc5e453bb8215bededfa27539adaabbdaeb/docs/css/presentation.css */
+
 /* Ref is fixed at the bottom of the screen at the controls level*/
 DIV.refs {
     filter: invert(100%);
@@ -62,6 +63,15 @@ DIV.refs LI:hover P A {
     text-decoration: underline;
     color: blue;
 }
+
+.medium{
+    font-size: 2rem;
+}
+
+.small{
+    font-size: 1.75rem;
+}
+
 
 /* for some large quotes, smaller font size to fit the quote in the screen */
 .quoteblock.small blockquote {

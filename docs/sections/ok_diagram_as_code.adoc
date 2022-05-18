@@ -12,9 +12,9 @@
 [.column]
 --
 [source,mermaidjs]
-....
-include::../assets/mermaid-example.mermaid[]
-....
+----
+include::assets/mermaid-example.mermaid[]
+----
 --
 
 [.column]
@@ -33,9 +33,9 @@ image:assets/mermaid-example.mermaid.png[Mermaid graph output]
 [.column]
 --
 [source,puml]
-....
-include::../assets/plantuml-example.puml[]
-....
+----
+include::assets/plantuml-example.puml[]
+----
 --
 
 [.column]

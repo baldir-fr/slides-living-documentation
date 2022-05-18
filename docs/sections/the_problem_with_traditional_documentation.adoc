@@ -1,23 +1,12 @@
 [background-color="#051746"]
 == The problem with traditional documentation
 
-[.notes]
---
-* Not cool
-* flawed
-** Separate activities
-** Manual transcription
-** Redundant Knowledge
-** Boring time sink
-** Brain dump
-** Polished diagrams
-** Notation Obsession
-** No Notation
-** Information Graveyard
-*** Often fail : too hard to find the right info, hard work to keep up to date, "Write-only doc" or "Write-once doc"
-** Misleading help
-** Ther's always something more interesting right now
---
+=== Not very reliable
+
+* Usually external documents
+* Not in sync with the system
+* Versioning hell
+
 
 [background-color="#051746"]
 [.columns]
@@ -51,6 +40,9 @@ Tests
 Doc
 --
 
+[%step]
+==== Even in Agile teams!
+
 [.notes]
 --
 * Beaucoup de temps et d'opportunités perdues à séparer les activités
@@ -58,15 +50,12 @@ Doc
 * Les connaissances peuvent évoluer durant ce processus et engengrer des incohérences
 --
 
-[background-color="#051746"]
-=== Separate activities
 
---
-[WARNING]
-====
-Even in Agile teams!
-====
---
+=== Requires Human dedication
+
+* A pain to update
+* Requires special tooling
+* Boring manual transcription
 
 [background-color="#051746"]
 === Manual transcription
@@ -78,7 +67,7 @@ Even in Agile teams!
 --
 
 [background-color="#051746"]
-=== It's not cool
+=== It's not fun
 
 .Developer trying to layout code in MS Office
 [.stretch]
@@ -97,3 +86,15 @@ image:assets/UNKNOWN_ORIGIN_crying_girl_doing_homework.jpeg[alt=Meme of a crying
 --
 // Source not found
 --
+
+=== Do we read it?
+
+* No one really reads it cover to cover
+* Not easy to engage conversations with
+
+=== What does it tell us?
+
+* What the system should have been
+* When it was written
+* Often at a different time
+* By a different person

@@ -12,3 +12,29 @@ Mix markup and code and you obtain interactive notebooks
 --
 Very cool for learning & visual representations
 --
+
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 😀🙂😐🙁😱 Reliable
+- 😀🙂😐🙁😱 Low-Effort
+- 😀🙂😐🙁😱 Collaborative
+- 😀🙂😐🙁😱 Insightful
+--
+
+[.notes]
+--
+--
+
+[.column]
+--
+* Internal
+* Single sourced
+* Audience
+** Stakeholders
+** Regulators
+** Developers
+--

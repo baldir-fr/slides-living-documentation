@@ -1,5 +1,3 @@
-include::sections/deconstruct_documentation.adoc[]
-
 === What is Documentation?
 
 * Sharing knowledge

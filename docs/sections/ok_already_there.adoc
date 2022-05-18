@@ -7,10 +7,42 @@
 ** can be augmented and published
 --
 
-=== Readme.md
+[.columns]
+=== From markdown ...
 
-Github/Gitlab -> web page
+[.column]
+--
+Raw Markdown
 
+image::assets/raw_markdown.png[alt="raw markdown"]
+
+--
+
+[.column]
+--
+Rendered
+
+image::assets/github_rendered_markdown.png[alt="Github / Gitlab rendered markdown"]
+--
+
+[.refs]
+--
+* https://github.com/rlemaire/bookmarks-green-it
+* https://github.com/rlemaire/bookmarks-green-it/edit/master/README.md
+--
+
+=== ... To Webpage
+
+Published as Static site
+
+image::assets/github_pages_published_markdown.png[alt="Gitlab/Github Pages publication", width=500]
+
+[.refs]
+--
+* https://pages.github.com/[Github pages]
+* https://docs.gitlab.com/ee/user/project/pages/[Gitlab Pages]
+* https://rlemaire.github.io/bookmarks-green-it/
+--
 === Code documentation : Java
 
 * Javadoc

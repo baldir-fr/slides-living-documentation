@@ -1,0 +1,31 @@
+[background-color="#1d0546"]
+[#about_me.columns]
+== Who am I?
+
+[.column.is-one-third]
+--
+image::assets/marc-bouvier-rnd-25.png[]
+
+*Marc Bouvier*
+https://u.baldir.fr/me[u.baldir.fr/me]
+--
+
+[.column.medium]
+--
+* Software Developer
+* Making tools for me & others
+* Learning
+** Accessibility
+**
+--
+
+[.refs]
+--
+* https://joelhellenbrand.wordpress.com/[joelhellenbrand.wordpress.com]
+* Crédit photo : Joël Hellenbrand
+--
+
+[.notes]
+--
+✅
+--

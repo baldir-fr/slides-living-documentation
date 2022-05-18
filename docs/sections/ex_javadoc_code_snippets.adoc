@@ -14,7 +14,7 @@ https://openjdk.java.net/jeps/413:[JEP 413 : Code Snippets in Java API Documenta
 - ⭐⭐⭐ Automated
 - ⭐⭐⭐ Insightful
 - Internal / External
-- Single sourced / reconciliation mechanism
+- Redundant sources / reconciliation mechanism
 - Audience
 
 === Code de prod : tag @snippet

@@ -1,3 +1,23 @@
 === Code Review
 
 image:assets/code-review.png[alt=Code review,width=500]
+
+[.columns.medium]
+=== Attributes
+
+[.column]
+--
+- 😀 Reliable
+- 😀 Low-Effort
+- 😀 Collaborative
+- 😀 Insightful
+--
+
+[.column]
+--
+* Internal / External
+* High bandwidth
+* Audience
+** Everyone
+* Best collocated
+--

@@ -1,0 +1,81 @@
+== From manual documentation to automation
+
+[.notes]
+--
+Une stratégie pour documenter les scripts DevOps
+--
+
+=== Write everything you do in a file
+
+[source,md]
+----
+# Installation steps
+
+1. Connect to machine A with SSH
+2. Move to directory `/www`
+3. Delete content
+4. Download latest artifact
+5. extract artifact in `/www`
+6. verify new site is online
+----
+
+[.notes]
+--
+* Explicit documentation helps against truck factor
+* manual steps recipe
+* Can be done by a human
+* make it publicly available to the team
+--
+
+=== Add scripts in file for automating some tasks
+
+[source,md]
+----
+# Installation steps
+
+## Prepare
+
+1. Connect to machine A with SSH
+
+## Cleanup content
+
+```shell
+rm -rf /www/*
+```
+
+## Install latest version
+
+```shell
+wget https://where-your-artifact-is/artifact.tar.gz
+tar -xvf artifact.tar.gz
+# cleanup
+rm -f artifact.tar.gz
+```
+----
+
+=== Fill the gaps
+
+[source,md]
+----
+# Installation steps
+
+1. Connect to machine A with SSH
+2. Run preinstalled script `./full-install.sh`
+3. Run healthcheck script `./healthcheck.sh`
+----
+
+=== Evolve to advanced tools if needed
+
+* Gitlab CI
+* Ansible
+* Terraform
+* Puppet
+
+=== Why do it incrementally?
+
+* Solve one problem at a time
+* Your procedure will be reviewed by those who uses it and evolve
+* Lazy automation costs less
+* When/if you investigate for On the Shelf tools
+** you know what they need to solve
+** you may integrate your own scripts in the tools

@@ -1,12 +1,14 @@
 == An onboarding story
 
+Joining an hypothetical organisation as a consultant
 
-=== Open my welcome email
+=== Welcome!
 
 [%step]
-*
-*
-*
+* Meet with colleagues
+* Fetch laptop
+* You have E-mail 📧
+* 🎉
 
 [.notes]
 --
@@ -16,11 +18,11 @@ After meeting my new colleagues, I am given a laptop on which a post-it with my 
 I open my session and check out my email. I read my welcome email.
 --
 
-=== Credentials
+=== You shall not pass!
 
 [%step]
 * No Git credentials... yet
-* > It will take some time
+* "It will take some time"
 * Go explore "The Wiki"
 * A shared folder with MS Office files
 
@@ -31,10 +33,10 @@ Of course, I don't have all my access credentials for the Git repository. I am t
 In "The Wiki" I find a link to a shared folder where the specs should be located.
 --
 
-=== Ticket
+=== A ticket for space
 
 [%step]
-* An MS Office Licence ticket
+* A ticket for MS Office Licence
 * Browsing "The Wiki"
 * A typo
 
@@ -45,11 +47,11 @@ I make a ticket to request a MS Office licence so I can open the Word document.
 While waiting the approval for my ticket, I continue to browse "The Wiki" for more information. I find a typo in one of the wiki pages. Since I have nothing yet to do, I decide to propose a correction.
 --
 
-=== Credentials again
+=== Trying to help
 
 [%step]
 * Cannot edit page
-* Just comment it, we'll fix it later
+* "Just add a comment to it, we'll fix it later"
 ** Spoiler: it wasn't
 
 [.notes]
@@ -61,9 +63,9 @@ But I have no rights to modify the page. I ask why. You don't have the right cre
 
 [%step]
 * No license available
-* Human PDF converter
+* Human PDF converter 👩🏻‍💻🖨
 * Wrong version
-* Nobody really reads it anyway
+* "Nobody really reads it anyway"
 
 [.notes]
 --
@@ -75,7 +77,7 @@ When I open it I see that it is not the right version. I ask my colleague again 
 === What's inside?
 
 [%step]
-* Windows XP IE9 screenshots...
+* Windows XP IE9 screenshots... 🦖
 ** .. in 2020
 * Maybe a little outdated
 
@@ -84,12 +86,13 @@ When I open it I see that it is not the right version. I ask my colleague again 
 I check the PDF, and find some useful stuff but screenshots are taken on Windows XP, and Internet Explorer 9. I guess it's a little outdated...
 --
 
-=== Git clone
+=== Git me that code source!
 
 [%step]
-* Finally Git credentials
+* Finally Git credentials!
 * Tech stack evolved a lot since spec
 ** Versions bumped
+** Even framework is not the same
 
 [.notes]
 --
@@ -125,10 +128,11 @@ I look at the folder structure to know a bit better what's it is about.
 
 === Visiting Printers Factories
 
-
-* A
-* B
-* V
+* It's about..
+** Vistors
+** Printers
+** Facotories
+** Strategies?...
 
 [.notes]
 --
@@ -138,7 +142,8 @@ Okay... This application must be about visiting printers factories. They must be
 
 === Colleague Driven Development
 
-TODO
+* Aren't we in insurance business?
+* Design Patterns?
 
 [.notes]
 --
@@ -149,7 +154,12 @@ I answer yea, of course there is this Singleton thing. Why?
 > Implicit knowledge: can be understood only if you know it first.
 --
 
-=== A
+=== Welcome to the cult!
+
+* Naming Convention
+* "Technical separation: Tidy!"
+* A reason?
+* "We do it everywhere"
 
 [.notes]
 --
@@ -165,9 +175,10 @@ Colleague: We do it everywhere, that way we don't have surprises.
 
 --
 
+=== Are we in business?
 
-
-=== B
+* Where is the business
+* "Inside the subfolders scattered around"
 
 [.notes]
 --
@@ -176,7 +187,12 @@ Colleague: In each technical module you may have some bits of business here and 
 > Knowledge is scattered around the place
 --
 
-=== C
+=== Testabili.. what?
+
+* Must be hard to test?
+* "Well, we tried, but they were always broken"
+* We do End 2 End but they are flaky
+** We hired someone full-time to maintain them
 
 [.notes]
 --
@@ -186,7 +202,13 @@ So now we do mostly end 2 end tests. They are flaky sometimes so we added sleeps
 > Human dedication (anti-pattern)
 --
 
-=== D
+=== The rewards of hard work
+
+* "Worth the effort, it tests some behavior"
+* Business complaints about human readability
+** Click
+** Forms
+** Fields
 
 [.notes]
 --
@@ -197,7 +219,14 @@ Me: opens an old Jira User story. It does not to exactly the thing the app does 
 Colleague: yea, this one has been changed by a new user story. You are lucky you asked le since I was the obe that implemented it.
 --
 
-=== F
+=== Featuring...
+
+* What are the features?
+* "I do caching related stuff, and some DB related stuff"
+* But Business features
+* "We have user stories in Jira tickets, it's all there"
+
+...
 
 [.notes]
 --
@@ -212,10 +241,10 @@ For the features, just look at jira user stories, it's all here.
 +++
 <div style="display: flex;">
     <div style="margin: auto;display: flex;flex-flow: column;width: auto;flex-grow: 0.5;">
-        <textarea id="bad_onboarding_cloud" style="font-size: 1rem;height: 16rem;"></textarea>
+        <textarea id="bad_onboarding" style="font-size: 1rem;height: 16rem;"></textarea>
         <div style="display: flex;">
-            <button onclick="localStorage.setItem('bad_onboarding_cloud', document.getElementById('bad_onboarding_cloud').value);generate_bad_onboarding_cloud()" style="width: 100%;">Save</button>
-            <button onclick="document.getElementById('bad_onboarding_cloud').value = localStorage.getItem('bad_onboarding_cloud')" style="width: 100%;">Load</button>
+            <button onclick="localStorage.setItem('bad_onboarding', document.getElementById('bad_onboarding').value);generate_bad_onboarding_cloud()" style="width: 100%;">Save</button>
+            <button onclick="document.getElementById('bad_onboarding').value = localStorage.getItem('bad_onboarding')" style="width: 100%;">Load</button>
         </div>
     </div>
 </div>
@@ -223,9 +252,6 @@ For the features, just look at jira user stories, it's all here.
 
 [#bad_onboarding_cloud,%notitle]
 === Word Cloud
-
-TODO: make it work
-
 
 === Astonishment report
 

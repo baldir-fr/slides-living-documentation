@@ -12,36 +12,24 @@
 [.columns]
 === Separate activities
 
-[%step]
-[.column]
+[.column.has-text-right]
 --
-👨‍💼
-Specs
+[%step]
+Specs 👨‍💼
+[%step]
+Code 👩‍💻
+[%step]
+️Tests 🕵️‍
+[%step]
+Doc 👩‍🏫
+[%step]
 --
 
-[%step]
 [.column]
 --
-👩‍💻
-Code
---
-
 [%step]
-[.column]
+Even in Agile teams!
 --
-🕵️‍♂️
-Tests
---
-
-[%step]
-[.column]
---
-👩‍🏫
-Doc
---
-
-[%step]
-==== Even in Agile teams!
 
 [.notes]
 --
@@ -98,3 +86,4 @@ image:assets/UNKNOWN_ORIGIN_crying_girl_doing_homework.jpeg[alt=Meme of a crying
 * When it was written
 * Often at a different time
 * By a different person
+

@@ -5,12 +5,12 @@
 
 [source,yml]
 ----
-include::../../examples/diagram-from-docker-compose/docker-compose.yml[]
+include::../../examples/living_diagrams/diagram-from-docker-compose/docker-compose.yml[]
 ----
 
 === Output
 
-image::../../examples/diagram-from-docker-compose/output/docker-compose.png[]
+image::../../examples/living_diagrams/diagram-from-docker-compose/output/docker-compose.png[]
 
 [.columns.medium]
 === Attributes

@@ -1,6 +1,157 @@
+
+== What is Documentation?
+
+* Sharing knowledge
+
+=== When?
+
+* Knowledge needed for a long period of time -> Documented
+* Knowledge needed by a large number of people -> Documented
+* Knowledge valuable or critical -> Documented
+* Default -> Don't
+
+
+[.columns]
+=== Generic Knowledge
+
+[.column]
+--
+* Programming languages
+* Developer tools
+* Software practices
+*** DDD
+*** patterns
+*** CI
+--
+
+[.column]
+--
+* Mature sector of the business industries
+** Pricing in finance
+** Supply Chain Optimization in e-commerce
+** -> Industry standard books
+--
+
+
+[.columns]
+=== Good news everyone!
+
+[.column]
+--
+The Generic Knowledge is already documented in the industry literature.
+
+-> Learn Generic Knowledge
+-> Link to sources of Authority
+--
+
+[.column]
+--
+* Training
+* Conferences
+* Books
+* Blog posts
+* Standard Vocabulary
+* ...
+--
+
+=== Focus on specific knowledge
+
+* Knowledge your organization has and is not (yet) shared with other peers in the same industry.
+* more expensive to learn
+* takes practice, making mistakes to earn
+* Deserves more attention
+* Only you can take care about it
+
+
+[.notes]
+--
+As a professional, you should know enough of the generic, industry standard knowledge, in order to be able to focus on growing the knowledge that's specific to you particular ambitions.
+--
+[.columns]
+=== Stable/Unstable
+
+[.column]
+--
+Stable
+
+* Standards
+* Most of parts of common industry
+--
+[.column]
+--
+Not Stable
+
+* Marketing
+* Company names
+* Dates
+* People
+* Design decisions
+--
+
+
+=== Stable • Evergreen document
+
+Useful content for a long period of time
+
+* Short with not much details
+* High Level focus
+* Goals and intention (not implementaion details)
+* More business oriented that technical
+
+[%step]
+Here traditional documentation is OK 👍
+
+
+[.notes]
+--
+* Evergreen : Ce qui est stable = ce qui est toujours vrai
+--
+
+=== How to deal with Stable/Unstable?
+
+Stable:: Learn & refer to it
+Unstable:: Automate it as much as possible when it is useful
+
 == Internal Documentation
 
+Internal vs External
+
+[.notes]
+--
+* External: Ms Word, Wiki, Jira...
+** Advantages can be convenient for the audience and for the writers
+** Inconvenient: hard or impossible to make it up to date
+* Internal
+** In Situ
+** Machine-Readable
+--
+
+[.medium]
+=== Problems with this knowledge
+
+* Not accessible
+* To many (noise)
+* Scattered everywhere
+* Implicit (e.g. design pattern visible only if we know it exists)
+* Unrecoverable (lost)
+* Unwritten
+
+[%step]
+Augment it, make it accessible for it's audience.
+
+[.notes]
+--
+* Not accessible... (e.G to non technical people)
+* To many (noise) only a few lines may be relevant for a question
+* Scattered everywhere
+* Implicit (e.g. design pattern visible only if we know it exists)
+* Unrecoverable (lost) (people left)
+* Unwritten: in someone's brain and only the consequences are in the system...
+--
+
 === Single sourced
+
+WIP TODO
 
 [.notes]
 --
@@ -34,3 +185,4 @@ https://gfycat.com/ifr/PlushFeistyCondor
 * Code is refactor friendly
 * Renaming a class name in code in duplcated everywhere but tool help doing it seamlessly
 --
+

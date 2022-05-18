@@ -38,8 +38,6 @@
     let punctuation = new RegExp("[" + unicodePunctuationRe + "]", "g");
     wordSeparators = /[ \f\n\r\t\v\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u2028\u2029\u202f\u205f\u3000\u3031-\u3035\u309b\u309c\u30a0\u30fc\uff70]+/g
     let discard = /^(@|https?:|\/\/)/
-    let htmlTags = /(<[^>]*?>|<script.*?<\/script>|<style.*?<\/style>|<head.*?><\/head>)/g
-    let matchTwitter = /^https?:\/\/([^\.]*\.)?twitter\.com/
     let maxLength = 100;
 
     function parseAndSort(text) {
@@ -73,7 +71,7 @@
     }
 
     function words_bad_onboarding_cloud() {
-        let rawWords = localStorage.getItem('bad_onboarding_cloud');
+        let rawWords = localStorage.getItem('bad_onboarding');
         if (rawWords)
             return parseAndSort(rawWords)
         return [];

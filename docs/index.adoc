@@ -42,23 +42,27 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 
 include::sections/z_who_am_I.adoc[]
 
-include::sections/r_bad_onboarding.adoc[]
 include::sections/ok_first_some_questions.adoc[]
 
 [background-color="#1d0546"]
 == Agenda
 
 . The Story of an onboarding
-. Knowledge is already there
+. Living Documentation FTW
 . A s**t ton of examples!
-. Takeaways
+. Some Takeaways
+
+
+include::sections/r_bad_onboarding.adoc[]
 
 include::sections/the_problem_with_traditional_documentation.adoc[]
+
 include::sections/new_documentation_approaches.adoc[]
 include::sections/ok_already_there.adoc[]
 include::sections/internal_doc.adoc[]
 
 include::sections/ok_interlude_01.adoc[]
+include::sections/examples_please.adoc[]
 include::sections/ok_api_contracts_and_tests.adoc[]
 include::sections/ok_diagram_as_code.adoc[]
 include::sections/ok_docker-compose-to-diagram.adoc[]
@@ -85,7 +89,7 @@ include::sections/interlude_04.adoc[]
 // Low-Effort -> Automation can generate accurate published documentation
 
 include::sections/ex_code_review.adoc[]
-include::sections/ex_code_tour.adoc[]
+
 include::sections/ex_declarative_infrastructure.adoc[]
 include::sections/ex_dsl.adoc[]
 include::sections/ex_frontend_documentation.adoc[]
@@ -117,6 +121,75 @@ include::sections/living_onboarding.adoc[]
 include::sections/vcs_as_knowledge_source.adoc[]
 include::sections/ok_your_tools_and_ide_features.adoc[]
 include::sections/from_manual_to_automated.adoc[]
+
+== Convention
+
+
+== Redundant information in naming
+
+=== Repeating names of language constructs
+
+[.medium]
+--
+[source,Java]
+----
+package org.mycompany.worlddestroyer;
+/**
+* The implementation of the Death Star. <1>
+* @author Joe@empire.org <2>
+*/
+public class DeathStarImpl // <3>
+             implements DeathStarInterface // <4>
+{}
+----
+<1> Tells nothing more than the class signature
+<2> In internal projet, maybe rely on version control history
+<3> Of course it is an implementation
+<4> Of course it is an interface
+--
+
+[.notes]
+--
+* `@author` does not encourage collective code ownership
+--
+
+[.columns]
+=== Which is more readable?
+
+[.column]
+--
+image::assets/kevlin-henney-giving-code-a-good-name-exception.png["Exception class names suffixed with 'Exception'"]
+--
+
+[.column]
+--
+image::assets/kevlin-henney-giving-code-a-good-name.png["Removing 'Exception' suffix of exception class names does not reduce meaning, on the contrary"]
+--
+
+[.refs]
+--
+* https://www.youtube.com/watch?v=CzJ94TMPcD8[Giving code a good name - Kevlin Henney]
+--
+
+== Word Cloud
+
+[.refs]
+--
+* https://www.jasondavies.com/wordcloud/
+--
+
+=== Primitive obsession
+
+=== Domain Driven
+
+
+== Good Example (annotation)
+
+== Bad Example
+
+== Standard Documentation
+
+==
 
 // 7 Takeways
 // Who Im am
@@ -165,6 +238,18 @@ include::sections/from_manual_to_automated.adoc[]
 * Favor conversations and working together
 * Knowledge is mostly already there
 * Pay attention to the fr
+
+=== Begin with
+
+==== Reviewing the quality of your current documentation
+
+* Where is it? Multiple places? Duplicated?
+* Is it up to date?
+* How many authors of the last updates have left the team?
+* Does documentation explain?s _WHY_ or just _HOW_?
+* Can you trust the diagrams?
+* Is some knowledge redundant between the source and
+
 
 include::sections/takaway_automation_has_a_cost.adoc[]
 

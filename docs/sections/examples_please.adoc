@@ -1,0 +1,3 @@
+== Examples?
+
+image::assets/I_can_has_cheezburger_meme.jpeg[alt="I can has cheezburger happy cat meme",width=300]

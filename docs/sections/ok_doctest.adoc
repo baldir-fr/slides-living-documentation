@@ -1,3 +1,5 @@
+
+[.medium]
 == Doctest
 
 Python::
@@ -14,20 +16,32 @@ Go::
 * Sometimes your language proposes living documentation features out of the box
 * Write code snippets as a REPL command
 * Execute it as automated tests
+
+- 😀 Reliable
+- 😀 Low-Effort
+- 😐 Collaborative
+- 😀 Insightful
+
+* Internal
+* Single sourced
+* Audience
+** Developers
+
+* Insightful: if writing doctests is hard it may highlight side effects or complex functions
 --
 
 === Input (Python)
 
 [source,python]
 ----
-include::../../examples/doctest_python/sum.py[]
+include::../../examples/doctest/doctest_python/sum.py[]
 ----
 
 === Output (Doctest)
 
 [source,text]
 ----
-include::../../examples/doctest_python/sum_doctest_output.txt[]
+include::../../examples/doctest/doctest_python/sum_doctest_output.txt[]
 ----
 
 
@@ -35,14 +49,14 @@ include::../../examples/doctest_python/sum_doctest_output.txt[]
 
 [source,elixir]
 ----
-include::../../examples/doctest_elixir/lib/num.ex[]
+include::../../examples/doctest/doctest_elixir/lib/num.ex[]
 ----
 
 === Output (mix test)
 
 [source,text]
 ----
-include::../../examples/doctest_elixir/num_doctest_output.txt[]
+include::../../examples/doctest/doctest_elixir/num_doctest_output.txt[]
 ----
 
 
@@ -51,14 +65,14 @@ include::../../examples/doctest_elixir/num_doctest_output.txt[]
 
 [source,go]
 ----
-include::../../examples/documentation_test_rust/src/lib.rs[]
+include::../../examples/doctest/documentation_test_rust/src/lib.rs[]
 ----
 
 === Output (go test)
 
 [source,text]
 ----
-include::../../examples/documentation_test_rust/sum_doctest_output.txt[]
+include::../../examples/doctest/documentation_test_rust/sum_doctest_output.txt[]
 ----
 
 === Input (Go)
@@ -66,42 +80,18 @@ include::../../examples/documentation_test_rust/sum_doctest_output.txt[]
 .num.go
 [source,go]
 ----
-include::../../examples/exampletest_golang/num.go[]
+include::../../examples/doctest/exampletest_golang/num.go[]
 ----
 
 .num_test.go
 [source,go]
 ----
-include::../../examples/exampletest_golang/num_test.go[]
+include::../../examples/doctest/exampletest_golang/num_test.go[]
 ----
 
 === Output (go test)
 
 [source,text]
 ----
-include::../../examples/exampletest_golang/example_test-output.txt[]
+include::../../examples/doctest/exampletest_golang/example_test-output.txt[]
 ----
-
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 😀 Reliable
-- 😀 Low-Effort
-- 😐 Collaborative
-- 😀 Insightful
---
-
-[.column]
---
-* Internal
-* Single sourced
-* Audience
-** Developers
---
-
-[.notes]
---
-* Insightful: if writing doctests is hard it may highlight side effects or complex functions
---

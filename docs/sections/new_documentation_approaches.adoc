@@ -9,13 +9,36 @@ By Cyrille Martraire
 Published Jun 4, 2019 by Addison-Wesley Professional.]
 --
 
+[.small]
 == Helps...
 
-* Onboarding
+* Improving Onboarding Experience 🛥
 * Understanding systems and improving them
-* Communicating (less misunderstandings)
-* To focus on the right things
+* Communicating better (less misunderstandings) 🗣
+* To build the right things
 * Your team's morale
+* Against Truck factor anxiety 🚛
+* Reduce Turnover rate
+* Reduce Bugs because of knowledge ignorance
+* Reducing Time writing documentation
+* Reducing time to look for something in documentation
+* Reducing context switching
+...
+
+[.notes]
+--
+* truck factor: if people leaves, knowledge too
+--
+
+[%notitle]
+=== magic
+
+image::assets/magic-spongebob.gif[alt="Spongebob magic drawing a rainbox from it's hands meme"]
+
+[.refs]
+--
+* https://tenor.com/view/magic-spongebob-rainbow-gif-15431163
+--
 
 == Core Principles of Living Documentation
 

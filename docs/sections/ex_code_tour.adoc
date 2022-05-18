@@ -12,7 +12,7 @@
 
 === VsCode Code Tour Output
 
-* Json File
+* Json File (machine-readable)
 
 [source,json]
 ----
@@ -56,9 +56,9 @@ image::assets/vs-code-tour-demo.gif[alt="Animated demo of a guided tour using Vs
 
 === Custom Generated Output
 
-Site Code Tour Output File
+I made my own!
 
-image::assets/Custom-VsCode-Output.png[alt="A WebSite Generated From the Json file output of the VsCode Code Tour extension"]
+image::assets/Custom-VsCode-Output.png[alt="A WebSite Generated From the Json file output of the VsCode Code Tour extension",width=700]
 
 [.refs]
 --

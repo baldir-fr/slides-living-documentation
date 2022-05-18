@@ -64,7 +64,6 @@ include::sections/internal_doc.adoc[]
 include::sections/ok_interlude_01.adoc[]
 include::sections/examples_please.adoc[]
 
-
 include::sections/ex_wiki_as_code.adoc[]
 
 include::sections/ok_diagram_as_code.adoc[]
@@ -75,8 +74,8 @@ include::sections/interlude_02.adoc[]
 
 include::sections/ok_accessibility_audit_as_code.adoc[]
 include::sections/ok_code_analysis.adoc[]
-include::sections/ok_technology_radar.adoc[]
 include::sections/ok_architecture_decisions_records.adoc[]
+include::sections/ok_technology_radar.adoc[]
 include::sections/ex_code_tour.adoc[]
 
 include::sections/interlude_03.adoc[]

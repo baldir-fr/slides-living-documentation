@@ -6,23 +6,26 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] [Use case  an awesome onboarding](tasks/Use%20case%20%20an%20awesome%20onboarding.md)
-- [ ] [Use case du monde idéal.](tasks/Use%20case%20du%20monde%20idéal..md)
-- [ ] [Automated tests](tasks/Automated%20tests.md)
-- [ ] REST Api documentation as code (annotations)
-- [ ] [API docs + tests](tasks/API%20docs%20+%20tests.md)
-- [ ] openapi
-- [ ] [Tools against code](tasks/Tools%20against%20code.md)
-- [ ] Word cloud
+- [ ] Move attributes to notes
+- [ ] Order examples
+- [ ] Focus example on the first page scroll left
 
 
 ## Doing
 
-- [ ] [Use case  awful onboarding](tasks/Use%20case%20%20awful%20onboarding.md)
 
 
 ## Done
 
+- [ ] [Use case  awful onboarding](tasks/Use%20case%20%20awful%20onboarding.md)
+- [ ] Word cloud
+- [ ] [Tools against code](tasks/Tools%20against%20code.md)
+- [ ] openapi
+- [ ] [Automated tests](tasks/Automated%20tests.md)
+- [ ] [API docs + tests](tasks/API%20docs%20+%20tests.md)
+- [ ] REST Api documentation as code (annotations)
+- [ ] [Use case du monde idéal.](tasks/Use%20case%20du%20monde%20idéal..md)
+- [ ] [Use case  an awesome onboarding](tasks/Use%20case%20%20an%20awesome%20onboarding.md)
 - [ ] [The principles   reliable, collaborative, low effort, insightful](tasks/The%20principles%20%20%20reliable,%20collaborative,%20low%20effort,%20insightful.md)
 - [ ] [Code Analysis](tasks/Code%20is%20documentation.md)
 - [ ] [Living diagram](tasks/Living%20diagram.md)

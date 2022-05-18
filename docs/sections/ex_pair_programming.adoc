@@ -3,23 +3,13 @@
 image:assets/pair-programming.png[alt=Pair programming,width=500]
 
 
-[.columns.medium]
-=== Attributes
-
-[.column]
+[.notes]
 --
 - 😀🙂😐🙁😱 Reliable
 - 😀🙂😐🙁😱 Low-Effort
 - 😀🙂😐🙁😱 Collaborative
 - 😀🙂😐🙁😱 Insightful
---
 
-[.notes]
---
---
-
-[.column]
---
 * Internal
 * Single sourced
 * Audience

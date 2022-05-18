@@ -63,9 +63,12 @@ include::sections/internal_doc.adoc[]
 
 include::sections/ok_interlude_01.adoc[]
 include::sections/examples_please.adoc[]
-include::sections/ok_api_contracts_and_tests.adoc[]
+
+
+include::sections/ex_wiki_as_code.adoc[]
+
 include::sections/ok_diagram_as_code.adoc[]
-include::sections/ok_docker-compose-to-diagram.adoc[]
+
 include::sections/ok_doctest.adoc[]
 
 include::sections/interlude_02.adoc[]
@@ -88,9 +91,14 @@ include::sections/interlude_04.adoc[]
 // Insightful -> may allow you to see your modules bounded contexts are not right
 // Low-Effort -> Automation can generate accurate published documentation
 
-include::sections/ex_code_review.adoc[]
 
-include::sections/ex_declarative_infrastructure.adoc[]
+// Conversations
+include::sections/ex_coffee_machine_conversations.adoc[]
+include::sections/ex_code_review.adoc[]
+include::sections/ex_pair_programming.adoc[]
+include::sections/ex_mob_programming.adoc[]
+include::sections/ex_3_amigos.adoc[]
+
 include::sections/ex_dsl.adoc[]
 include::sections/ex_frontend_documentation.adoc[]
 
@@ -98,12 +106,11 @@ include::sections/ok_your_code_as_a_crimescene.adoc[]
 include::sections/interlude_06.adoc[]
 include::sections/ex_javadoc_code_snippets.adoc[]
 include::sections/ex_living_glossary.adoc[]
-include::sections/ex_mob_programming.adoc[]
+
 include::sections/ex_notebooks.adoc[]
 
 include::sections/interlude_06.adoc[]
 
-include::sections/ex_pair_programming.adoc[]
 include::sections/ex_presentation_as_code.adoc[]
 include::sections/ex_tests_as_documentation.adoc[]
 
@@ -115,12 +122,17 @@ include::sections/ex_vcs_based_documentation.adoc[]
 include::sections/interlude_08.adoc[]
 
 
-include::sections/ex_wiki_as_code.adoc[]
+include::sections/ex_declarative_infrastructure.adoc[]
+include::sections/ok_docker-compose-to-diagram.adoc[]
+
 
 include::sections/living_onboarding.adoc[]
 include::sections/vcs_as_knowledge_source.adoc[]
 include::sections/ok_your_tools_and_ide_features.adoc[]
 include::sections/from_manual_to_automated.adoc[]
+
+include::sections/ok_api_contracts_and_tests.adoc[]
+
 
 == Convention
 
@@ -237,7 +249,6 @@ image::assets/kevlin-henney-giving-code-a-good-name.png["Removing 'Exception' su
 
 * Favor conversations and working together
 * Knowledge is mostly already there
-* Pay attention to the fr
 
 === Begin with
 

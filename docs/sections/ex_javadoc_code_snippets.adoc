@@ -25,7 +25,7 @@ include::../../examples/doctest/executable-javadoc-code-snippets/src/test/java/s
 
 === Output
 
-image:../examples/doctest/executable-javadoc-code-snippets/docs/assets/101_generated_javadoc_result.png[]
+image:../../examples/doctest/executable-javadoc-code-snippets/docs/assets/101_generated_javadoc_result.png[]
 
 [.columns]
 === Qualités

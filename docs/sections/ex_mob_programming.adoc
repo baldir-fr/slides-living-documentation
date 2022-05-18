@@ -1,25 +1,14 @@
 === Mob programming
 
-image:assets/mob-programming.png[alt=Mob programming,width=500
+image::assets/mob-programming.png[alt=Mob programming,width=500
 
-
-[.columns.medium]
-=== Attributes
-
-[.column]
+[.notes]
 --
 - 😀🙂😐🙁😱 Reliable
 - 😀🙂😐🙁😱 Low-Effort
 - 😀🙂😐🙁😱 Collaborative
 - 😀🙂😐🙁😱 Insightful
---
 
-[.notes]
---
---
-
-[.column]
---
 * Internal
 * Single sourced
 * Audience

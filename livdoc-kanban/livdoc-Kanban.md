@@ -6,27 +6,28 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] List of knowledge that's already there
-- [ ] [The principles   reliable, collaborative, low effort, insightful](tasks/The%20principles%20%20%20reliable,%20collaborative,%20low%20effort,%20insightful.md)
-- [ ] [Use case  awful onboarding](tasks/Use%20case%20%20awful%20onboarding.md)
 - [ ] [Use case  an awesome onboarding](tasks/Use%20case%20%20an%20awesome%20onboarding.md)
+- [ ] [Use case du monde idéal.](tasks/Use%20case%20du%20monde%20idéal..md)
 - [ ] [Automated tests](tasks/Automated%20tests.md)
 - [ ] REST Api documentation as code (annotations)
 - [ ] [API docs + tests](tasks/API%20docs%20+%20tests.md)
 - [ ] openapi
-- [ ] [Living diagram](tasks/Living%20diagram.md)
 - [ ] [Tools against code](tasks/Tools%20against%20code.md)
 - [ ] Word cloud
-- [ ] Your code as a crime scene
 
 
 ## Doing
 
+- [ ] [Use case  awful onboarding](tasks/Use%20case%20%20awful%20onboarding.md)
 
 
 ## Done
 
+- [ ] [The principles   reliable, collaborative, low effort, insightful](tasks/The%20principles%20%20%20reliable,%20collaborative,%20low%20effort,%20insightful.md)
 - [ ] [Code Analysis](tasks/Code%20is%20documentation.md)
+- [ ] [Living diagram](tasks/Living%20diagram.md)
+- [ ] List of knowledge that's already there
+- [ ] Your code as a crime scene
 - [ ] [Technology radar](tasks/Technology%20radar.md)
 - [ ] [Frago](tasks/Frago.md)
 - [ ] Gitlab analytics

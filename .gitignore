@@ -13,3 +13,5 @@
 .obsidian
 **/.obsidian
 /livdoc-kanban/.obsidian/
+
+**.DS_Store

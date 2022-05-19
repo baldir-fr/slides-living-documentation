@@ -1,1 +1,5 @@
-== 3 amigos
+
+=== 3 amigos
+
+
+image::assets/3-amigos.jpeg[alt="Drawing : 3 Amigos. An informal meeting between Business Tester and Developper to define a feature by discovering concrete examples and dataset to verify them.", width=700]

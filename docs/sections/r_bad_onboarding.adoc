@@ -207,7 +207,7 @@ So now we do mostly end 2 end tests. They are flaky sometimes so we added sleeps
 
 === The rewards of hard work
 
-[%step
+[%step]
 * "Worth the effort, it tests some behavior"
 * Business complaints about human readability
 ** Click
@@ -225,12 +225,13 @@ Colleague: yea, this one has been changed by a new user story. You are lucky you
 
 === Featuring...
 
-[%step
+[%step]
 * What are the features?
 * "I do caching related stuff, and some DB related stuff"
 * But Business features
 * "We have user stories in Jira tickets, it's all there"
 
+[%step]
 ...
 
 [.notes]

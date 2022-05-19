@@ -1,3 +1,5 @@
+
+[background-color="#013606"]
 == Living Documentation
 
 image::assets/book_living_documentation_cover.png[alt="Living Documentation Book Cover", width=360]
@@ -10,7 +12,7 @@ Published Jun 4, 2019 by Addison-Wesley Professional.]
 --
 
 [.small]
-== Helps...
+=== Helps...
 
 * Improving Onboarding Experience 🛥
 * Understanding systems and improving them
@@ -31,7 +33,7 @@ Published Jun 4, 2019 by Addison-Wesley Professional.]
 --
 
 [%notitle]
-=== magic
+== magic
 
 image::assets/magic-spongebob.gif[alt="Spongebob magic drawing a rainbox from it's hands meme"]
 
@@ -40,6 +42,7 @@ image::assets/magic-spongebob.gif[alt="Spongebob magic drawing a rainbox from it
 * https://tenor.com/view/magic-spongebob-rainbow-gif-15431163
 --
 
+[background-color="#013606"]
 == Core Principles of Living Documentation
 
 * *Reliable*

@@ -1,0 +1,3 @@
+=== Coffee machine talks
+
+image::assets/coffee_machine_talk.jpeg[alt="Drawing of a developper talking with an user at the coffee machine", width=600]

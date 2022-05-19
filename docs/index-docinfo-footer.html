@@ -88,4 +88,11 @@
     function easterEgg(){
         document.querySelector('#easter-egg').src="https://gitlab.com/marc-bouvier-sandbox/easter-eggs/-/raw/main/pres-as-code.jpg?" + new Date().getTime();
     }
+
+    function easterEggAgileTour(){
+        document.querySelector('.agile-tour-strasbourg-logo img').src="assets/agile-tour-strasbourg/atsxbsmall-2021-and-half.png?" + new Date().getTime();
+    }
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector('.agile-tour-strasbourg-logo').addEventListener("click",easterEggAgileTour)
+    });
 </script>

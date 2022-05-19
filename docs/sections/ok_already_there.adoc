@@ -1,3 +1,4 @@
+[background-color="#013606"]
 == It's already there!
 
 [.notes]
@@ -7,42 +8,29 @@
 ** can be augmented and published
 --
 
-[.columns]
-=== From markdown ...
+[background-color="#013606"]
+=== Source Code
 
-[.column]
---
-Raw Markdown
+* File names
+* Classes, functions, variables names
+* Folder arborescence
 
-image::assets/raw_markdown.png[alt="raw markdown"]
+[background-color="#013606"]
+=== Test Code
 
---
+* Automated tests
+** File names
+** Tests names
+** Tests methods names
+** Tests datasets
 
-[.column]
---
-Rendered
+[background-color="#013606"]
+=== Colleagues
 
-image::assets/github_rendered_markdown.png[alt="Github / Gitlab rendered markdown"]
---
+* Conversations
+* On their machine
 
-[.refs]
---
-* https://github.com/rlemaire/bookmarks-green-it
-* https://github.com/rlemaire/bookmarks-green-it/edit/master/README.md
---
-
-=== ... To Webpage
-
-Published as Static site
-
-image::assets/github_pages_published_markdown.png[alt="Gitlab/Github Pages publication", width=500]
-
-[.refs]
---
-* https://pages.github.com/[Github pages]
-* https://docs.gitlab.com/ee/user/project/pages/[Gitlab Pages]
-* https://rlemaire.github.io/bookmarks-green-it/
---
+[background-color="#013606"]
 === Code documentation : Java
 
 * Javadoc
@@ -54,6 +42,7 @@ image::assets/github_pages_published_markdown.png[alt="Gitlab/Github Pages publi
 * Please download documentation from your dependencies
 --
 
+[background-color="#013606"]
 === Code documentation : Dotnet
 
 * Xml documentation
@@ -66,6 +55,7 @@ image::assets/github_pages_published_markdown.png[alt="Gitlab/Github Pages publi
 * link:https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/[Language reference : Xml Doc]
 --
 
+[background-color="#013606"]
 === Code documentation : JS / TS
 
 * Jsdoc
@@ -76,12 +66,15 @@ image::assets/github_pages_published_markdown.png[alt="Gitlab/Github Pages publi
 --
 * link:https://jsdoc.app/[JsDoc website]
 --
+
+[background-color="#013606"]
 === Dependencies Manifests
 
 * Java : Maven / Gradle
 * Js/TS : package.json
 * Dotnet : .csproj .fsproj or .vbproj
 
+[background-color="#013606"]
 === Infrastructure Configuration
 
 * docker-compose.yml
@@ -89,37 +82,27 @@ image::assets/github_pages_published_markdown.png[alt="Gitlab/Github Pages publi
 * Terraform
 * Ansible
 
+[background-color="#013606"]
 === Pipeline configuration
 
 * .gitlab-ci.yml
 * Github Actions
 
-=== Source Code
-
-* File names
-* Classes, functions, variables names
-* Folder arborescence
-
-=== Test Code
-
-* Automated tests
-** File names
-** Tests names
-** Tests methods names
-** Tests datasets
-
+[background-color="#013606"]
 === The product itself
 
 * UX
 * Help section
 * Tooltips
 
+[background-color="#013606"]
 === Monitoring and traces
 
 * Exceptions & errors traces
 * Database logs
 * Ticket / Bugs backlog
 
+[background-color="#013606"]
 === Tooling outputs
 
 * git history

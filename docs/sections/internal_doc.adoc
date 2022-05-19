@@ -1,8 +1,11 @@
 
+[background-color="#013606"]
 == What is Documentation?
 
-* Sharing knowledge
+[%step]
+Sharing knowledge
 
+[background-color="#013606"]
 === When?
 
 * Knowledge needed for a long period of time -> Documented
@@ -11,6 +14,7 @@
 * Default -> Don't
 
 
+[background-color="#013606"]
 [.columns]
 === Generic Knowledge
 
@@ -32,7 +36,7 @@
 ** -> Industry standard books
 --
 
-
+[background-color="#013606"]
 [.columns]
 === Good news everyone!
 
@@ -54,6 +58,7 @@ The Generic Knowledge is already documented in the industry literature.
 * ...
 --
 
+[background-color="#013606"]
 === Focus on specific knowledge
 
 * Knowledge your organization has and is not (yet) shared with other peers in the same industry.
@@ -67,6 +72,8 @@ The Generic Knowledge is already documented in the industry literature.
 --
 As a professional, you should know enough of the generic, industry standard knowledge, in order to be able to focus on growing the knowledge that's specific to you particular ambitions.
 --
+
+[background-color="#013606"]
 [.columns]
 === Stable/Unstable
 
@@ -88,33 +95,34 @@ Not Stable
 * Design decisions
 --
 
-
-=== Stable • Evergreen document
-
-Useful content for a long period of time
-
-* Short with not much details
-* High Level focus
-* Goals and intention (not implementaion details)
-* More business oriented that technical
-
-[%step]
-Here traditional documentation is OK 👍
-
-
-[.notes]
---
-* Evergreen : Ce qui est stable = ce qui est toujours vrai
---
-
+[background-color="#013606"]
 === How to deal with Stable/Unstable?
 
 Stable:: Learn & refer to it
 Unstable:: Automate it as much as possible when it is useful
 
-== Internal Documentation
+[background-color="#013606"]
+[.columns]
+== Internal vs External
 
-Internal vs External
+[.column]
+--
+Internal
+
+* Code
+* Tests
+* Manifests
+* Wiki as code
+--
+
+[.column]
+--
+External
+
+* External Wiki
+* Ms Office documents
+* Project management tools
+--
 
 [.notes]
 --
@@ -126,8 +134,9 @@ Internal vs External
 ** Machine-Readable
 --
 
+[background-color="#013606"]
 [.medium]
-=== Problems with this knowledge
+=== Problems with Internal Knowledge
 
 * Not accessible
 * To many (noise)
@@ -149,40 +158,21 @@ Augment it, make it accessible for it's audience.
 * Unwritten: in someone's brain and only the consequences are in the system...
 --
 
-=== Single sourced
+=== Stable • Evergreen document
 
-WIP TODO
+Useful content for a long period of time
 
-[.notes]
---
-* Single sourced = DRY de la doc
-** On veut garantir qu'il y a une source unique pour une connaissance. Les représentations de cette connaissance devraient découler de cette source.
---
+* Short with not much details
+* High Level focus
+* Goals and intention (not implementaion details)
+* More business oriented that technical
 
-[.columns]
-=== Relability • Refactor Friendly
+[%step]
+Here traditional documentation is OK 👍
 
-[.column]
---
-* Put together things that change together (including documentation)
-* Use code or language features to enable refactoring tooling
---
-
-[.column]
---
-++++
-<iframe src='https://gfycat.com/ifr/PlushFeistyCondor' frameborder='0' scrolling='no' allowfullscreen width='250' height='450'></iframe>
-++++
---
-
-[.refs]
---
-https://gfycat.com/ifr/PlushFeistyCondor
---
 
 [.notes]
 --
-* Code is refactor friendly
-* Renaming a class name in code in duplcated everywhere but tool help doing it seamlessly
+* Evergreen : Ce qui est stable = ce qui est toujours vrai
 --
 

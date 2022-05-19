@@ -1,0 +1,39 @@
+
+
+=== Single sourced
+
+WIP TODO
+
+[.notes]
+--
+* Single sourced = DRY de la doc
+** On veut garantir qu'il y a une source unique pour une connaissance. Les représentations de cette connaissance devraient découler de cette source.
+--
+
+[.columns]
+=== Relability • Refactor Friendly
+
+[.column]
+--
+* Put together things that change together (including documentation)
+* Use code or language features to enable refactoring tooling
+--
+
+[.column]
+--
+++++
+<iframe src='https://gfycat.com/ifr/PlushFeistyCondor' frameborder='0' scrolling='no' allowfullscreen width='250' height='450'></iframe>
+++++
+--
+
+[.refs]
+--
+https://gfycat.com/ifr/PlushFeistyCondor
+--
+
+[.notes]
+--
+* Code is refactor friendly
+* Renaming a class name in code in duplcated everywhere but tool help doing it seamlessly
+--
+

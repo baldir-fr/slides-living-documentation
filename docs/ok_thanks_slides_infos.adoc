@@ -2,6 +2,13 @@
 [.columns]
 == Thank You!
 
+
+[.column]
+--
+[.agile-tour-strasbourg-logo]
+image::assets/agile-tour-strasbourg/atsxbsmall-2021.png[alt="Agile Tour Strasbourg 2021 Logo", width="160"]
+--
+
 [.column]
 --
 
@@ -17,6 +24,8 @@ https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
 image::assets/qrcode_u.baldir.fr_AT2021LD.png[alt="QR Code vers le lien de la présentation",width=400]
 
 https://u.baldir.fr/at-2021-ld[u.baldir.fr/at-2021-ld]
+
+
 
 --
 

@@ -1,6 +1,7 @@
+
 === Mob programming
 
-image::assets/mob-programming.png[alt=Mob programming,width=500
+image::assets/mob-programming.png[alt=Mob programming,width=850]
 
 [.notes]
 --

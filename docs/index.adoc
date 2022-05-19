@@ -40,10 +40,39 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 ** F: fullscreen -> Esc : exit fullscreen
 --
 
+[background-color="#30030d"]
+[.columns.is-vcentered]
+== Thanks
+
+[.column]
+--
+[.agile-tour-strasbourg-logo]
+image::assets/agile-tour-strasbourg/atsxbsmall-2021.png[alt="Agile Tour Strasbourg 2021 Logo", width="160"]
+
+--
+
+[.column]
+--
+image::assets/agile-tour-strasbourg/elsassjug.jpeg[width="160"]
+
+image::assets/agile-tour-strasbourg/agLy1l_j_400x400.jpeg[width="160"]
+--
+
+[.column]
+--
+
+image::assets/agile-tour-strasbourg/logo-sfeir.png[width="160"]
+
+image::assets/agile-tour-strasbourg/logoyggval.png[width="160"]
+
+image::assets/agile-tour-strasbourg/reboot-logo-primary-lighter.png[width="160"]
+--
+
 include::sections/z_who_am_I.adoc[]
 
 include::sections/ok_first_some_questions.adoc[]
 
+[background-color="#051746"]
 == Agenda
 
 . The Story of an onboarding
@@ -56,9 +85,9 @@ include::sections/r_bad_onboarding.adoc[]
 
 include::sections/the_problem_with_traditional_documentation.adoc[]
 
-include::sections/new_documentation_approaches.adoc[]
-include::sections/ok_already_there.adoc[]
 include::sections/internal_doc.adoc[]
+include::sections/ok_already_there.adoc[]
+include::sections/new_documentation_approaches.adoc[]
 
 include::sections/ok_interlude_01.adoc[]
 include::sections/examples_please.adoc[]
@@ -91,11 +120,7 @@ include::sections/interlude_04.adoc[]
 
 
 // Conversations
-include::sections/ex_coffee_machine_conversations.adoc[]
-include::sections/ex_code_review.adoc[]
-include::sections/ex_pair_programming.adoc[]
-include::sections/ex_mob_programming.adoc[]
-include::sections/ex_3_amigos.adoc[]
+include::sections/from_conversations.adoc[]
 
 include::sections/ex_dsl.adoc[]
 include::sections/ex_frontend_documentation.adoc[]
@@ -119,7 +144,7 @@ include::sections/ex_vcs_based_documentation.adoc[]
 
 include::sections/interlude_08.adoc[]
 
-
+include::sections/ex_markdown_readme.adoc[]
 include::sections/ex_declarative_infrastructure.adoc[]
 include::sections/ok_docker-compose-to-diagram.adoc[]
 

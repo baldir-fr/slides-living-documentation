@@ -1,0 +1,7 @@
+== Conversations
+
+include::ex_cofee_machine_talks.adoc[]
+include::ex_code_review.adoc[]
+include::ex_pair_programming.adoc[]
+include::ex_mob_programming.adoc[]
+include::ex_3_amigos.adoc[]

@@ -1,25 +1,37 @@
 
-[.columns]
+[background-color="#30030d"]
+[.columns.is-vcentered]
 == Thank You!
 
 
 [.column]
 --
-[.agile-tour-strasbourg-logo]
-image::assets/agile-tour-strasbourg/atsxbsmall-2021.png[alt="Agile Tour Strasbourg 2021 Logo", width="160"]
+[.agile-tour-strasbourg-logo2]
+image::assets/agile-tour-strasbourg/atsxbsmall-2021.png[alt="Agile Tour Strasbourg 2021 Logo", width="140"]
+image::assets/agile-tour-strasbourg/elsassjug.jpeg[width="140"]
+image::assets/agile-tour-strasbourg/agLy1l_j_400x400.jpeg[width="140"]
 --
 
 [.column]
+--
+
+image::assets/agile-tour-strasbourg/logo-sfeir.png[width="140"]
+image::assets/agile-tour-strasbourg/logoyggval.png[width="140"]
+image::assets/agile-tour-strasbourg/reboot-logo-primary-lighter.png[width="140"]
+
+--
+
+[.column.medium]
 --
 
 https://u.baldir.fr/me[u.baldir.fr/me]
 
-image:assets/CC-BY_icon.svg[alt="CC-BY-4.0",width=150]
+image:assets/CC-BY_icon.svg[alt="CC-BY-4.0",width=120]
 
 https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
 --
 
-[.column]
+[.column.medium]
 --
 image::assets/qrcode_u.baldir.fr_AT2021LD.png[alt="QR Code vers le lien de la présentation",width=400]
 

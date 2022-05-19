@@ -1,0 +1,1 @@
+grep -o -E '\w+' text.txt

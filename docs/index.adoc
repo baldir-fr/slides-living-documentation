@@ -40,35 +40,8 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 ** F: fullscreen -> Esc : exit fullscreen
 --
 
-[background-color="#30030d"]
-[.columns.is-vcentered]
-== Thanks
-
-[.column]
---
-[.agile-tour-strasbourg-logo]
-image::assets/agile-tour-strasbourg/atsxbsmall-2021.png[alt="Agile Tour Strasbourg 2021 Logo", width="160"]
-
---
-
-[.column]
---
-image::assets/agile-tour-strasbourg/elsassjug.jpeg[width="160"]
-
-image::assets/agile-tour-strasbourg/agLy1l_j_400x400.jpeg[width="160"]
---
-
-[.column]
---
-
-image::assets/agile-tour-strasbourg/logo-sfeir.png[width="160"]
-
-image::assets/agile-tour-strasbourg/logoyggval.png[width="160"]
-
-image::assets/agile-tour-strasbourg/reboot-logo-primary-lighter.png[width="160"]
---
-
-include::sections/z_who_am_I.adoc[]
+include::thanks-agile-tour-strasbourg.adoc[]
+include::sections/who_am_I.adoc[]
 
 include::sections/ok_first_some_questions.adoc[]
 
@@ -96,73 +69,16 @@ include::sections/ex_wiki_as_code.adoc[]
 
 include::sections/ok_diagram_as_code.adoc[]
 
-include::sections/ok_doctest.adoc[]
+== Source Code Itself
 
-include::sections/interlude_02.adoc[]
-
-include::sections/ok_accessibility_audit_as_code.adoc[]
-include::sections/ok_code_analysis.adoc[]
-include::sections/ok_architecture_decisions_records.adoc[]
-include::sections/ok_technology_radar.adoc[]
-include::sections/ex_code_tour.adoc[]
-
-include::sections/interlude_03.adoc[]
-
-== Next are to be ordered
-
-include::sections/interlude_04.adoc[]
-
-// TODO: BDD and Features
-// 3 amigos -> conversations / common language -> Collaborative
-// Gherkin + Reconciliation mechanism -> Reliable
-// Insightful -> may allow you to see your modules bounded contexts are not right
-// Low-Effort -> Automation can generate accurate published documentation
-
-
-// Conversations
-include::sections/from_conversations.adoc[]
-
-include::sections/ex_dsl.adoc[]
-include::sections/ex_frontend_documentation.adoc[]
-
-include::sections/ok_your_code_as_a_crimescene.adoc[]
-include::sections/interlude_06.adoc[]
-include::sections/ex_javadoc_code_snippets.adoc[]
-include::sections/ex_living_glossary.adoc[]
-
-include::sections/ex_notebooks.adoc[]
-
-include::sections/interlude_06.adoc[]
-
-include::sections/ex_presentation_as_code.adoc[]
-include::sections/ex_tests_as_documentation.adoc[]
-
-include::sections/interlude_07.adoc[]
-
-include::sections/ex_tools_history.adoc[]
-include::sections/ex_vcs_based_documentation.adoc[]
-
-include::sections/interlude_08.adoc[]
-
-include::sections/ex_markdown_readme.adoc[]
-include::sections/ex_declarative_infrastructure.adoc[]
-include::sections/ok_docker-compose-to-diagram.adoc[]
-
-
-include::sections/living_onboarding.adoc[]
-include::sections/vcs_as_knowledge_source.adoc[]
-include::sections/ok_your_tools_and_ide_features.adoc[]
-include::sections/from_manual_to_automated.adoc[]
-
-include::sections/ok_api_contracts_and_tests.adoc[]
-
-
-== Convention
+=== Conventions, Idioms
 
 
 == Redundant information in naming
 
-=== Repeating names of language constructs
+=== Reduce useless noise
+
+Repeated informations
 
 [.medium]
 --
@@ -206,85 +122,100 @@ image::assets/kevlin-henney-giving-code-a-good-name.png["Removing 'Exception' su
 * https://www.youtube.com/watch?v=CzJ94TMPcD8[Giving code a good name - Kevlin Henney]
 --
 
-== Word Cloud
+=== Domain Driven Design
+
+* Ubiquitous Language
+
+== Test Code
+
+== Tools to get insight from code
+
+=== Word Cloud
+
+Generate a word Cloud from your code
+
+[%step]
+* Do you see mainly domain related names?
+* Or technical related names?
 
 [.refs]
 --
 * https://www.jasondavies.com/wordcloud/
 --
 
-=== Primitive obsession
-
-=== Domain Driven
 
 
-== Good Example (annotation)
 
-== Bad Example
+== Embedded learning
 
-== Standard Documentation
+=== Good Example (annotation)
 
-==
+=== Bad Example
 
-// 7 Takeways
-// Who Im am
-== Takeways
+include::sections/ok_doctest.adoc[]
+include::sections/ex_javadoc_code_snippets.adoc[]
+
+include::sections/interlude_02.adoc[]
+
+include::sections/ok_accessibility_audit_as_code.adoc[]
+include::sections/ok_code_analysis.adoc[]
+include::sections/ok_architecture_decisions_records.adoc[]
+include::sections/ok_technology_radar.adoc[]
+include::sections/ex_code_tour.adoc[]
+
+include::sections/interlude_03.adoc[]
+
+== Next are to be ordered
+
+include::sections/interlude_04.adoc[]
+
+// TODO: BDD and Features
+// 3 amigos -> conversations / common language -> Collaborative
+// Gherkin + Reconciliation mechanism -> Reliable
+// Insightful -> may allow you to see your modules bounded contexts are not right
+// Low-Effort -> Automation can generate accurate published documentation
 
 
-=== Documentation is Knowledge
+// Conversations
+include::sections/from_conversations.adoc[]
 
-[.colums]
-=== Core Principles of Living Documentation
+include::sections/ex_dsl.adoc[]
+include::sections/ex_frontend_documentation.adoc[]
 
-[.column]
---
-* Reliable
-* Low effort
-* Collaborative
-* Insightful
---
+include::sections/ok_your_code_as_a_crimescene.adoc[]
+include::sections/interlude_06.adoc[]
+include::sections/ex_living_glossary.adoc[]
 
-[.column]
---
+include::sections/ex_notebooks.adoc[]
 
---
+include::sections/interlude_06.adoc[]
 
-[.refs]
---
+include::sections/ex_presentation_as_code.adoc[]
+include::sections/ex_tests_as_documentation.adoc[]
 
---
+include::sections/interlude_07.adoc[]
 
-[.notes]
---
-* Fiable
-* Nécessite peu d'effort
-* Collaborative
-* Révélatrice
---
+include::sections/ex_tools_history.adoc[]
+include::sections/ex_vcs_based_documentation.adoc[]
 
-=== Learn...
+include::sections/interlude_08.adoc[]
 
-* Your languages
-* Your tools and what they can produce
-* Generic knowledge
+include::sections/ex_markdown_readme.adoc[]
+include::sections/ex_declarative_infrastructure.adoc[]
+include::sections/ok_docker-compose-to-diagram.adoc[]
 
-=== Remember
 
-* Favor conversations and working together
-* Knowledge is mostly already there
+include::sections/living_onboarding.adoc[]
+include::sections/vcs_as_knowledge_source.adoc[]
+include::sections/ok_your_tools_and_ide_features.adoc[]
+include::sections/from_manual_to_automated.adoc[]
 
-=== Begin with
+include::sections/ok_api_contracts_and_tests.adoc[]
 
-==== Reviewing the quality of your current documentation
 
-* Where is it? Multiple places? Duplicated?
-* Is it up to date?
-* How many authors of the last updates have left the team?
-* Does documentation explain?s _WHY_ or just _HOW_?
-* Can you trust the diagrams?
-* Is some knowledge redundant between the source and
-
+include::takaways.adoc[]
 
 include::sections/takaway_automation_has_a_cost.adoc[]
 
+include::questions.adoc[]
 include::ok_thanks_slides_infos.adoc[]

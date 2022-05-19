@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <plugin.livingdoc-maven-plugin.version>0.3</plugin.livingdoc-maven-plugin.version>
   </properties>
 
   <dependencies>
@@ -95,6 +96,47 @@
           </execution>
         </executions>
       </plugin>
+        <plugin>
+            <groupId>io.github.livingdocumentation</groupId>
+            <artifactId>livingdoc-maven-plugin</artifactId>
+            <version>${plugin.livingdoc-maven-plugin.version}</version>
+            <executions>
+                <execution>
+                    <id>wordcloud</id>
+                    <phase>generate-resources</phase>
+                    <goals>
+                        <goal>wordcloud</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <includes>
+                    <include>**/packagenamingpackage/**/*.java</include>
+                </includes>
+                <excludes>
+                    <exclude>**/annotations/**</exclude>
+                    <exclude>**/package-info.java</exclude>
+                </excludes>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-remote-resources-plugin</artifactId>
+            <version>1.5</version>
+            <configuration>
+                <resourceBundles>
+                    <resourceBundle>io.github.livingdocumentation:shared-resources:${plugin.livingdoc-maven-plugin.version}</resourceBundle>
+                </resourceBundles>
+                <outputDirectory>target/generated-docs</outputDirectory>
+            </configuration>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>process</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
     </plugins>
   </build>
 

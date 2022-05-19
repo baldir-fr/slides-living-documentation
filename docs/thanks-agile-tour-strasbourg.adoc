@@ -1,0 +1,28 @@
+
+[background-color="#30030d"]
+[.columns.is-vcentered]
+== Thanks
+
+[.column]
+--
+[.agile-tour-strasbourg-logo]
+image::assets/agile-tour-strasbourg/atsxbsmall-2021.png[alt="Agile Tour Strasbourg 2021 Logo", width="160"]
+
+--
+
+[.column]
+--
+image::assets/agile-tour-strasbourg/elsassjug.jpeg[width="160"]
+
+image::assets/agile-tour-strasbourg/agLy1l_j_400x400.jpeg[width="160"]
+--
+
+[.column]
+--
+
+image::assets/agile-tour-strasbourg/logo-sfeir.png[width="160"]
+
+image::assets/agile-tour-strasbourg/logoyggval.png[width="160"]
+
+image::assets/agile-tour-strasbourg/reboot-logo-primary-lighter.png[width="160"]
+--

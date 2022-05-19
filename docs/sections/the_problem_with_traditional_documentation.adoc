@@ -9,7 +9,7 @@
 * Versioning hell
 
 [background-color="#013606"]
-[.columns]
+[.columns.is-vcentered]
 === Separate activities
 
 [.column.has-text-right]
@@ -47,8 +47,6 @@ Even in Agile teams!
 
 [background-color="#013606"]
 === Manual transcription
-
-==== It's not fun
 
 .Developer trying to layout code in MS Office
 [.stretch]

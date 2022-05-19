@@ -1,9 +1,7 @@
-=== Notebooks
 
-[NOTE]
-====
+== Notebooks
+
 Mix markup and code and you obtain interactive notebooks
-====
 
 * https://jupyter.org/[Jupyter Notebooks]
 * https://livebook.dev/[Elixir Livebook]
@@ -13,28 +11,8 @@ Mix markup and code and you obtain interactive notebooks
 Very cool for learning & visual representations
 --
 
+=== Input / Output
 
-[.columns.medium]
-=== Attributes
+Mixed Markdown and code
 
-[.column]
---
-- 😀🙂😐🙁😱 Reliable
-- 😀🙂😐🙁😱 Low-Effort
-- 😀🙂😐🙁😱 Collaborative
-- 😀🙂😐🙁😱 Insightful
---
-
-[.notes]
---
---
-
-[.column]
---
-* Internal
-* Single sourced
-* Audience
-** Stakeholders
-** Regulators
-** Developers
---
+image::assets/jupyter-notebook.png[width=600,alt="Screenshot of an Jupyter Notebook mixing markdown sections, python code and data vizualisation"]

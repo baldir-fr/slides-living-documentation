@@ -6,12 +6,25 @@
 Sharing knowledge
 
 [background-color="#013606"]
+[.medium]
 === When?
 
-* Knowledge needed for a long period of time -> Documented
-* Knowledge needed by a large number of people -> Documented
-* Knowledge valuable or critical -> Documented
-* Default -> Don't
+[%step]
+Knowledge needed for a long period of time?
+[%step]
+-> Documented
+[%step]
+Knowledge needed by a large number of people
+[%step]
+-> Documented
+[%step]
+Knowledge valuable or critical
+[%step]
+-> Documented
+[%step]
+*Default*
+[%step]
+-> *Don't*
 
 
 [background-color="#013606"]

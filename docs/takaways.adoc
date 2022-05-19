@@ -1,0 +1,46 @@
+
+== Takeways
+
+=== Documentation is Knowledge
+
+[.colums]
+=== Core Principles of Living Documentation
+
+[.column]
+--
+* Reliable
+* Low effort
+* Collaborative
+* Insightful
+--
+
+[.notes]
+--
+* Fiable
+* Nécessite peu d'effort
+* Collaborative
+* Révélatrice
+--
+
+=== Learn...
+
+* Your languages
+* Your tools and what they can produce
+* Generic knowledge
+
+=== Remember
+
+* Favor conversations and working together
+* Knowledge is mostly already there
+
+[.medium]
+=== Begin with
+
+==== Reviewing the quality of your current documentation
+
+* Where is it? Multiple places? Duplicated?
+* Is it up to date?
+* How many authors of the last updates have left the team?
+* Does documentation explains _WHY_ or just _HOW_?
+* Can you trust the diagrams?
+* Is some knowledge redundant between the source and

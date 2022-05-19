@@ -1,9 +1,6 @@
 
 == Java 18 Javadoc Code Snippets
 
-https://openjdk.java.net/jeps/413:[JEP 413 : Code Snippets in Java API Documentation]
-
-
 === Input • Production code
 
 Javadoc `@snippet` tag
@@ -27,52 +24,9 @@ include::../../examples/doctest/executable-javadoc-code-snippets/src/test/java/s
 
 image:../../examples/doctest/executable-javadoc-code-snippets/docs/assets/101_generated_javadoc_result.png[]
 
-[.columns]
-=== Qualités
-
-[.column]
---
-* Internal documentation
-* in-situ
-* machine-readable
---
-
-[.column]
---
-Attributes
-
-* refactor-friendly
-* automated documentation
-* low effort
---
-
 [.refs]
 --
-* https://www.morling.dev/blog/executable-javadoc-code-snippets/
---
+* https://www.morling.dev/blog/executable-javadoc-code-snippets/[Morling.dev Executable Javadoc Code Snippets]
+* https://openjdk.java.net/jeps/413:[JEP 413 : Code Snippets in Java API Documentation]
 
-
-[.columns.medium]
-=== Attributes
-
-[.column]
 --
-- 😀 Reliable
-- 😀 Low-Effort
-- 😐 Collaborative
-- 😀 Insightful
---
-
-[.column]
---
-* Internal
-* Redundant sources reconciliation mechanism
-* Audience
-** Developers
---
-
-[.notes]
---
-* Insightful: if writing doctests is hard it may highlight side effects or complex functions
---
-

@@ -10,6 +10,11 @@ kanban-plugin: basic
 - [ ] Order examples
 - [ ] Focus example on the first page scroll left
 - [ ] Notebooks
+- [ ] Pick interludes images
+- [ ] Test on deployed
+- [ ] Remove attributes smileys
+- [ ] Add last illustrations for examples
+- [ ] https://livingdocumentation.github.io/
 
 
 ## Doing

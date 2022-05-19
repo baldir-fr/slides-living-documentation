@@ -3,9 +3,10 @@
 
 [.column]
 --
-What
-* Make Business Knowledge accessible
+
 * Generated from code
+* Make Business Knowledge accessible
+
 --
 
 [.column]
@@ -21,27 +22,60 @@ They can say if a word is not exactly good. It can be changed from the code.
 --
 
 
-[.columns.medium]
-=== Attributes
+=== Input • Code
 
-[.column]
---
-- 😀🙂😐🙁😱 Reliable
-- 😀🙂😐🙁😱 Low-Effort
-- 😀🙂😐🙁😱 Collaborative
-- 😀🙂😐🙁😱 Insightful
---
+Java files with marker annotations (ex. `@Aggregate`, `@Entity`).
+Inspiration for such annotations are shown in https://github.com/cyriux/Patternity/tree/master/patternity-annotations/src/main/java/com/patternity/annotation/ddd/stereotype/[Patternity]  by https://twitter.com/cyriux/[Cyrille Martraire].
 
-[.notes]
---
---
+`ShoppingCart.java`
 
-[.column]
---
-* Internal
-* Single sourced
-* Audience
-** Stakeholders
-** Regulators
-** Developers
---
+=== Input • Code
+
+[source,java]
+----
+package com.organisation.domain.order;
+/**
+ * A shopping cart blah blah blah.
+ */
+@Aggregate
+public class ShoppingCart{
+    // ...
+}
+----
+
+=== Input • Code
+
+`ShoppingCartItem.java`
+
+[source,java]
+----
+package com.organisation.domain.order;
+/**
+ * An item that is hold the shopping cart to be ordered.
+ */
+@Entity
+public class ShoppingCartItem{
+    // ...
+}
+----
+
+=== Output • Markdown
+
+[source,markdown]
+----
+# Order
+
+[Link](/src/main/java/com/organisation/domain/order/)
+
+## Shopping Cart
+
+A shopping cart blah blah blah.
+
+[Link](/src/main/java/com/organisation/domain/order/ShoppingCart.java)
+
+### Shopping Cart Item
+
+An item that is hold the shopping cart to be ordered.
+
+[Link](/src/main/java/com/organisation/domain/order/ShoppingCartItem.java)
+----

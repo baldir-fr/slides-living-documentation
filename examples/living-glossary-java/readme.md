@@ -13,7 +13,7 @@ package com.organisation.domain.order;
 /**
  * A shopping cart blah blah blah.
  */
-@AggregateRoot
+@Aggregate
 public class ShoppingCart{
     // ...
 }

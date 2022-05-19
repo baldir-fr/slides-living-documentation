@@ -1,3 +1,4 @@
+
 #################
 ## Eclipse
 #################
@@ -178,3 +179,5 @@ pip-log.txt
 
 .class
 target/
+
+!target/generated-docs

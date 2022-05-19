@@ -1,19 +1,11 @@
-[background-color="#05463c"]
 == Au préalable quelques questions
 
-[background-color="#05463c"]
-=== Es-tu satisfait de la documentation que tu produis?
+[%step]
+* Es-tu satisfait de la documentation que tu produis?
+* Quand tu lis de la documentation, est-ce que tu as peur qu'elle soit obsolète?
+* Quand tu utilises des composants tiers est-ce que tu aimerais que leur documentation soit meilleure?
+* Est-ce que tu penses que le temps passé à écrire de la documentation pourrait être mieux utilisé?
 
-[background-color="#05463c"]
-=== Quand tu lis de la documentation, est-ce que tu as peur qu'elle soit obsolète?
-
-[background-color="#05463c"]
-=== Quand tu utilises des composants tiers est-ce que tu aimerais que leur documentation soit meilleure?
-
-[background-color="#05463c"]
-=== Est-ce que tu penses que le temps passé à écrire de la documentation pourrait être mieux utilisé?
-
-[background-color="#05463c"]
 === La documentation, dans votre contexte actuel...
 
 +++
@@ -28,6 +20,5 @@
 </div>
 +++
 
-[background-color="#05463c"]
 [#what_is_doc_1_cloud,%notitle]
 === Word Cloud

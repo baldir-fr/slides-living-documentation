@@ -131,7 +131,7 @@ I look at the folder structure to know a bit better what's it is about.
 * It's about..
 ** Vistors
 ** Printers
-** Facotories
+** Factories
 ** Strategies?...
 
 [.notes]
@@ -142,7 +142,7 @@ Okay... This application must be about visiting printers factories. They must be
 
 === Colleague Driven Development
 
-* Aren't we in insurance business?
+* Aren't we in banking business?
 * Design Patterns?
 
 [.notes]
@@ -156,6 +156,7 @@ I answer yea, of course there is this Singleton thing. Why?
 
 === Welcome to the cult!
 
+[%step]
 * Naming Convention
 * "Technical separation: Tidy!"
 * A reason?
@@ -177,6 +178,7 @@ Colleague: We do it everywhere, that way we don't have surprises.
 
 === Are we in business?
 
+[%step]
 * Where is the business
 * "Inside the subfolders scattered around"
 
@@ -189,6 +191,7 @@ Colleague: In each technical module you may have some bits of business here and 
 
 === Testabili.. what?
 
+[%step]
 * Must be hard to test?
 * "Well, we tried, but they were always broken"
 * We do End 2 End but they are flaky
@@ -204,6 +207,7 @@ So now we do mostly end 2 end tests. They are flaky sometimes so we added sleeps
 
 === The rewards of hard work
 
+[%step
 * "Worth the effort, it tests some behavior"
 * Business complaints about human readability
 ** Click
@@ -221,6 +225,7 @@ Colleague: yea, this one has been changed by a new user story. You are lucky you
 
 === Featuring...
 
+[%step
 * What are the features?
 * "I do caching related stuff, and some DB related stuff"
 * But Business features

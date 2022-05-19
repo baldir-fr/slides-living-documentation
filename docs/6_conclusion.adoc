@@ -20,7 +20,6 @@
 +++
 
 [.columns]
-[background-color="#05463c"]
 === Word Clouds
 
 [.column]

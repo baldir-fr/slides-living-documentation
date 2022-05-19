@@ -13,10 +13,10 @@ https://u.baldir.fr/me[u.baldir.fr/me]
 [.column.medium]
 --
 * Software Developer
-* Making tools for me & others
+* Freelance
 * Learning
 ** Accessibility
-**
+** Green IT
 --
 
 [.refs]

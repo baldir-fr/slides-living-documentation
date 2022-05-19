@@ -9,6 +9,7 @@ kanban-plugin: basic
 - [ ] Move attributes to notes
 - [ ] Order examples
 - [ ] Focus example on the first page scroll left
+- [ ] Notebooks
 
 
 ## Doing

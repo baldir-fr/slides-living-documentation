@@ -44,7 +44,6 @@ include::sections/z_who_am_I.adoc[]
 
 include::sections/ok_first_some_questions.adoc[]
 
-[background-color="#1d0546"]
 == Agenda
 
 . The Story of an onboarding

@@ -1,4 +1,4 @@
-[background-color="#1d0546"]
+
 == Interlude
 
 image:assets/commit_strip_code_vs_powerpoint.png[alt=,width=500]
@@ -9,7 +9,7 @@ image:assets/commit_strip_code_vs_powerpoint.png[alt=,width=500]
 * https://www.commitstrip.com/fr/2018/12/07/code-vs-powerpoint[Code vs Powerpoint] - 07/12/2018
 --
 
-[background-color="#1d0546"]
+
 === Presentation as code...
 
 [.huge]

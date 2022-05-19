@@ -110,6 +110,7 @@
                 </execution>
             </executions>
             <configuration>
+                <outputDirectory>wordCloud</outputDirectory>
                 <includes>
                     <include>**/packagenamingpackage/**/*.java</include>
                 </includes>
@@ -127,7 +128,7 @@
                 <resourceBundles>
                     <resourceBundle>io.github.livingdocumentation:shared-resources:${plugin.livingdoc-maven-plugin.version}</resourceBundle>
                 </resourceBundles>
-                <outputDirectory>target/generated-docs</outputDirectory>
+                <outputDirectory>wordCloud</outputDirectory>
             </configuration>
             <executions>
                 <execution>

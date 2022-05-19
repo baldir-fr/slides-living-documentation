@@ -134,16 +134,20 @@ image::assets/kevlin-henney-giving-code-a-good-name.png["Removing 'Exception' su
 
 Generate a word Cloud from your code
 
-[%step]
-* Do you see mainly domain related names?
-* Or technical related names?
+image::assets/word-cloud-fizzbuzz-enterprise-edition.png[alt="A word cloud generated from java source code.",width=350]
+
 
 [.refs]
 --
-* https://www.jasondavies.com/wordcloud/
+* https://www.jasondavies.com/wordcloud/[Jason Davies - Word cloud generator]
+* https://livingdocumentation.github.io/livingdoc-maven-plugin/wordcloud.html/[Living Documentation Maven plugin]
 --
 
+=== Word Cloud
 
+[%step]
+* Do you see mainly domain related names?
+* Or technical related names?
 
 
 == Embedded learning

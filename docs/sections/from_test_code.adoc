@@ -1,0 +1,90 @@
+
+[background-color="#400d43ad"]
+== Test Code
+
+[background-color="#400d43ad"]
+=== BDD Test naming
+
+* You don't need more than your testing lib
+* But some features can help
+** Nesting
+** Parameterized tests
+
+[background-color="#400d43ad"]
+=== BDD Naming examples
+
+[source,java]
+----
+class Agile_tour_speaker_should{
+  @Test
+  void share_screen_to_streamyard(){
+
+    given_a_speaker_ready_to_speak();
+
+    when_the_talk_has_started();
+
+    then_Philippe_is_not_yelling_a_the_speaker();
+  }
+}
+----
+[%step]
+Pick the style you want but make sure it is readable by non technical people
+
+[background-color="#400d43ad"]
+=== Gherkin Features
+
+[source,feature]
+----
+Feature: Agile Tour speaker
+
+    Scenario: Share screen to streaming service
+
+        Given A speaker ready to speak.
+        When The talk has started
+        Then Philippe is not yelling at the speaker
+----
+
+[%step]
+Only Business language (no technical)
+
+[.columns.is-vcentered]
+[background-color="#400d43ad"]
+=== Reconciliation mechanisms
+
+[.column]
+--
+image::assets/bdd-now-kiss.png[alt="Now Kiss derived rage comic. Stickman makes kiss Feature File and Test Code", width=400]
+--
+
+[.column]
+--
+[%step]
+* Cucumber
+* Specflow
+--
+
+[.refs]
+--
+* Original source: https://memegenerator.net/img/images/400x/7479407.jpg
+--
+
+[background-color="#400d43ad"]
+[.columns.is-vcentered]
+=== Publication mechanisms
+
+[.column]
+--
+* Pickles
+* Cucumber studio
+* Specflow+ LivingDoc
+
+...
+--
+
+
+[.refs]
+--
+* https://docs.picklesdoc.com/en/latest/[Pickles]
+* https://docs.specflow.org/projects/specflow-livingdoc/en/latest/[Specflow+ LivingDoc]
+* https://cucumber.io/tools/cucumberstudio/[Cucumber Studio]
+--

@@ -129,19 +129,34 @@ image::assets/kevlin-henney-giving-code-a-good-name.png["Removing 'Exception' su
 
 * Ubiquitous Language
 
-[background-color="#400d43ad"]
-== Test Code
+include::sections/from_test_code.adoc[]
+include::sections/ok_doctest.adoc[]
+include::sections/ex_javadoc_code_snippets.adoc[]
+include::sections/ex_tests_as_documentation.adoc[]
+
+include::sections/ex_architecture_tests.adoc[]
+
 
 [background-color="#400d43ad"]
 == Tools to get insight from code
 
+[.columns.isvcentered]
 [background-color="#400d43ad"]
 === Word Cloud
 
-Generate a word Cloud from your code
+[.column]
+--
+From your code
 
 image::assets/word-cloud-fizzbuzz-enterprise-edition.png[alt="A word cloud generated from java source code.",width=350]
+--
 
+[.column]
+--
+[%step]
+* Do you see mainly domain related names?
+* Or technical related names?
+--
 
 [.refs]
 --
@@ -150,24 +165,17 @@ image::assets/word-cloud-fizzbuzz-enterprise-edition.png[alt="A word cloud gener
 --
 
 [background-color="#400d43ad"]
-=== Word Cloud
-
-[%step]
-* Do you see mainly domain related names?
-* Or technical related names?
-
-[background-color="#400d43ad"]
 == Embedded learning
 
-=== Good Example (annotation)
+=== Good Example
+
+`@GoodExample`
 
 === Bad Example
 
-include::sections/ok_doctest.adoc[]
-include::sections/ex_javadoc_code_snippets.adoc[]
+`@BadExample`
 
 include::sections/interlude_02.adoc[]
-
 
 include::sections/ok_diagram_as_code.adoc[]
 
@@ -206,7 +214,6 @@ include::sections/ex_notebooks.adoc[]
 include::sections/interlude_06.adoc[]
 
 include::sections/ex_presentation_as_code.adoc[]
-include::sections/ex_tests_as_documentation.adoc[]
 
 include::sections/interlude_07.adoc[]
 

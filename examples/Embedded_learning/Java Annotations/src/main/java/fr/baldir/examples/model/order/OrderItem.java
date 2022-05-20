@@ -14,15 +14,12 @@ public class OrderItem {
         return item.getFirst();
     }
 
-
     public Float getQuantiteCommandee() {
         return item.getSecond();
     }
 
-
     public void setQuantity(float quantity) {
         item.setSecond(quantity);
     }
-
 
 }

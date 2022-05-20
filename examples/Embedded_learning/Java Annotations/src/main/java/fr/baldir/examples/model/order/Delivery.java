@@ -30,8 +30,6 @@ public class Delivery {
         }
 
 
-
-
         this.orders = orders;
         deliveryStatus = DeliveryStatus.DELIVERY_PENDING;
 

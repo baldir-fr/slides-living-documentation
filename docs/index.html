@@ -1119,20 +1119,19 @@ rm -f artifact.tar.gz
     <div style="margin: auto;display: flex;flex-flow: column;width: auto;flex-grow: 0.5;">
         <textarea id="what_is_doc_1b" style="font-size: 1rem;height: 16rem;"></textarea>
         <div style="display: flex;">
-            <button onclick="localStorage.setItem('what_is_doc_1', document.getElementById('what_is_doc_1b').value)" style="width: 100%;">Save</button>
-            <button onclick="document.getElementById('what_is_doc_1b').value = localStorage.getItem('what_is_doc_1')"  style="width: 100%;">Load</button>
-        </div>
+             <button onclick="localStorage.setItem('what_is_doc_1', document.getElementById('what_is_doc_1b').value);generate_what_is_doc_1b_cloud();" style="width: 100%;">Save</button>
+            <button onclick="document.getElementById('what_is_doc_1b').value = localStorage.getItem('what_is_doc_1')" style="width: 100%;">Load</button>
+</div>
     </div>
     <div style="margin: auto;display: flex;flex-flow: column;width: auto;flex-grow: 0.5;">
         <textarea id="what_is_doc_2" style="font-size: 1rem;height: 16rem;"></textarea>
         <div style="display: flex;">
-            <button onclick="localStorage.setItem('what_is_doc_2', document.getElementById('what_is_doc_2').value)" style="width: 100%;">Save</button>
+            <button onclick="localStorage.setItem('what_is_doc_2', document.getElementById('what_is_doc_2').value);generate_what_is_doc_2_cloud()" style="width: 100%;">Save</button>
             <button onclick="document.getElementById('what_is_doc_2').value = localStorage.getItem('what_is_doc_2')" style="width: 100%;">Load</button>
         </div>
     </div>
 </div>
-</p></div></div></section><section id="_word_clouds" class="columns" data-background-color="black"><h2>Word Clouds</h2><div class="slide-content"><div id="what_is_doc_1b_cloud" class="openblock column"><div class="content"></div></div>
-<div id="what_is_doc_2_cloud" class="openblock column"><div class="content"></div></div></div></section></section>
+</p></div></div></section><section id="_word_cloud_avant" data-background-color="white"><h2>Word Cloud avant</h2><div class="slide-content"><div id="what_is_doc_1b_cloud" class="openblock"><div class="content"></div></div></div></section><section id="_word_cloud_après" data-background-color="white"><h2>Word Cloud après</h2><div class="slide-content"><div id="what_is_doc_2_cloud" class="openblock"><div class="content"></div></div></div></section></section>
 <section><section id="_takeways" data-background-color="black"><h2>Takeways</h2><div class="slide-content"><div class="paragraph fragment"><p>Documentation is about Knowledge</p></div><div class="paragraph fragment"><p>That is worth sharing</p></div></div></section><section id="_core_principles_of_living_documentation_2" class="colums" data-background-color="black"><h2>Core Principles of Living Documentation</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="ulist"><ul><li><p>Reliable</p></li><li><p>Low effort</p></li><li><p>Collaborative</p></li><li><p>Insightful</p></li></ul></div></div></div>
 <aside class="notes"><div class="ulist"><ul><li><p>Fiable</p></li><li><p>Nécessite peu d&#8217;effort</p></li><li><p>Collaborative</p></li><li><p>Révélatrice</p></li></ul></div></aside></div></section><section id="_learn" data-background-color="black"><h2>Learn&#8230;&#8203;</h2><div class="slide-content"><div class="ulist"><ul><li><p>Your languages</p></li><li><p>Your tools and what they can produce</p></li><li><p>Generic knowledge</p></li></ul></div></div></section><section id="_remember" data-background-color="black"><h2>Remember</h2><div class="slide-content"><div class="ulist"><ul><li><p>Favor conversations and working together</p></li><li><p>Knowledge is mostly already there</p></li></ul></div></div></section><section id="_you_can_begin_with" class="medium" data-background-color="black"><h2>You can begin with&#8230;&#8203;</h2><div class="slide-content"><h3>Reviewing the quality of your current documentation</h3><div class="ulist"><ul><li><p>Where is it? Multiple places? Duplicated?</p></li><li><p>Is it up to date?</p></li><li><p>How many authors of the last updates have left the team?</p></li><li><p>Does documentation explains <em>WHY</em> or just <em>HOW</em>?</p></li><li><p>Can you trust the diagrams?</p></li><li><p>Is some knowledge redundant between the source and</p></li></ul></div></div></section></section>
 <section><section id="_automation_has_a_cost" data-background-color="black"><h2>⚠️ Automation has a cost</h2><div class="slide-content"><div class="paragraph"><div class="title">Automation : Something goes wrong</div><p><span class="image"><img src="assets/automation_mess.gif" alt="Automation disaster illustrated by an sequence from the videogame Satisfactory. A really messy factory with hundred of interlaced conveyor belts powered by coal powered generators. They reject a lot of black smoke. The goods are conveyed in a very inefficient and slow way."></span></p></div><div class="openblock refs"><div class="content"><div class="ulist"><ul><li><p><a href="https://www.youtube.com/watch?v=t2X3wlvoShg">I Built a 600 Meter Human Cannon That Ends All Existence - Satisfactory</a></p></li><li><p>Let&#8217;s Game It Out - 2020</p></li></ul></div></div></div></div></section><section id="_but" data-background-color="black"><h2>But&#8230;&#8203;</h2><div class="slide-content"><div class="paragraph"><p>It&#8217;s less dangerous to let developer experiment crazy stuff on doc instead of production code</p></div>
@@ -1882,6 +1881,13 @@ hljs.highlightAll();
         return [];
     }
 
+    function words_what_is_doc_2() {
+        let rawWords = localStorage.getItem('what_is_doc_2');
+        if (rawWords)
+            return parseAndSort(rawWords)
+        return [];
+    }
+
     function orderByOccurence(words0) {
         // convert an array of words
     }
@@ -1895,6 +1901,14 @@ hljs.highlightAll();
 
     function generate_what_is_doc_1_cloud() {
         wordCloud("#what_is_doc_1_cloud", "cloud", words_what_is_doc_1());
+    }
+
+    function generate_what_is_doc_1b_cloud() {
+        wordCloud("#what_is_doc_1b_cloud", "cloud", words_what_is_doc_1());
+    }
+
+    function generate_what_is_doc_2_cloud() {
+        wordCloud("#what_is_doc_2_cloud", "cloud", words_what_is_doc_2());
     }
 
     function generate_bad_onboarding_cloud() {

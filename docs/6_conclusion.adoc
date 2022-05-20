@@ -6,30 +6,31 @@
     <div style="margin: auto;display: flex;flex-flow: column;width: auto;flex-grow: 0.5;">
         <textarea id="what_is_doc_1b" style="font-size: 1rem;height: 16rem;"></textarea>
         <div style="display: flex;">
-            <button onclick="localStorage.setItem('what_is_doc_1', document.getElementById('what_is_doc_1b').value)" style="width: 100%;">Save</button>
-            <button onclick="document.getElementById('what_is_doc_1b').value = localStorage.getItem('what_is_doc_1')"  style="width: 100%;">Load</button>
-        </div>
+             <button onclick="localStorage.setItem('what_is_doc_1', document.getElementById('what_is_doc_1b').value);generate_what_is_doc_1b_cloud();" style="width: 100%;">Save</button>
+            <button onclick="document.getElementById('what_is_doc_1b').value = localStorage.getItem('what_is_doc_1')" style="width: 100%;">Load</button>
+</div>
     </div>
     <div style="margin: auto;display: flex;flex-flow: column;width: auto;flex-grow: 0.5;">
         <textarea id="what_is_doc_2" style="font-size: 1rem;height: 16rem;"></textarea>
         <div style="display: flex;">
-            <button onclick="localStorage.setItem('what_is_doc_2', document.getElementById('what_is_doc_2').value)" style="width: 100%;">Save</button>
+            <button onclick="localStorage.setItem('what_is_doc_2', document.getElementById('what_is_doc_2').value);generate_what_is_doc_2_cloud()" style="width: 100%;">Save</button>
             <button onclick="document.getElementById('what_is_doc_2').value = localStorage.getItem('what_is_doc_2')" style="width: 100%;">Load</button>
         </div>
     </div>
 </div>
 +++
 
-[background-color="black"]
-[.columns]
-=== Word Clouds
+[background-color="white"]
+=== Word Cloud avant
 
-[.column]
 [#what_is_doc_1b_cloud]
 --
 --
 
-[.column]
+
+[background-color="white"]
+=== Word Cloud après
+
 [#what_is_doc_2_cloud]
 --
 --

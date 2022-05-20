@@ -66,6 +66,13 @@
         return [];
     }
 
+    function words_what_is_doc_2() {
+        let rawWords = localStorage.getItem('what_is_doc_2');
+        if (rawWords)
+            return parseAndSort(rawWords)
+        return [];
+    }
+
     function orderByOccurence(words0) {
         // convert an array of words
     }
@@ -79,6 +86,14 @@
 
     function generate_what_is_doc_1_cloud() {
         wordCloud("#what_is_doc_1_cloud", "cloud", words_what_is_doc_1());
+    }
+
+    function generate_what_is_doc_1b_cloud() {
+        wordCloud("#what_is_doc_1b_cloud", "cloud", words_what_is_doc_1());
+    }
+
+    function generate_what_is_doc_2_cloud() {
+        wordCloud("#what_is_doc_2_cloud", "cloud", words_what_is_doc_2());
     }
 
     function generate_bad_onboarding_cloud() {

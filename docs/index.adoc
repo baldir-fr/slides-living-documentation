@@ -16,10 +16,10 @@
 :title-slide-background-image: assets/hoken-landing.png
 :title-slide-transition: zoom
 :title-slide-transition-speed: fast
-//:revealjs_theme: white
-//:highlightjs-theme: reveal.js/plugin/highlight/a11y-light.css
-:revealjs_theme: black
-:highlightjs-theme: reveal.js/plugin/highlight/a11y-dark.css
+:revealjs_theme: white
+:highlightjs-theme: reveal.js/plugin/highlight/a11y-light.css
+//:revealjs_theme: black
+//:highlightjs-theme: reveal.js/plugin/highlight/a11y-dark.css
 
 Tu ne le sais pas encore, mais tu l'as deja documenté!
 
@@ -45,12 +45,12 @@ include::sections/who_am_I.adoc[]
 
 include::sections/ok_first_some_questions.adoc[]
 
-[background-color="#051746"]
+[background-color="#d9ffea"]
 == Agenda
 
 . The Story of an onboarding
 . Living Documentation FTW
-. A s**t ton of examples!
+. A ton of examples!
 . Some Takeaways
 
 

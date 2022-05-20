@@ -1,5 +1,5 @@
 
-[background-color="#30030d"]
+[background-color="#d9ffea"]
 [.columns.is-vcentered]
 == Thanks
 
@@ -8,6 +8,7 @@
 [.agile-tour-strasbourg-logo]
 image::assets/agile-tour-strasbourg/atsxbsmall-2021.png[alt="Agile Tour Strasbourg 2021 Logo", width="160"]
 
+image::assets/agile-tour-strasbourg/Epitech.png[width=160,alt="Epitech Logo"]
 --
 
 [.column]
@@ -24,5 +25,5 @@ image::assets/agile-tour-strasbourg/logo-sfeir.png[width="160"]
 
 image::assets/agile-tour-strasbourg/logoyggval.png[width="160"]
 
-image::assets/agile-tour-strasbourg/reboot-logo-primary-lighter.png[width="160"]
+image::assets/agile-tour-strasbourg/reboot-logo-primary.png[width="160"]
 --

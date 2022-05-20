@@ -1,7 +1,9 @@
+[background-color="#defff8"]
 == An onboarding story
 
 Joining an hypothetical organisation as a consultant
 
+[background-color="#def2ff"]
 === Welcome!
 
 [%step]
@@ -18,6 +20,7 @@ After meeting my new colleagues, I am given a laptop on which a post-it with my 
 I open my session and check out my email. I read my welcome email.
 --
 
+[background-color="#dedeff"]
 === You shall not pass!
 
 [%step]
@@ -33,6 +36,7 @@ Of course, I don't have all my access credentials for the Git repository. I am t
 In "The Wiki" I find a link to a shared folder where the specs should be located.
 --
 
+[background-color="#f4deff"]
 === A ticket for space
 
 [%step]
@@ -47,8 +51,8 @@ I make a ticket to request a MS Office licence so I can open the Word document.
 While waiting the approval for my ticket, I continue to browse "The Wiki" for more information. I find a typo in one of the wiki pages. Since I have nothing yet to do, I decide to propose a correction.
 --
 
+[background-color="#ffdef6"]
 === Trying to help
-
 [%step]
 * Cannot edit page
 * "Just add a comment to it, we'll fix it later"
@@ -59,6 +63,7 @@ While waiting the approval for my ticket, I continue to browse "The Wiki" for mo
 But I have no rights to modify the page. I ask why. You don't have the right credentials yet. But you can add a comment, and we will fix it when we have time (it was never fixed).
 --
 
+[background-color="#ffdede"]
 === Can't touch this
 
 [%step]
@@ -74,6 +79,7 @@ I have an answer for my request to install the MS Office suite. We don't have en
 When I open it I see that it is not the right version. I ask my colleague again to convert it as PDF. She tells me that she won't do it again and by the way, it is not very up to date. It is a pain to update those documents and nobody really reads it anyway.
 --
 
+[background-color="#e49393"]
 === What's inside?
 
 [%step]
@@ -86,7 +92,8 @@ When I open it I see that it is not the right version. I ask my colleague again 
 I check the PDF, and find some useful stuff but screenshots are taken on Windows XP, and Internet Explorer 9. I guess it's a little outdated...
 --
 
-=== Git me that code source!
+[background-color="#d25f5f"]
+=== Git me that source code!
 
 [%step]
 * Finally Git credentials!
@@ -102,6 +109,7 @@ The technical stack that was presented in the word/pdf spec has almost completel
 * Stable medium not stable knowledge
 --
 
+[background-color="#c42a2a"]
 [.columns]
 === Folder Structure
 
@@ -126,6 +134,7 @@ image::assets/Screenshot_20220517-105118.png[]
 I look at the folder structure to know a bit better what's it is about.
 --
 
+[background-color="#c42a2a"]
 === Visiting Printers Factories
 
 * It's about..
@@ -140,6 +149,7 @@ Okay... This application must be about visiting printers factories. They must be
 > My assumption: module names reflects business
 --
 
+[background-color="#b00d0d"]
 === Colleague Driven Development
 
 * Aren't we in banking business?
@@ -154,6 +164,7 @@ I answer yea, of course there is this Singleton thing. Why?
 > Implicit knowledge: can be understood only if you know it first.
 --
 
+[background-color="#861f1f"]
 === Welcome to the cult!
 
 [%step]
@@ -176,6 +187,7 @@ Colleague: We do it everywhere, that way we don't have surprises.
 
 --
 
+[background-color="#521c1c"]
 === Are we in business?
 
 [%step]
@@ -189,6 +201,7 @@ Colleague: In each technical module you may have some bits of business here and 
 > Knowledge is scattered around the place
 --
 
+[background-color="#332222"]
 === Testabili.. what?
 
 [%step]
@@ -205,6 +218,7 @@ So now we do mostly end 2 end tests. They are flaky sometimes so we added sleeps
 > Human dedication (anti-pattern)
 --
 
+[background-color="#2a0b0b"]
 === The rewards of hard work
 
 [%step]
@@ -223,7 +237,8 @@ Me: opens an old Jira User story. It does not to exactly the thing the app does 
 Colleague: yea, this one has been changed by a new user story. You are lucky you asked le since I was the obe that implemented it.
 --
 
-=== Featuring...
+[background-color="#130101"]
+=== And featuring...
 
 [%step]
 * What are the features?
@@ -242,6 +257,12 @@ Colleague: no, each of us has a perimeter in the application. The Dba, the front
 For the features, just look at jira user stories, it's all here.
 --
 
+[background-color="#c9ffc3"]
+=== Astonishment report
+
+Newcomers are great to see what's missing
+
+
 === What do you think?
 
 +++
@@ -258,7 +279,3 @@ For the features, just look at jira user stories, it's all here.
 
 [#bad_onboarding_cloud,%notitle]
 === Word Cloud
-
-=== Astonishment report
-
-Newcomers are great to see what's missing

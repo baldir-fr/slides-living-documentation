@@ -9,7 +9,6 @@ kanban-plugin: basic
 - [ ] Move attributes to notes
 - [ ] Order examples
 - [ ] Focus example on the first page scroll left
-- [ ] Notebooks
 - [ ] Pick interludes images
 - [ ] Test on deployed
 - [ ] Remove attributes smileys
@@ -25,6 +24,7 @@ kanban-plugin: basic
 
 - [ ] [Use case  awful onboarding](tasks/Use%20case%20%20awful%20onboarding.md)
 - [ ] Word cloud
+- [ ] Notebooks
 - [ ] [Tools against code](tasks/Tools%20against%20code.md)
 - [ ] openapi
 - [ ] [Automated tests](tasks/Automated%20tests.md)

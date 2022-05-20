@@ -1,4 +1,4 @@
-[background-color="#1d0546"]
+[background-color="#ede2ff"]
 [#about_me.columns]
 == Who am I?
 

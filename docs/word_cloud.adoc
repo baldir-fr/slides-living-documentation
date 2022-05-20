@@ -1,0 +1,24 @@
+
+[.columns.isvcentered]
+[background-color="#400d43ad"]
+=== Word Cloud 🥷
+
+[.column]
+--
+From your code
+
+image::assets/word-cloud-fizzbuzz-enterprise-edition.png[alt="A word cloud generated from java source code.",width=350]
+--
+
+[.column]
+--
+[%step]
+* Do you see mainly domain related names?
+* Or technical related names?
+--
+
+[.refs]
+--
+* https://www.jasondavies.com/wordcloud/[Jason Davies - Word cloud generator]
+* https://livingdocumentation.github.io/livingdoc-maven-plugin/wordcloud.html/[Living Documentation Maven plugin]
+--

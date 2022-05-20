@@ -1,5 +1,7 @@
+[background-color="#fffc7f70"]
 == Guided Code Tour
 
+[background-color="#fffc7f70"]
 === VsCode Code Tour Extension
 
 * CodeTour VsCode extension
@@ -10,6 +12,7 @@
 * https://code.visualstudio.com/learn/educators/codetour
 --
 
+[background-color="#fffc7f70"]
 === VsCode Code Tour Output
 
 * Json File (machine-readable)
@@ -48,12 +51,14 @@
 * https://github.com/marc-bouvier/sandbox/blob/master/generators_and_CLIs/codeTour-2-markdown_mvp_ok/posts/tours/mobilizon-frontend.tour.11tydata.json[Example of Json output from Code Tour Extension]
 --
 
+[background-color="black"]
 === VsCode Code Tour Output
 
 * Interactive Tour in Vs Code
 
 image::assets/vs-code-tour-demo.gif[alt="Animated demo of a guided tour using Vs Code Code Tour extension",width=600]
 
+[background-color="#fffc7f70"]
 === Custom Generated Output
 
 I made my own!
@@ -65,6 +70,15 @@ image::assets/Custom-VsCode-Output.png[alt="A WebSite Generated From the Json fi
 * https://marc-bouvier.github.io/sandbox/generators_and_CLIs/codeTour-2-markdown_mvp_ok/dist/posts/tours/mobilizon-frontend.tour/
 * https://github.com/marc-bouvier/sandbox/blob/master/generators_and_CLIs/codeTour-2-markdown_mvp_ok/posts/tours/mobilizon-frontend.tour.11tydata.json[Example of Json output from Code Tour Extension]
 --
+
+=== Annotations Based Guide Tour
+
+* Custom Annotations (Meta-data)
+** `@GuidedTour(1)`
+
+=== Asciidoc include Code Tour
+
+* Comments + Asciidoc
 
 === Intuitive workflow in REST API
 
@@ -80,11 +94,3 @@ image::assets/julien-topcu-devvoxx-fr-API-REST-metier.png[alt="Julien Topçu - R
 * HATEOAS
 --
 
-=== Annotations Based Guide Tour
-
-* Custom Annotations (Meta-data)
-** `@GuidedTour(1)`
-
-=== Asciidoc include Code Tour
-
-* Comments + Asciidoc

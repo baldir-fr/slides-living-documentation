@@ -84,6 +84,7 @@ image::assets/bdd-now-kiss.png[alt="Now Kiss derived rage comic. Stickman makes 
 
 [.refs]
 --
+* https://www.picklesdoc.com/pickles/Output/Dhtml/Index.html?feature=Features/00BasicGherkin/BasicGherkin.feature[Pickles output example]
 * https://docs.picklesdoc.com/en/latest/[Pickles]
 * https://docs.specflow.org/projects/specflow-livingdoc/en/latest/[Specflow+ LivingDoc]
 * https://cucumber.io/tools/cucumberstudio/[Cucumber Studio]

@@ -10,7 +10,9 @@ Joining an hypothetical organisation as a consultant
 * Meet with colleagues
 * Fetch laptop
 * You have E-mail 📧
-* 🎉
+
+[%step]
+🎉
 
 [.notes]
 --

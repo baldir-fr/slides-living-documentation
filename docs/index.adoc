@@ -69,9 +69,20 @@ include::sections/examples_please.adoc[]
 == Source Code Itself
 
 [background-color="#400d43ad"]
-=== Conventions, Idioms
+=== Conventions, Idioms 🥷
 
-* e.g. pep8
+* e.g. pep8, zen of python
+
+[source,python]
+----
+import this
+----
+
+[.refs]
+--
+* https://peps.python.org/pep-0008/
+* https://replit.com/languages/python3
+--
 
 [background-color="#400d43ad"]
 === ⚠️ Redundant information in naming
@@ -129,6 +140,8 @@ image::assets/kevlin-henney-giving-code-a-good-name.png["Removing 'Exception' su
 
 * Ubiquitous Language
 
+include::sections/ex_dsl.adoc[]
+
 include::sections/from_test_code.adoc[]
 include::sections/ok_doctest.adoc[]
 include::sections/ex_javadoc_code_snippets.adoc[]
@@ -140,45 +153,12 @@ include::sections/ex_architecture_tests.adoc[]
 [background-color="#400d43ad"]
 == Tools to get insight from code
 
+include::word_cloud.adoc[]
 
-[.columns.isvcentered]
-[background-color="#400d43ad"]
-=== Word Cloud 🥷
+include::embedded_learning.adoc[]
 
-[.column]
---
-From your code
 
-image::assets/word-cloud-fizzbuzz-enterprise-edition.png[alt="A word cloud generated from java source code.",width=350]
---
-
-[.column]
---
-[%step]
-* Do you see mainly domain related names?
-* Or technical related names?
---
-
-[.refs]
---
-* https://www.jasondavies.com/wordcloud/[Jason Davies - Word cloud generator]
-* https://livingdocumentation.github.io/livingdoc-maven-plugin/wordcloud.html/[Living Documentation Maven plugin]
---
-
-[background-color="#400d43ad"]
-== Embedded learning 🥷
-
-* Code metadata
-** Easily searchable Grepable by tools
-** Conversation starter (better than preaching)
-
-=== Good Example
-
-`@GoodExample`
-
-=== Bad Example
-
-`@BadExample`
+include::sections/ex_living_glossary.adoc[]
 
 
 
@@ -191,40 +171,27 @@ include::sections/ex_code_tour.adoc[]
 
 include::sections/interlude_03.adoc[]
 
-== Next are to be ordered
-
-include::sections/interlude_04.adoc[]
-
-// TODO: BDD and Features
-// 3 amigos -> conversations / common language -> Collaborative
-// Gherkin + Reconciliation mechanism -> Reliable
-// Insightful -> may allow you to see your modules bounded contexts are not right
-// Low-Effort -> Automation can generate accurate published documentation
-
-
 // Conversations
 include::sections/from_conversations.adoc[]
 
-include::sections/ex_dsl.adoc[]
-include::sections/ex_frontend_documentation.adoc[]
 
-include::sections/ok_your_code_as_a_crimescene.adoc[]
-include::sections/interlude_06.adoc[]
-include::sections/ex_living_glossary.adoc[]
 
 include::sections/ex_notebooks.adoc[]
+include::sections/ex_frontend_documentation.adoc[]
 
 include::sections/interlude_06.adoc[]
+include::sections/interlude_04.adoc[]
+include::sections/interlude_06.adoc[]
+include::sections/interlude_07.adoc[]
+
+
+
 
 include::sections/ex_presentation_as_code.adoc[]
 
-include::sections/interlude_07.adoc[]
 
-include::sections/ex_tools_history.adoc[]
-
-
-include::sections/vcs_as_knowledge_source.adoc[]
 include::sections/ex_vcs_based_documentation.adoc[]
+include::sections/ok_your_code_as_a_crimescene.adoc[]
 
 include::sections/interlude_08.adoc[]
 

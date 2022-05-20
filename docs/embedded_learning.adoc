@@ -1,0 +1,15 @@
+
+[background-color="#400d43ad"]
+== Embedded learning 🥷
+
+* Code metadata
+** Easily searchable Grepable by tools
+** Conversation starter (better than preaching)
+
+=== Good Example
+
+`@GoodExample`
+
+=== Bad Example
+
+`@BadExample`

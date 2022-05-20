@@ -1,3 +1,0 @@
-== Source code
-
-include::ex_living_glossary.adoc[]

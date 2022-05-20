@@ -3,14 +3,10 @@
 [.medium]
 == Doctest
 
-Python::
-* https://docs.python.org/3/library/doctest.html[doctest,window=_blank]
-Elixir::
-* https://hexdocs.pm/ex_unit/ExUnit.DocTest.html[ExUnit DocTest,window=_blank], https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html#doctests[DocTest Guide,window=_blank]
-Rust::
-* https://doc.rust-lang.org/rustdoc/documentation-tests.html[Documentation Tests,window=_blank]
-Go::
-* https://pkg.go.dev/testing#hdr-Examples[Test Examples,window=_blank]
+* Python Doctest
+* Elixir Doctest
+* Rust Documentation test
+* Go Test Examples
 
 [.notes]
 --
@@ -29,6 +25,14 @@ Go::
 ** Developers
 
 * Insightful: if writing doctests is hard it may highlight side effects or complex functions
+--
+
+[.refs]
+--
+* https://docs.python.org/3/library/doctest.html[Python doctest,window=_blank]
+* https://hexdocs.pm/ex_unit/ExUnit.DocTest.html[ExUnit DocTest,window=_blank], https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html#doctests[Elixir DocTest,window=_blank]
+* https://doc.rust-lang.org/rustdoc/documentation-tests.html[Rust Documentation Tests,window=_blank]
+* https://pkg.go.dev/testing#hdr-Examples[Got Test Examples,window=_blank]
 --
 
 [background-color="#400d43ad"]

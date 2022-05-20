@@ -1,3 +1,4 @@
+[background-color="black"]
 == ⚠️ Automation has a cost
 
 .Automation : Something goes wrong
@@ -9,6 +10,7 @@ image:assets/automation_mess.gif[Automation disaster illustrated by an sequence 
 * Let's Game It Out - 2020
 --
 
+[background-color="black"]
 === But...
 
 It's less dangerous to let developer experiment crazy stuff on doc instead of production code

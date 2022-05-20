@@ -1,1 +1,10 @@
-== DSL
+== Domain Specific Languages
+
+* Code that reads like prose
+* Fluent interfaces
+
+[.refs]
+--
+* https://martinfowler.com/bliki/FluentInterface.html[Martin Fowler - Fluent Interface]
+* https://martinfowler.com/dsl.html[Martin Fowler - DSL]
+--

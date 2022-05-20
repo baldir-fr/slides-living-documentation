@@ -1,8 +1,15 @@
 
+[background-color="black"]
 == Takeways
 
-=== Documentation is Knowledge
+[%step]
+Documentation is about Knowledge
 
+[%step]
+That is worth sharing
+
+
+[background-color="black"]
 [.colums]
 === Core Principles of Living Documentation
 
@@ -22,19 +29,25 @@
 * Révélatrice
 --
 
+
+[background-color="black"]
 === Learn...
 
 * Your languages
 * Your tools and what they can produce
 * Generic knowledge
 
+
+[background-color="black"]
 === Remember
 
 * Favor conversations and working together
 * Knowledge is mostly already there
 
+
+[background-color="black"]
 [.medium]
-=== Begin with
+=== You can begin with...
 
 ==== Reviewing the quality of your current documentation
 

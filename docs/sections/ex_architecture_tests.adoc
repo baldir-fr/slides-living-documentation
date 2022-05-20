@@ -1,4 +1,5 @@
 
+[background-color="#400d43ad"]
 == Architecture Tests
 
 image::assets/archunit-layer-checks.png[alt="Diagram showing how ArchUnit can check module layering can be verified",width=500]
@@ -8,6 +9,7 @@ image::assets/archunit-layer-checks.png[alt="Diagram showing how ArchUnit can ch
 * https://www.archunit.org/
 --
 
+[background-color="#400d43ad"]
 [.medium]
 === ArchUnit test code
 [source,java]

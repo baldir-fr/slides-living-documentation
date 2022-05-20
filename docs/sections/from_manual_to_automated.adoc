@@ -1,3 +1,4 @@
+[background-color="#0f1888"]
 == From manual documentation to automation
 
 [.notes]
@@ -5,6 +6,7 @@
 Une stratégie pour documenter les scripts DevOps
 --
 
+[background-color="#0f1888"]
 === Write everything you do in a file
 
 [source,md]
@@ -27,6 +29,7 @@ Une stratégie pour documenter les scripts DevOps
 * make it publicly available to the team
 --
 
+[background-color="#0f1888"]
 === Add scripts in file for automating some tasks
 
 [source,md]
@@ -53,6 +56,7 @@ rm -f artifact.tar.gz
 ```
 ----
 
+[background-color="#0f1888"]
 === Fill the gaps
 
 [source,md]
@@ -64,6 +68,7 @@ rm -f artifact.tar.gz
 3. Run healthcheck script `./healthcheck.sh`
 ----
 
+[background-color="#0f1888"]
 === Evolve to advanced tools if needed
 
 * Gitlab CI
@@ -71,6 +76,7 @@ rm -f artifact.tar.gz
 * Terraform
 * Puppet
 
+[background-color="#0f1888"]
 === Why do it incrementally?
 
 * Solve one problem at a time

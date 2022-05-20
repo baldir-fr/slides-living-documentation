@@ -1,4 +1,6 @@
-=== Wiki for onboarding
+
+[background-color="#013606"]
+== Wiki for onboarding
 
 Warm welcome
 
@@ -18,6 +20,7 @@ https://www.youtube.com/watch?v=lvs7VEsQzKY&t=1620s[Patterns of Effective Teams 
     * https://www.youtube.com/watch?v=lvs7VEsQzKY&t=1620s[Patterns of Effective Teams • Dan North • GOTO 2017] 27m00s - 30m30s
 --
 
+[background-color="#013606"]
 === Warm welcome
 
 ++++

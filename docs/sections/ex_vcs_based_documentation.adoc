@@ -1,4 +1,4 @@
-
+[background-color="#013606"]
 == VCS as a source of Knowledge
 
 image::assets/tardis.webp[Doctor Who Tardis time machine animation]
@@ -17,6 +17,7 @@ image::assets/tardis.webp[Doctor Who Tardis time machine animation]
 * pull request notes
 --
 
+[background-color="#013606"]
 === Commit messages...
 
 [%step]
@@ -25,11 +26,11 @@ image::assets/tardis.webp[Doctor Who Tardis time machine animation]
 [%step]
 Tells the *WHY*
 
-[.columns]
+[background-color="#013606"]
 === Conventional Commit
 
-[.column]
---
+The template
+
 [source]
 ----
 <type>[optional scope]: <description>
@@ -38,10 +39,9 @@ Tells the *WHY*
 
 [optional footer(s)]
 ----
---
 
-[.column]
---
+Example 1
+
 [source]
 ----
 feat: allow provided config object to extend other configs
@@ -49,17 +49,20 @@ feat: allow provided config object to extend other configs
 BREAKING CHANGE: `extends` key in config file is now used for extending other config files
 ----
 
+Example 2
+
 [source]
 ----
 docs: correct spelling of CHANGELOG
 ----
---
+
 [.refs]
 --
 * https://www.conventionalcommits.org/en/v1.0.0/
 * https://www.conventionalcommits.org/en/v1.0.0/#summary
 --
 
+[background-color="#013606"]
 === Generate Changelog
 
 * Conventional Changelog
@@ -69,11 +72,13 @@ docs: correct spelling of CHANGELOG
 * https://github.com/conventional-changelog/conventional-changelog[Conventional Changelog]
 --
 
+[background-color="#013606"]
 === Git "blame"
 
 ... is the new `@author`
 
-== Your code as a crime scene
+[background-color="#013606"]
+=== Your code as a crime scene
 
 image::assets/adam-thornhill-your-code-as-acrime-scene.png[alt="Adam Thornhill shows graphical representation of code hotspots during GOTO Conference 2016"]
 

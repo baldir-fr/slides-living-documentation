@@ -1,5 +1,6 @@
-== Wiki as code
 
+[background-color="#013606"]
+== Wiki as code
 
 image:assets/vuejs_fix_documentation_as_PR.png[VueJs propose de mettre à jour sa documentation par PR]
 

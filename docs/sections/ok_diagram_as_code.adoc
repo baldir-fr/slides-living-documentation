@@ -1,3 +1,6 @@
+
+
+[background-color="#220136"]
 == Diagram as code
 
 * PlantUml
@@ -8,6 +11,7 @@
 [%step]
 ...
 
+[background-color="#220136"]
 [.columns]
 === MermaidJs
 

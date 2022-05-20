@@ -1,5 +1,6 @@
 
-== Notebooks
+[background-color="#220136"]
+== Notebooks 🥷
 
 Mix markup and code and you obtain interactive notebooks
 
@@ -11,6 +12,8 @@ Mix markup and code and you obtain interactive notebooks
 Very cool for learning & visual representations
 --
 
+
+[background-color="#220136"]
 === Input / Output
 
 Mixed Markdown and code

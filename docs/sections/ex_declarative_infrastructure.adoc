@@ -1,15 +1,28 @@
+[background-color="#0a4615de"]
 == Declarative infrastructure
 
-=== Docker Compose
+[background-color="#0a4615de"]
+[background-color="#0a4615de"]
+[.tiny]
+=== Docker Compose to diagram
 
-[.notes]
+[source,yml]
+----
+include::../../examples/living_diagrams/diagram-from-docker-compose/docker-compose.yml[]
+----
+
+[background-color="#0a4615de"]
+=== Output
+
+image::../../examples/living_diagrams/diagram-from-docker-compose/output/docker-compose.png[]
+
+[.refs]
 --
-* docker-compose is a sort of documentation of infrastructure
-* Azure infra as code
+* https://github.com/pmsipilot/docker-compose-viz[docker-compose-viz]
 --
 
-
-=== Gitlab CO file Input
+[background-color="#0a4615de"]
+=== Gitlab CI file Input
 
 [source,yml]
 ----
@@ -58,9 +71,10 @@ deploy-audit:
     - "echo do stuff"
 ----
 
+[background-color="#0a4615de"]
 === Gitlab CI pipeline Vizualisation
 
-image::../assets/gitlab-ci-vizualisation.png[alt="Vizualisation of a Gitlab CiCD pipeline"]
+image::assets/gitlab-ci-vizualisation.png[alt="Vizualisation of a Gitlab CiCD pipeline"]
 
 [.refs]
 --

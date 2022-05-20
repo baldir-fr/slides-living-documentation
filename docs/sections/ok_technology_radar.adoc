@@ -1,3 +1,5 @@
+
+[background-color="#220136"]
 == Technology radar
 
 image::assets/thoughtworks-technology-radar-insights-22-05-17.png[alt="Thoughtwork Technology radar overview - A big circle diagram with 4 quadrants : Techniques • Tools • Platforms • Languages and Frameworks - Each quadrant is divided in 4 concenrtric slices respectively labelled from the outside to the inside : Hold • Assess • Trial • Adopt",width=460]

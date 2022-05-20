@@ -1,4 +1,6 @@
-== Accessibility audit as code
+
+[background-color="#220136"]
+== Accessibility audit as code 🥷
 
 image:https://github.com/DISIC/frago/raw/master/images/frago.png[Frago logo: a strawberry dropped in milk]
 

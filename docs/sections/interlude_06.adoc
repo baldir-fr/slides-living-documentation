@@ -1,16 +1,12 @@
 
-[.interlude_cat_01]
+[background-color="black"]
+[.interlude_cat_06]
 == Interlude
 
-[.video_section]
---
-++++
-<video controls autoplay loop src="assets/interlude_cat_01.mp4" width="300" />
-video:[Interlude cat video]
-++++
---
+image::assets/interlude_cat_06.webp[alt="Interlude cat animation",width=400]
+
 
 [.refs]
 --
-https://i.imgur.com/grXqcNw.gifv
+https://giphy.com/gifs/v6aOjy0Qo1fIA
 --

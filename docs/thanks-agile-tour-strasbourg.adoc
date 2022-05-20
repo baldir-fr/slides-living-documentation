@@ -1,5 +1,5 @@
 
-[background-color="#d9ffea"]
+[background-color="#001667"]
 [.columns.is-vcentered]
 == Thanks
 

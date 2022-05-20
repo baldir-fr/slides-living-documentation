@@ -1,3 +1,5 @@
+
+[background-color="#220136"]
 == Design System
 
 * Combines both
@@ -25,7 +27,7 @@
 
 === cc-map
 
-image::../assets/cc-map-home.png[alt="Clever Cloud UI Components - cc-map home page"]
+image::assets/cc-map-home.png[alt="Clever Cloud UI Components - cc-map home page"]
 
 [.refs]
 --
@@ -34,7 +36,7 @@ image::../assets/cc-map-home.png[alt="Clever Cloud UI Components - cc-map home p
 
 === cc-map
 
-image::../assets/cc-map-docs.png[alt="Clever Cloud UI Components - cc-map Docs"]
+image::assets/cc-map-docs.png[alt="Clever Cloud UI Components - cc-map Docs"]
 
 [.refs]
 --

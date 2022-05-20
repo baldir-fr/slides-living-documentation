@@ -65,82 +65,7 @@ include::sections/new_documentation_approaches.adoc[]
 include::sections/ok_interlude_01.adoc[]
 include::sections/examples_please.adoc[]
 
-[background-color="#400d43ad"]
-== Source Code Itself
-
-[background-color="#400d43ad"]
-=== Conventions, Idioms 🥷
-
-* e.g. pep8, zen of python
-
-[source,python]
-----
-import this
-----
-
-[.refs]
---
-* https://peps.python.org/pep-0008/
-* https://replit.com/languages/python3
---
-
-[background-color="#400d43ad"]
-=== ⚠️ Redundant information in naming
-
-[background-color="#400d43ad"]
-=== Reduce useless noise
-
-Repeated informations
-
-[.medium]
---
-[source,Java]
-----
-package org.mycompany.worlddestroyer;
-/**
-* The implementation of the Death Star. <1>
-* @author Joe@empire.org <2>
-*/
-public class DeathStarImpl // <3>
-             implements DeathStarInterface // <4>
-{}
-----
-<1> Tells nothing more than the class signature
-<2> In internal projet, maybe rely on version control history
-<3> Of course it is an implementation
-<4> Of course it is an interface
---
-
-[.notes]
---
-* `@author` does not encourage collective code ownership
---
-
-[background-color="#400d43ad"]
-[.columns]
-=== Which is more readable?
-
-[.column]
---
-image::assets/kevlin-henney-giving-code-a-good-name-exception.png["Exception class names suffixed with 'Exception'"]
---
-
-[.column]
---
-image::assets/kevlin-henney-giving-code-a-good-name.png["Removing 'Exception' suffix of exception class names does not reduce meaning, on the contrary"]
---
-
-[.refs]
---
-* https://www.youtube.com/watch?v=CzJ94TMPcD8[Giving code a good name - Kevlin Henney]
---
-
-[background-color="#400d43ad"]
-=== Domain Driven Design
-
-* Ubiquitous Language
-
-include::sections/ex_dsl.adoc[]
+include::source_code_itself.adoc[]
 
 include::sections/from_test_code.adoc[]
 include::sections/ok_doctest.adoc[]
@@ -149,6 +74,7 @@ include::sections/ex_tests_as_documentation.adoc[]
 
 include::sections/ex_architecture_tests.adoc[]
 
+include::sections/interlude_02.adoc[]
 
 [background-color="#400d43ad"]
 == Tools to get insight from code
@@ -160,10 +86,6 @@ include::embedded_learning.adoc[]
 
 include::sections/ex_living_glossary.adoc[]
 
-
-
-include::sections/interlude_02.adoc[]
-
 include::sections/ok_diagram_as_code.adoc[]
 
 include::sections/ok_code_analysis.adoc[]
@@ -174,45 +96,36 @@ include::sections/interlude_03.adoc[]
 // Conversations
 include::sections/from_conversations.adoc[]
 
-
-
 include::sections/ex_notebooks.adoc[]
 include::sections/ex_frontend_documentation.adoc[]
 
-include::sections/interlude_06.adoc[]
-include::sections/interlude_04.adoc[]
-include::sections/interlude_06.adoc[]
-include::sections/interlude_07.adoc[]
-
-
-
-
 include::sections/ex_presentation_as_code.adoc[]
+
+include::sections/interlude_04.adoc[]
 
 
 include::sections/ex_vcs_based_documentation.adoc[]
 include::sections/ok_your_code_as_a_crimescene.adoc[]
 
-include::sections/interlude_08.adoc[]
-
 include::sections/ex_markdown_readme.adoc[]
-
-include::sections/warm_welcome.adoc[]
 include::sections/ex_wiki_as_code.adoc[]
+include::sections/warm_welcome.adoc[]
+
+
+include::sections/interlude_05.adoc[]
 
 include::sections/ok_architecture_decisions_records.adoc[]
 include::sections/ok_accessibility_audit_as_code.adoc[]
 include::sections/ok_technology_radar.adoc[]
 
 include::sections/ex_declarative_infrastructure.adoc[]
-include::sections/ok_docker-compose-to-diagram.adoc[]
 
 include::sections/ok_your_tools_and_ide_features.adoc[]
 include::sections/from_manual_to_automated.adoc[]
 
 include::sections/ok_api_contracts_and_tests.adoc[]
 
-
+include::sections/interlude_06.adoc[]
 
 include::takaways.adoc[]
 

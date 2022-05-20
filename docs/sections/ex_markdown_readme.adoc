@@ -1,8 +1,6 @@
 [background-color="#013606"]
-== README
-
 [.columns]
-=== From markdown ...
+== README : From markdown ...
 
 [.column]
 --
@@ -25,6 +23,7 @@ image::assets/github_rendered_markdown.png[alt="Github / Gitlab rendered markdow
 * https://github.com/rlemaire/bookmarks-green-it/edit/master/README.md
 --
 
+[background-color="#013606"]
 === ... To Webpage
 
 Published as Static site

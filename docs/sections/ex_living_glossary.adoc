@@ -1,3 +1,5 @@
+
+[background-color="#220136"]
 [.columns]
 == Living glossary
 

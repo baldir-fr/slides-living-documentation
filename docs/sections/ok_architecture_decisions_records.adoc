@@ -1,3 +1,4 @@
+[background-color="#220136"]
 == ADR
 
 Architecture Decisions Records
@@ -14,12 +15,14 @@ Architecture Decisions Records
 * https://adr.github.io/
 --
 
+[background-color="#220136"]
 === Input
 
 * Markdown / Asciidoc / PLain text
 * Templates
 * helpers tools
 
+[background-color="#220136"]
 === Input markdown example
 
 [source,md]
@@ -69,6 +72,7 @@ The "Log4brains patch" performs the following modifications to the original temp
 * https://github.com/thomvaill/log4brains
 --
 
+[background-color="#220136"]
 [.columns]
 === Output
 

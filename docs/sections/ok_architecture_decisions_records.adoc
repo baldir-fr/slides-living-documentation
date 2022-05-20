@@ -89,27 +89,6 @@ image::assets/log4brains-adr-output.png[Example of ADR Website output with Log4B
 * https://thomvaill.github.io/log4brains/adr/[Example of ADR output with Log4Brains]
 --
 
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 😀 Reliable
-- 😐 Low-Effort
-- 😀 Collaborative
-- 😀 Insightful
---
-
-[.column]
---
-* Internal
-* Single sourced w/ publication mechanism
-* Audience
-** CTOs
-** Developers
-** New Developers in team
---
-
 [.notes]
 --
 * Context of decisions is now accessible through snapshots and versioning time travel

@@ -1,11 +1,11 @@
 
-[#interlude_cat_01]
+[.interlude_cat_01]
 == Interlude
 
 [.video_section]
 --
 ++++
-<video autoplay loop src="assets/interlude_cat_01.mp4" width="300" />
+<video controls autoplay loop src="assets/interlude_cat_01.mp4" width="300" />
 video:[Interlude cat video]
 ++++
 --

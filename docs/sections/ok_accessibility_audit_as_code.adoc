@@ -35,31 +35,6 @@ image:assets/accessibility_audit_home.png[Accessibility audit report generated w
 
 image:assets/accessibility_audit_detail.png[Accessibility audit report generated with Frago.details showing recommendations, Performance report and Ecoindex,width=500px]
 
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 🙂 Reliable
-- 🙂 Low-Effort
-- 🙂 Collaborative
-- 😐 Insightful
---
-
-[.notes]
---
---
-
-[.column]
---
-* Internal
-* Single sourced
-* Audience
-** Stakeholders
-** Regulators
-** Developers
---
-
 [.notes]
 --
 * some data could be sourced from pa11y, lighthouse feed via CI/CD

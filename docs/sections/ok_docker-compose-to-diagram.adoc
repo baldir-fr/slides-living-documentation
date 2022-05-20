@@ -12,26 +12,6 @@ include::../../examples/living_diagrams/diagram-from-docker-compose/docker-compo
 
 image::../../examples/living_diagrams/diagram-from-docker-compose/output/docker-compose.png[]
 
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-* 😀 Reliable
-* 🙂 Low-Effort
-* 🙂 Collaborative
-* 😀 Insightful
---
-
-[.column]
---
-* Internal
-* Single sourced
-* Audience
-** Developers
-** Operations
---
-
 [.refs]
 --
 * https://github.com/pmsipilot/docker-compose-viz[docker-compose-viz]

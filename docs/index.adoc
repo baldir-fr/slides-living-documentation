@@ -65,17 +65,18 @@ include::sections/new_documentation_approaches.adoc[]
 include::sections/ok_interlude_01.adoc[]
 include::sections/examples_please.adoc[]
 
-include::sections/ex_wiki_as_code.adoc[]
-
-include::sections/ok_diagram_as_code.adoc[]
-
+[background-color="#400d43ad"]
 == Source Code Itself
 
+[background-color="#400d43ad"]
 === Conventions, Idioms
 
+* e.g. pep8
 
-== Redundant information in naming
+[background-color="#400d43ad"]
+=== ⚠️ Redundant information in naming
 
+[background-color="#400d43ad"]
 === Reduce useless noise
 
 Repeated informations
@@ -104,6 +105,7 @@ public class DeathStarImpl // <3>
 * `@author` does not encourage collective code ownership
 --
 
+[background-color="#400d43ad"]
 [.columns]
 === Which is more readable?
 
@@ -122,14 +124,18 @@ image::assets/kevlin-henney-giving-code-a-good-name.png["Removing 'Exception' su
 * https://www.youtube.com/watch?v=CzJ94TMPcD8[Giving code a good name - Kevlin Henney]
 --
 
+[background-color="#400d43ad"]
 === Domain Driven Design
 
 * Ubiquitous Language
 
+[background-color="#400d43ad"]
 == Test Code
 
+[background-color="#400d43ad"]
 == Tools to get insight from code
 
+[background-color="#400d43ad"]
 === Word Cloud
 
 Generate a word Cloud from your code
@@ -143,13 +149,14 @@ image::assets/word-cloud-fizzbuzz-enterprise-edition.png[alt="A word cloud gener
 * https://livingdocumentation.github.io/livingdoc-maven-plugin/wordcloud.html/[Living Documentation Maven plugin]
 --
 
+[background-color="#400d43ad"]
 === Word Cloud
 
 [%step]
 * Do you see mainly domain related names?
 * Or technical related names?
 
-
+[background-color="#400d43ad"]
 == Embedded learning
 
 === Good Example (annotation)
@@ -161,6 +168,10 @@ include::sections/ex_javadoc_code_snippets.adoc[]
 
 include::sections/interlude_02.adoc[]
 
+
+include::sections/ok_diagram_as_code.adoc[]
+
+include::sections/ex_wiki_as_code.adoc[]
 include::sections/ok_accessibility_audit_as_code.adoc[]
 include::sections/ok_code_analysis.adoc[]
 include::sections/ok_architecture_decisions_records.adoc[]

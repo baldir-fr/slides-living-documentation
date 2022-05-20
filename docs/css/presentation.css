@@ -52,6 +52,7 @@ DIV.refs DIV.ulist UL LI {
 /* hovering effects */
 DIV.refs:hover {
     background-color: #745d4860;
+    mix-blend-mode: difference;
     cursor: pointer;
 }
 

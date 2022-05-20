@@ -60,33 +60,9 @@ image::assets/gitlab-vulnerability-report.png[Screenshot of Gitlab vulnerability
 
 image::assets/gitlab-dependencies-list.png[Screenshot of Gitlab dependencies list. Among the list some go mudules and a lot of javascript dependencies]
 
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 😀 Reliable
-- 😀 Low-Effort
-- 🙂 Collaborative
-- 😀 Insightful
---
-
-[.column]
---
-* Internal
-* Single sourced w/ publication mechanism
-* Audience
-** Developers
-** Security / SRE
---
-
 [.notes]
 --
 * Usually not much configuration is needed
 * Runs on the existing code
 * Great learning value
---
-
-[.refs]
---
 --

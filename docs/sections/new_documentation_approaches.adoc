@@ -1,5 +1,5 @@
 
-[background-color="#013606"]
+[background-color="#7245b8"]
 == Living Documentation
 
 image::assets/book_living_documentation_cover.png[alt="Living Documentation Book Cover", width=360]
@@ -32,17 +32,18 @@ Published Jun 4, 2019 by Addison-Wesley Professional.]
 * truck factor: if people leaves, knowledge too
 --
 
+[background-color="black"]
 [%notitle]
 == magic
 
-image::assets/magic-spongebob.gif[alt="Spongebob magic drawing a rainbox from it's hands meme"]
+image::assets/magic-spongebob.gif[alt="Spongebob magic drawing a rainbox from it's hands meme", width=800]
 
 [.refs]
 --
 * https://tenor.com/view/magic-spongebob-rainbow-gif-15431163
 --
 
-[background-color="#013606"]
+[background-color="#3942b0"]
 == Core Principles of Living Documentation
 
 * *Reliable*

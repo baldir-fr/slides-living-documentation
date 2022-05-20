@@ -1,11 +1,11 @@
 
-[background-color="#013606"]
+[background-color="#f5cbff"]
 == What is Documentation?
 
 [%step]
 Sharing knowledge
 
-[background-color="#013606"]
+[background-color="#f5cbff"]
 [.medium]
 === When?
 
@@ -27,7 +27,7 @@ Knowledge valuable or critical
 -> *Don't*
 
 
-[background-color="#013606"]
+[background-color="#f5cbff"]
 [.columns]
 === Generic Knowledge
 
@@ -49,35 +49,40 @@ Knowledge valuable or critical
 ** -> Industry standard books
 --
 
-[background-color="#013606"]
-[.columns]
+[background-color="#f5cbff"]
+[.columns.medium]
 === Good news everyone!
 
 [.column]
 --
 The Generic Knowledge is already documented in the industry literature.
-
+[%step]
 -> Learn Generic Knowledge
+[%step]
 -> Link to sources of Authority
 --
 
 [.column]
 --
+[%step]
 * Training
 * Conferences
 * Books
 * Blog posts
 * Standard Vocabulary
-* ...
+
+[%step]
+...
 --
 
-[background-color="#013606"]
+[.medium]
+[background-color="#f5cbff"]
 === Focus on specific knowledge
 
-* Knowledge your organization has and is not (yet) shared with other peers in the same industry.
-* more expensive to learn
-* takes practice, making mistakes to earn
-* Deserves more attention
+* Not (yet) shared with other peers in the same industry.
+* More expensive to learn
+* That takes practice, making mistakes to earn
+* That Deserves more attention
 * Only you can take care about it
 
 
@@ -86,20 +91,21 @@ The Generic Knowledge is already documented in the industry literature.
 As a professional, you should know enough of the generic, industry standard knowledge, in order to be able to focus on growing the knowledge that's specific to you particular ambitions.
 --
 
-[background-color="#013606"]
+[background-color="#f5cbff"]
 [.columns]
-=== Stable/Unstable
+=== Stable vs Unstable
 
 [.column]
 --
-Stable
+*Stable*
 
 * Standards
 * Most of parts of common industry
 --
+
 [.column]
 --
-Not Stable
+*Not Stable*
 
 * Marketing
 * Company names
@@ -108,13 +114,21 @@ Not Stable
 * Design decisions
 --
 
-[background-color="#013606"]
+[.columns]
+[background-color="#f5cbff"]
 === How to deal with Stable/Unstable?
 
+[.column]
+--
 Stable:: Learn & refer to it
-Unstable:: Automate it as much as possible when it is useful
+--
 
-[background-color="#013606"]
+[.column]
+--
+Unstable:: Automate it as much as possible when it is useful
+--
+
+[background-color="#f5cbff"]
 [.columns]
 == Internal vs External
 
@@ -147,7 +161,7 @@ External
 ** Machine-Readable
 --
 
-[background-color="#013606"]
+[background-color="#f5cbff"]
 [.medium]
 === Problems with Internal Knowledge
 

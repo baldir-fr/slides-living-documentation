@@ -40,34 +40,5 @@ image:assets/commit_strip_code_vs_powerpoint.png[alt=,width=500]
 
 [source,asciidoc]
 ----
-include::examples/python_doctest/sum.py
+include::../examples/doctest/python_doctest/sum.py
 ----
-
-[.bottom]
-Downloadable sample: link:examples/python_doctest/sum.py[examples/python_doctest/sum.py]
-
-
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 😀🙂😐🙁😱 Reliable
-- 😀🙂😐🙁😱 Low-Effort
-- 😀🙂😐🙁😱 Collaborative
-- 😀🙂😐🙁😱 Insightful
---
-
-[.notes]
---
---
-
-[.column]
---
-* Internal
-* Single sourced
-* Audience
-** Stakeholders
-** Regulators
-** Developers
---

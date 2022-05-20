@@ -5,29 +5,3 @@
 * docker-compose is a sort of documentation of infrastructure
 * Azure infra as code
 --
-
-
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 😀🙂😐🙁😱 Reliable
-- 😀🙂😐🙁😱 Low-Effort
-- 😀🙂😐🙁😱 Collaborative
-- 😀🙂😐🙁😱 Insightful
---
-
-[.notes]
---
---
-
-[.column]
---
-* Internal
-* Single sourced
-* Audience
-** Stakeholders
-** Regulators
-** Developers
---

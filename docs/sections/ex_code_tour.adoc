@@ -66,25 +66,6 @@ image::assets/Custom-VsCode-Output.png[alt="A WebSite Generated From the Json fi
 * https://github.com/marc-bouvier/sandbox/blob/master/generators_and_CLIs/codeTour-2-markdown_mvp_ok/posts/tours/mobilizon-frontend.tour.11tydata.json[Example of Json output from Code Tour Extension]
 --
 
-[.columns]
-=== Attributes
-
-[.column]
---
-- 🙂 Reliable
-- 😐 Low-Effort
-- 😀 Collaborative
-- 😀 Insightful
---
-
-[.column]
---
-* Internal (can be external too)
-* Redundant sources / reconciliation mechanism
-* Audience
-** Onboarding Developers
---
-
 === Intuitive workflow in REST API
 
 image::assets/julien-topcu-devvoxx-fr-API-REST-metier.png[alt="Julien Topçu - REST next level : Ecrire des APIs web orientées métier • Slide showing a series of REST endpoints workflow oriented"]
@@ -99,75 +80,11 @@ image::assets/julien-topcu-devvoxx-fr-API-REST-metier.png[alt="Julien Topçu - R
 * HATEOAS
 --
 
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 😀 Reliable
-- 😐 Low-Effort
-- 😀 Collaborative
-- 😀 Insightful
---
-
-[.column]
---
-* Internal
-* Single sourced
-* Audience
-** Backend Developers
-** Frontend Developers
-** QA Automation
---
-
-
 === Annotations Based Guide Tour
 
 * Custom Annotations (Meta-data)
 ** `@GuidedTour(1)`
 
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 😀 Reliable
-- 😀 Low-Effort
-- 😀 Collaborative
-- 😀 Insightful
---
-
-[.column]
---
-* Internal / External
-* High bandwidth
-* Audience
-** Everyone
-* Best collocated
---
-
-
 === Asciidoc include Code Tour
 
 * Comments + Asciidoc
-
-
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 😐 Reliable
-- 😐 Low-Effort
-- 😀 Collaborative
-- 😀 Insightful
---
-
-[.column]
---
-* Internal
-* Multiple sources w/ reconciliation mechanism
-* Audience
-** Everyone
-* Best collocated
---

@@ -95,26 +95,6 @@ image:assets/ditaa-sampl-output.png[]
 ** Easy to version
 ** Can be generated from code
 
-[.columns.medium]
-=== Attributes
-
-[.column]
---
-- 😐 Reliable
-- 😐 Low-Effort
-- 🙂 Collaborative
-- 🙂 Insightful
---
-
-[.column]
---
-* Internal
-* Single sourced w/ publication mechanism
-* Audience
-** Non Technical
-** Technical
---
-
 [.notes]
 --
 * Insightful

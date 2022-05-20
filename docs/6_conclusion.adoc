@@ -1,4 +1,5 @@
-== La documentation c'est quoi pour vous maintenant?
+[background-color="black"]
+== Et maintenant?
 
 +++
 <div style="display: flex;">
@@ -19,6 +20,7 @@
 </div>
 +++
 
+[background-color="black"]
 [.columns]
 === Word Clouds
 
@@ -31,31 +33,3 @@
 [#what_is_doc_2_cloud]
 --
 --
-
-== Conclusion 1/2
-
-* Do you need documentation?
-** Do you need traditional documentation?
-** Favour Conversations & working together
-** Know your audience
-* Knowledge is already there
-** Minimize extra work
-** It just need to be augmented a little
-
-== Conclusion 2/2
-
-* Single source
-* Plain text helps
-** Can be read and edited with not much tooling
-** can be automated
-** versioned
-** choose markup depending on your need and maturity of tools
-* Thinking about documentation helps to question the rationale of your work
-
-[.notes]
---
-Aujourd'hui il y a des enjeux majeurs portés par les acteurs de la tech
-Il ont plus de pouvoir qu'ils ne l'imaginent
-Utilisons et produisons la technologie en conscience
---
-

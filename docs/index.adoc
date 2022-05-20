@@ -127,6 +127,8 @@ include::sections/ok_api_contracts_and_tests.adoc[]
 
 include::sections/interlude_06.adoc[]
 
+include::6_conclusion.adoc[]
+
 include::takaways.adoc[]
 
 include::sections/takaway_automation_has_a_cost.adoc[]

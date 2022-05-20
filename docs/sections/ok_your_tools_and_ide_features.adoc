@@ -18,6 +18,3 @@ image::assets/ide-diagram.png[Screenshot of a quickly generated diagram in Intel
 
 image::assets/ide-dependency-matrix.png[Dependency Matrix in IntelliJ Idea]
 
-=== Takaways
-
-* Learn what your tools can do

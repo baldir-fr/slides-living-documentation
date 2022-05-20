@@ -1,8 +1,0 @@
-== Your code as a crime scene
-
-image::assets/adam-thornhill-your-code-as-acrime-scene.png[alt="Adam Thornhill shows graphical representation of code hotspots during GOTO Conference 2016"]
-
-[.refs]
---
-* https://www.youtube.com/watch?v=7FApEq8wum4[Treat Your Code as a Crime Scene • Adam Tornhill • GOTO 2016]
---

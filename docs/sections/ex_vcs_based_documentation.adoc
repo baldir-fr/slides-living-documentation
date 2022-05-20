@@ -1,9 +1,83 @@
-== VCS based documentation
 
-=== git blame
+== VCS as a source of Knowledge
 
-=== PR conversations
+image::assets/tardis.webp[Doctor Who Tardis time machine animation]
 
-=== Automated Release notes
+[.ref]
+--
+* https://giphy.com/gifs/doctor-who-pretty-time-kxAX99ncvbPk4[Doctor Who Tardis time machine animation]
+* Doctor Who - BBC
+--
 
-=== Code Forensics
+[.notes]
+--
+* Useful metadate
+* Commit message (surtout s'ils sont bien faits voire atomic / monorepo)
+* Conventional commit
+* pull request notes
+--
+
+=== Commit messages...
+
+[%step]
+*Good* commit messages
+
+[%step]
+Tells the *WHY*
+
+[.columns]
+=== Conventional Commit
+
+[.column]
+--
+[source]
+----
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+----
+--
+
+[.column]
+--
+[source]
+----
+feat: allow provided config object to extend other configs
+
+BREAKING CHANGE: `extends` key in config file is now used for extending other config files
+----
+
+[source]
+----
+docs: correct spelling of CHANGELOG
+----
+--
+[.refs]
+--
+* https://www.conventionalcommits.org/en/v1.0.0/
+* https://www.conventionalcommits.org/en/v1.0.0/#summary
+--
+
+=== Generate Changelog
+
+* Conventional Changelog
+
+[.refs]
+--
+* https://github.com/conventional-changelog/conventional-changelog[Conventional Changelog]
+--
+
+=== Git "blame"
+
+... is the new `@author`
+
+== Your code as a crime scene
+
+image::assets/adam-thornhill-your-code-as-acrime-scene.png[alt="Adam Thornhill shows graphical representation of code hotspots during GOTO Conference 2016"]
+
+[.refs]
+--
+* https://www.youtube.com/watch?v=7FApEq8wum4[Treat Your Code as a Crime Scene • Adam Tornhill • GOTO 2016]
+--

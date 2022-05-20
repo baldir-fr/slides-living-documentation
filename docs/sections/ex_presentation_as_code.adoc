@@ -1,15 +1,14 @@
+[background-color="black"]
+== Making of This Presentation
 
-== Interlude
-
-image:assets/commit_strip_code_vs_powerpoint.png[alt=,width=500]
+image:assets/wink-wink.gif[alt=,width=700]
 
 [.refs]
 --
-* https://www.commitstrip.com[Commit strip]
-* https://www.commitstrip.com/fr/2018/12/07/code-vs-powerpoint[Code vs Powerpoint] - 07/12/2018
+* https://giphy.com/gifs/know-monty-python-nudge-13vPE0A3DPqOcg
 --
 
-
+[background-color="black"]
 === Presentation as code...
 
 [.huge]
@@ -20,8 +19,10 @@ image:assets/commit_strip_code_vs_powerpoint.png[alt=,width=500]
 <span onclick="easterEgg()">...</span>
 +++
 
+[background-color="black"]
 --
 
+[background-color="black"]
 === ... can be very interactive
 
 +++
@@ -32,6 +33,7 @@ image:assets/commit_strip_code_vs_powerpoint.png[alt=,width=500]
 <img id="easter-egg" src="https://gitlab.com/marc-bouvier-sandbox/easter-eggs/-/raw/main/pres-as-code.jpg" style="width:550px" />
 +++
 
+[background-color="black"]
 === How?
 
 * Included code snippets are real sources

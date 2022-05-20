@@ -1,0 +1,26 @@
+=== Wiki for onboarding
+
+Warm welcome
+
+image:assets/dan_north_warm_welcome.png[Capture of Dan North's "Patterns of effective teams" Talk at Goto; Conference 2017]
+
+[.refs]
+--
+https://www.youtube.com/watch?v=lvs7VEsQzKY&t=1620s[Patterns of Effective Teams • Dan North • GOTO 2017] 27m00s - 30m30s
+--
+
+[.notes]
+--
+* Warm welcome : Dan north
+    * Good first impression
+    * Wiki page "Hi Dan, hare are some thing you may want to do on your first day"
+    * Find out who's joining next and change the name at the top
+    * https://www.youtube.com/watch?v=lvs7VEsQzKY&t=1620s[Patterns of Effective Teams • Dan North • GOTO 2017] 27m00s - 30m30s
+--
+
+=== Warm welcome
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lvs7VEsQzKY?start=1624" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+

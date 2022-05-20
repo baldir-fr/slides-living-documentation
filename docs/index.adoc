@@ -140,6 +140,7 @@ include::sections/ex_architecture_tests.adoc[]
 [background-color="#400d43ad"]
 == Tools to get insight from code
 
+
 [.columns.isvcentered]
 [background-color="#400d43ad"]
 === Word Cloud
@@ -167,6 +168,10 @@ image::assets/word-cloud-fizzbuzz-enterprise-edition.png[alt="A word cloud gener
 [background-color="#400d43ad"]
 == Embedded learning
 
+* Code metadata
+** Easily searchable Grepable by tools
+** Conversation starter (better than preaching)
+
 === Good Example
 
 `@GoodExample`
@@ -175,15 +180,13 @@ image::assets/word-cloud-fizzbuzz-enterprise-edition.png[alt="A word cloud gener
 
 `@BadExample`
 
+
+
 include::sections/interlude_02.adoc[]
 
 include::sections/ok_diagram_as_code.adoc[]
 
-include::sections/ex_wiki_as_code.adoc[]
-include::sections/ok_accessibility_audit_as_code.adoc[]
 include::sections/ok_code_analysis.adoc[]
-include::sections/ok_architecture_decisions_records.adoc[]
-include::sections/ok_technology_radar.adoc[]
 include::sections/ex_code_tour.adoc[]
 
 include::sections/interlude_03.adoc[]
@@ -218,21 +221,30 @@ include::sections/ex_presentation_as_code.adoc[]
 include::sections/interlude_07.adoc[]
 
 include::sections/ex_tools_history.adoc[]
+
+
+include::sections/vcs_as_knowledge_source.adoc[]
 include::sections/ex_vcs_based_documentation.adoc[]
 
 include::sections/interlude_08.adoc[]
 
 include::sections/ex_markdown_readme.adoc[]
+
+include::sections/warm_welcome.adoc[]
+include::sections/ex_wiki_as_code.adoc[]
+
+include::sections/ok_architecture_decisions_records.adoc[]
+include::sections/ok_accessibility_audit_as_code.adoc[]
+include::sections/ok_technology_radar.adoc[]
+
 include::sections/ex_declarative_infrastructure.adoc[]
 include::sections/ok_docker-compose-to-diagram.adoc[]
 
-
-include::sections/living_onboarding.adoc[]
-include::sections/vcs_as_knowledge_source.adoc[]
 include::sections/ok_your_tools_and_ide_features.adoc[]
 include::sections/from_manual_to_automated.adoc[]
 
 include::sections/ok_api_contracts_and_tests.adoc[]
+
 
 
 include::takaways.adoc[]

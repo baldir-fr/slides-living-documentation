@@ -1,8 +1,10 @@
 == Wiki as code
 
-Wiki as code (collaborative)
 
 image:assets/vuejs_fix_documentation_as_PR.png[VueJs propose de mettre à jour sa documentation par PR]
+
+[%step]
+Anyone can contribute with a pull request
 
 [.refs]
 --

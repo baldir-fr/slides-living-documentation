@@ -1,3 +1,5 @@
+
+[background-color="#400d43ad"]
 == Tests as documentation
 
 [.notes]
@@ -8,8 +10,8 @@
 * Describe annotation
 --
 
-=== Linters
 
+[background-color="#400d43ad"]
 === Test + Docs as test
 
 image::assets/spring-boot-docs-conf-screen.png[]

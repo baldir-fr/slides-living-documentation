@@ -53,7 +53,7 @@ image::assets/eslint-no-unused-variables.png[alt="Detail of EsLint rule : No unu
 
 
 [background-color="#3942b0"]
-=== Sonarlint in IDE
+=== Sonarlint in IDE 🥷
 
 image:assets/ide-static-analysis-sonarlint.png[Screen capture of Sonarlint plugin in IDE IntelliJ Idea showing code issues both in sonarlint report panel and embedded in code]
 
@@ -89,7 +89,7 @@ include:
 --
 
 
-[background-color="#3942b0"]
+[background-color="#3942b0"] 🥷
 === Gitlab Security Analyzers Output
 
 * Pipeline report artifacts
@@ -98,13 +98,13 @@ include:
 
 
 [background-color="#3942b0"]
-=== Gitlab Vulnerability Report
+=== Gitlab Vulnerability Report 🥷
 
 image::assets/gitlab-vulnerability-report.png[Screenshot of Gitlab vulnerability report. 6 critical$$,$$ 6 high$$,$$ 3 medium vulnerabilies are counted]
 
 
 [background-color="#3942b0"]
-=== Gitlab Dependencies List
+=== Gitlab Dependencies List 🥷
 
 image::assets/gitlab-dependencies-list.png[Screenshot of Gitlab dependencies list. Among the list some go mudules and a lot of javascript dependencies]
 

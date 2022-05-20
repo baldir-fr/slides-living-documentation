@@ -1,6 +1,6 @@
 == Your tools & IDE features
 
-=== Integrated documentation in context
+=== Integrated documentation in context 🥷
 
 image:assets/one_source_of_truth_multiple_targets.png[Sample from Int class in kotlin source code, interactive documentation can be shown interactively in an IDE, but also generated as a weeb site]
 
@@ -10,11 +10,18 @@ image:assets/one_source_of_truth_multiple_targets.png[Sample from Int class in k
 * less context switch
 --
 
-=== Throwable diagrams
+=== Throwable diagrams 🥷
 
 image::assets/ide-diagram.png[Screenshot of a quickly generated diagram in IntelliJ Idea]
 
-=== Dependency analysis
+=== Dependency analysis 🥷
 
 image::assets/ide-dependency-matrix.png[Dependency Matrix in IntelliJ Idea]
+
+=== IDE's quick fixes 🥷
+
+* IDE can help you learning by proposing automatic fixes
+** Convert to Lambda expression
+** Convert to switch expression
+** Convert from markdown to asciidoc code listing 🥷
 

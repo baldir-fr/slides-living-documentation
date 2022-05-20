@@ -1,4 +1,5 @@
 
+[background-color="#400d43ad"]
 [.medium]
 == Doctest
 
@@ -30,13 +31,15 @@ Go::
 * Insightful: if writing doctests is hard it may highlight side effects or complex functions
 --
 
-=== Input (Python)
+[background-color="#400d43ad"]
+=== Input (Python) 🥷
 
 [source,python]
 ----
 include::../../examples/doctest/doctest_python/sum.py[]
 ----
 
+[background-color="#400d43ad"]
 === Output (Doctest)
 
 [source,text]
@@ -45,7 +48,7 @@ include::../../examples/doctest/doctest_python/sum_doctest_output.txt[]
 ----
 
 
-=== Input (Elixir)
+=== Input (Elixir) 🥷
 
 [source,elixir]
 ----
@@ -61,9 +64,9 @@ include::../../examples/doctest/doctest_elixir/num_doctest_output.txt[]
 
 
 
-=== Input (Rust)
+=== Input (Rust) 🥷
 
-[source,go]
+[source,rust]
 ----
 include::../../examples/doctest/documentation_test_rust/src/lib.rs[]
 ----
@@ -75,7 +78,7 @@ include::../../examples/doctest/documentation_test_rust/src/lib.rs[]
 include::../../examples/doctest/documentation_test_rust/sum_doctest_output.txt[]
 ----
 
-=== Input (Go)
+=== Input (Go) 🥷
 
 .num.go
 [source,go]

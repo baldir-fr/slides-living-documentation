@@ -34,7 +34,7 @@ image:assets/wink-wink.gif[alt=,width=700]
 +++
 
 [background-color="black"]
-=== How?
+=== How? 🥷
 
 * Included code snippets are real sources
 * AsciiDoctor

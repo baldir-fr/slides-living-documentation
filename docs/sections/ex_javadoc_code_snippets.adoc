@@ -1,6 +1,7 @@
+[background-color="#400d43ad"]
+== Java 18 Javadoc Code Snippets 🥷
 
-== Java 18 Javadoc Code Snippets
-
+[background-color="#400d43ad"]
 === Input • Production code
 
 Javadoc `@snippet` tag
@@ -11,6 +12,7 @@ Javadoc `@snippet` tag
 include::../../examples/doctest/executable-javadoc-code-snippets/src/main/java/fr/baldir/samples/hello/Hello.java[]
 ----
 
+[background-color="#400d43ad"]
 === Tests
 
 [.small]
@@ -19,7 +21,7 @@ include::../../examples/doctest/executable-javadoc-code-snippets/src/main/java/f
 include::../../examples/doctest/executable-javadoc-code-snippets/src/test/java/snippets/SnippetTest.java[]
 ----
 
-
+[background-color="#400d43ad"]
 === Output
 
 image:../../examples/doctest/executable-javadoc-code-snippets/docs/assets/101_generated_javadoc_result.png[]

@@ -143,7 +143,7 @@ include::sections/ex_architecture_tests.adoc[]
 
 [.columns.isvcentered]
 [background-color="#400d43ad"]
-=== Word Cloud
+=== Word Cloud 🥷
 
 [.column]
 --
@@ -166,7 +166,7 @@ image::assets/word-cloud-fizzbuzz-enterprise-edition.png[alt="A word cloud gener
 --
 
 [background-color="#400d43ad"]
-== Embedded learning
+== Embedded learning 🥷
 
 * Code metadata
 ** Easily searchable Grepable by tools

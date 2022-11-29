@@ -40,7 +40,12 @@ Tu ne le sais pas encore, mais tu l'as deja documenté!
 ** F: fullscreen -> Esc : exit fullscreen
 --
 
-include::thanks-agile-tour-strasbourg.adoc[]
+
+// include::sections/ex_getter_javadoc.adoc[]
+
+// include::thanks-agile-tour-strasbourg.adoc[]
+include::thanks-software-crafters-lyon.adoc[]
+
 include::sections/who_am_I.adoc[]
 
 include::sections/ok_first_some_questions.adoc[]
@@ -58,7 +63,7 @@ include::sections/r_bad_onboarding.adoc[]
 
 include::sections/the_problem_with_traditional_documentation.adoc[]
 
-include::sections/internal_doc.adoc[]
+include::sections/what_is_documentation.adoc[]
 include::sections/ok_already_there.adoc[]
 include::sections/new_documentation_approaches.adoc[]
 

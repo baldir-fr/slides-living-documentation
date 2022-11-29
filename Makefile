@@ -1,4 +1,7 @@
-all: generate-slides
+all: load-dependencies generate-slides
+
+load-dependencies:
+	cd docs;npm install;
 
 generate-slides:
-	cd docs;npm install;npx asciidoctor-revealjs index.adoc -o index.html
+	cd docs;npx asciidoctor-revealjs index.adoc -o index.html

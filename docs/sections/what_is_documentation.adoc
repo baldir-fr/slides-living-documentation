@@ -1,6 +1,11 @@
+[background-color="#f5cbff"]
+== By the way...
+
+[.huge]
+🧐
 
 [background-color="#f5cbff"]
-== What is Documentation?
+=== What is Documentation?
 
 [%step]
 Sharing knowledge

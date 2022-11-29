@@ -1,0 +1,13 @@
+== Example : Javadoc getter
+
+[source,java]
+----
+include::../../examples/javadoc-getter/src/main/java/fr/baldir/Meetup.java[tag=getter-javadoc]
+----
+<1> test
+<2> test
+<3> test
+
+
+
+

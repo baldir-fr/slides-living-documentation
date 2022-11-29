@@ -12,6 +12,8 @@ https://u.baldir.fr/me[u.baldir.fr/me]
 
 [.column.medium]
 --
+* Technical Coach
+** https://sammancoaching.org/society/index.html[Samman Coaching Society]
 * Software Developer
 * Freelance
 * Learning and promoting
@@ -23,6 +25,7 @@ https://u.baldir.fr/me[u.baldir.fr/me]
 --
 * https://joelhellenbrand.wordpress.com/[joelhellenbrand.wordpress.com]
 * Crédit photo : Joël Hellenbrand
+* https://sammancoaching.org/society
 --
 
 [.notes]

@@ -139,4 +139,5 @@ include::takaways.adoc[]
 include::sections/takaway_automation_has_a_cost.adoc[]
 
 include::questions.adoc[]
-include::ok_thanks_slides_infos.adoc[]
+
+include::ok_thanks_slides_infos_lyon.adoc[]

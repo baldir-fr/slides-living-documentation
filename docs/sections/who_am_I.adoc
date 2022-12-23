@@ -15,7 +15,6 @@ https://u.baldir.fr/me[u.baldir.fr/me]
 * Technical Coach
 ** https://sammancoaching.org/society/index.html[Samman Coaching Society]
 * Software Developer
-* Freelance
 * Learning and promoting
 ** Accessibility
 ** Green IT

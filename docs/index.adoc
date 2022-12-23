@@ -48,6 +48,10 @@ include::thanks-software-crafters-lyon.adoc[]
 
 include::sections/who_am_I.adoc[]
 
+== ⚠️ Disclaimer
+
+Cette présentation contient des démos foireuses
+
 include::sections/ok_first_some_questions.adoc[]
 
 [background-color="#d9ffea"]
@@ -115,7 +119,6 @@ include::sections/ok_your_code_as_a_crimescene.adoc[]
 include::sections/ex_markdown_readme.adoc[]
 include::sections/ex_wiki_as_code.adoc[]
 include::sections/warm_welcome.adoc[]
-
 
 include::sections/interlude_05.adoc[]
 

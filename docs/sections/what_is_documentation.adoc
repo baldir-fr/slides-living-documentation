@@ -1,4 +1,4 @@
-[background-color="#f5cbff"]
+[background-color="#333"]
 == By the way...
 
 [.huge]

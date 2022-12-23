@@ -90,13 +90,20 @@ image::assets/bdd-now-kiss.png[alt="Now Kiss derived rage comic. Stickman makes 
 * https://cucumber.io/tools/cucumberstudio/[Cucumber Studio]
 --
 
+[background-color="#400d43ad"]
+[.columns.is-vcentered]
 === Test + Docs as test
 
+
+[.column]
 image::assets/spring-boot-docs-conf-screen.png[]
 
+[.column]
+--
 * Test REST API
 * Endpoint documentation as test code
 * Snippet Generation
+--
 
 [.notes]
 --

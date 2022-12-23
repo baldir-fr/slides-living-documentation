@@ -5,7 +5,7 @@
 :date: {localdate}
 :copyright: CC-BY-4.0
 :revealjsdir: reveal.js
-:revealjs_totalTime: 1800
+:revealjs_totalTime: 3600
 :revealjs_hash: true
 :revealjs_history: true
 :customcss: css/presentation.css

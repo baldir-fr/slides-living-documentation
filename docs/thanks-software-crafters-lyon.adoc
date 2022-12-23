@@ -1,5 +1,24 @@
 
-[background-color="#cfdaff"]
+[background-color="#222"]
 [.columns.is-vcentered]
 == Thanks
 
+[.column]
+--
+image::assets/logo-software-crafters-lyon.png[]
+Software Crafters Lyon
+--
+
+[.column]
+--
+image::assets/logo-software-craftrers-strasbourg.png[]
+Software Crafters Strasbourg
+--
+
+[.refs]
+--
+
+* https://www.meetup.com/fr-FR/software-craftsmanship-lyon/
+* https://www.meetup.com/fr-FR/software-crafters-strasbourg/
+
+--
